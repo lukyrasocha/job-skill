@@ -61,9 +61,12 @@ def text_preprocessing(text):
   lemmatizer = WordNetLemmatizer()
   tokens = [lemmatizer.lemmatize(w) for w in tokens]
 
-  punctuation = ['!', ',', '.', ';', ':', '?', '(', ')', '[', ']']
+  punctuation = {'!', ',', '.', ';', ':', '?', '(', ')', '[', ']', '-','+','"','*', '—','•', '’', '‘', '“', '”', '``'}
 
   tokens = [w.lower() for w in tokens if w not in punctuation]
+
+  # Remove last 3 words since they are always the same (scraped buttons from the website)
+  tokens = tokens[:-3]
 
   return tokens
 
@@ -82,6 +85,9 @@ def main():
   working_on("Loading data")
   df = load_data(kind="raw")
 
+  # Remove duplicates
+  df.drop_duplicates(subset=['id'], inplace=True)
+
   # Filter out jobs with missing descriptions
   df = df[df['description'].notna()]
 
@@ -98,16 +104,22 @@ def main():
   df['title'] = df['title'].str.lower()
   df['function'] = df['function'].str.lower()
   df['industries'] = df['industries'].str.lower()
+  df['industries'] = df['industries'].str.replace('\n', ' ')
 
   tqdm.pandas(desc="🐼 Preprocessing description", ascii=True, colour="#0077B5")
 
   df['description'] = df['description'].progress_apply(text_preprocessing)
+
+  # Remove rows with empty descriptions or descriptions containing less than 3 words
+  df = df[df['description'].map(len) > 3]
 
   working_on("Saving preprocessed data ...")
   df.to_csv('data/processed/cleaned_jobs.csv', index=False, sep=';')
 
 
 if __name__ == "__main__":
-  #main()
+  main()
   df = load_data(kind="processed")
-  print(df.iloc[100])
+  #print(df.iloc[970]['description'])
+  #print(df[df["id"]==3733315884])
+  print(df)
