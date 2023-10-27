@@ -4,3 +4,4 @@ pandas
 tqdm
 langdetect
 nltk
+rich-logging
