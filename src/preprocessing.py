@@ -12,8 +12,8 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from tqdm import tqdm
 
-from src.utils import load_data, is_english
-from src.logger import working_on
+from utils import load_data, is_english
+from logger import working_on
 
 
 def convert_date_posted(date_str, date_scraped):
@@ -41,7 +41,7 @@ def split_combined_words(text):
   return text
 
 
-def text_preprocessing(text):
+def text_preprocessing(text, with_lemm_and_punct = True):
   """
   Preprocesses text by:
     - Splitting combined words
@@ -58,15 +58,15 @@ def text_preprocessing(text):
   stop_words = set(stopwords.words('english'))
   tokens = [w for w in tokens if not w in stop_words]
 
-  lemmatizer = WordNetLemmatizer()
-  tokens = [lemmatizer.lemmatize(w) for w in tokens]
+  if with_lemm_and_punct is True:
+    lemmatizer = WordNetLemmatizer()
+    tokens = [lemmatizer.lemmatize(w) for w in tokens]
 
-  punctuation = {'!', ',', '.', ';', ':', '?', '(', ')', '[', ']', '-','+','"','*', '—','•', '’', '‘', '“', '”', '``'}
-
-  tokens = [w.lower() for w in tokens if w not in punctuation]
+    punctuation = {'!', ',', '.', ';', ':', '?', '(', ')', '[', ']', '-','+','"','*', '—','•', '’', '‘', '“', '”', '``'}
+    tokens = [w.lower() for w in tokens if w not in punctuation]
 
   # Remove last 3 words since they are always the same (scraped buttons from the website)
-  tokens = tokens[:-3]
+  # tokens = tokens[:-3]
 
   return tokens
 
