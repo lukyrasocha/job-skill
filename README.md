@@ -4,8 +4,12 @@
 
 - [x] **Web Scraping**: Scrape the job posting data from **LinkedIn**
 - [x] **Text Preprocessing**: Clean and preprocess the text data (tokenization, stemming, and removing stop words)
-- [ ] **Feature Extraction**: Use Tf.idf measure to convert the text data into numerical format.
+- [x] **Feature Extraction**: Use Tf.idf measure to convert the text data into numerical format.
 - [ ] **Clustering**: Apply clustering algorithms like K-means or DBSCAN to group similar job postings together.
+
+      a) Based on TFIDF (Thomasz, Henrietta)
+      b) Based on doc2vec (Lukas)
+      c) Based on similarity values (Tinghui)
 - [ ] **Skill Extraction**: Use Named Entity Recognition (NER) or keyword extraction to identify the skills mentioned in each cluster.
 - [ ] **Visualization**: Use visualization tools to represent the clusters and the top skills.
 - [ ] **Association Rule Mining**: Using A-Priori Algorithm, identify patterns like: "If a job requires skill A, it's also likely to require skill B."
