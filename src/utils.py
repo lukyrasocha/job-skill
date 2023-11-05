@@ -6,6 +6,8 @@ from sklearn.metrics import silhouette_score
 from sklearn.cluster import KMeans, DBSCAN
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.decomposition import PCA
+from sklearn.metrics import davies_bouldin_score
+
 import matplotlib.pyplot as plt
 
 
@@ -42,6 +44,24 @@ def find_best_k(data, max_k):
           best_k = k
   print(f"Best k: {best_k}")
   return best_k
+
+
+def choose_best_k_based_on_davies_bouldin_index(data, columns_to_predict, k_range=(2, 30)):
+    best_k = None
+    best_dbi = float('inf') 
+
+    for k in range(k_range[0], k_range[1] + 1):
+        kmeans = KMeans(n_clusters=k, random_state=0)
+        data['cluster'] = kmeans.fit_predict(data[columns_to_predict])
+
+        dbi = davies_bouldin_score(data[columns_to_predict], data['cluster'])
+
+        if dbi < best_dbi:
+            best_k = k
+            best_dbi = dbi
+
+    return best_k, best_dbi
+
   
 def apply_dbscan(tfidf_matrix, eps=0.5, min_samples=2):
     dbscan = DBSCAN(eps=eps, min_samples=min_samples)
@@ -52,8 +72,8 @@ def apply_kmeans(tfidf_matrix, k_max=5):
     return kmeans.fit_predict(tfidf_matrix.toarray())
 
 def apply_tftidf(data):
-    tfidf_vectorizer = TfidfVectorizer()
-    return tfidf_vectorizer.fit_transform(data)
+    vectorizer = TfidfVectorizer()
+    return vectorizer.fit_transform(data)
 
 def apply_word2vec(data):    
     model = Word2Vec(data, vector_size=100, window=5, min_count=1, sg=0)

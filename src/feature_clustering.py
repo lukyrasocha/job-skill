@@ -4,7 +4,7 @@ import scipy.sparse as sp
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.decomposition import PCA
-from utils import find_best_k, apply_dbscan, apply_kmeans, load_data, combine_text
+from utils import find_best_k, apply_dbscan, apply_kmeans, load_data, combine_text, choose_best_k_based_on_davies_bouldin_index
 from gensim.models import Word2Vec
 from preprocessing import text_preprocessing
 import nltk
@@ -17,6 +17,16 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans, DBSCAN
 
 def preprocess_and_tokenize(text):
+    """
+    The function preprocesses and tokenizes a given text by removing non-alphabetic characters,
+    converting tokens to lowercase, removing stop words, and lemmatizing the tokens.
+    
+    Args:
+      text: The `text` parameter is the input text that you want to preprocess and tokenize.
+    
+    Returns:
+      a list of preprocessed and tokenized words from the input text.
+    """
     tokens = word_tokenize(text)
 
     tokens = [token.lower() for token in tokens if token.isalpha()]
@@ -30,6 +40,21 @@ def preprocess_and_tokenize(text):
     return tokens
 
 def map_to_general_category(industry, mapping):
+    """
+    The function `map_to_general_category` takes an industry and a mapping of categories to industries,
+    and returns the general categories that the industry belongs to.
+    
+    Args:
+      industry: The industry parameter is the specific industry that you want to map to a general
+    category. It could be a string representing the industry name.
+      mapping: The `mapping` parameter is a dictionary where the keys are general categories and the
+    values are lists of industries that fall under each category.
+    
+    Returns:
+      a string that represents the general category of the given industry. If the industry is found in
+    the mapping, the function returns a comma-separated string of the categories that the industry
+    belongs to. If the industry is not found in the mapping, the function returns the string 'Other'.
+    """
     categories = set()  # Use a set to keep unique categories
     for category, industries in mapping.items():
         if industry in industries:
@@ -40,16 +65,14 @@ def map_to_general_category(industry, mapping):
 def main():
 
     df = load_data(kind="processed")
-    data = df[['title', 'function', 'industries']].fillna('')
+    breakpoint()
+    data = df[['id', 'title', 'function', 'industries']].fillna('')
     
-    data['combined_text'] = data[['title', 'function', 'industries']].apply(combine_text, axis=1)
-    data["combined_text"] = data["combined_text"].astype(str).apply(preprocess_and_tokenize)
-    data['title'] = data["title"].astype(str).apply(preprocess_and_tokenize).apply(lambda token_list: ' '.join(token_list))
-
     # Removing outliers (where industries is whole description of offer)
     data['industries_length'] = data['industries'].str.split().apply(len)
     condition = data['industries_length'] > 15
     data = data[~condition]
+
     data["industries"] = data["industries"].str.replace(' and ', ',')
     data["function"] = data["function"].str.replace(' and ', ',')
     data["industries"] = data["industries"].str.replace('/', ',')
@@ -70,9 +93,11 @@ def main():
     industry_categories = list(industry_mapping.keys())
     function_categories = list(function_mapping.keys())
 
+    data['industries'] = data['industries'].apply(lambda x: ','.join([s.strip() for s in x.split(',')]))
     data['industry_group'] = data["industries"].apply(lambda x: ', '.join(map_to_general_category(ind, industry_mapping) for ind in x.split(',')))
     data['industry_group'] = data['industry_group'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))))
-
+    
+    data['function'] = data['function'].apply(lambda x: ','.join([s.strip() for s in x.split(',')]))
     data['function_group'] = data["function"].apply(lambda x: ', '.join(map_to_general_category(ind, function_mapping) for ind in x.split(',')))
     data['function_group'] = data['function_group'].apply(lambda x: ', '.join(sorted(set(x.split(', ')))))
 
@@ -111,26 +136,22 @@ def main():
     'Human Resources and People Management', 'Purchasing and Supply Chain',
     'Healthcare and Science', 'Education and Training']
 
-    # inertia = []
-    # for k in range(1, 25):
-    #     kmeans = KMeans(n_clusters=k, random_state=0).fit(one_hot_scaled)
-    #     inertia.append(kmeans.inertia_)
+    # Example usage:
+    # best_k, best_dbi = choose_best_k_based_on_davies_bouldin_index(data, industries_and_functions)
+    # print(f"The best K value based on Davies-Bouldin Index is {best_k} with a DBI of {best_dbi}")
 
-    # plt.plot(range(1, 25), inertia, marker='o')
-    # plt.xlabel('Number of clusters')
-    # plt.ylabel('Inertia')
-    # plt.show()
-
-    # k == 14 looks good
-        
-    # Perform K-Means clustering with 14 clusters
-    num_clusters = 14
+    num_clusters = 20
     kmeans = KMeans(n_clusters=num_clusters, random_state=0)
-
     data['cluster'] = kmeans.fit_predict(data[industries_and_functions])
+
     df_sorted_by_cluster  = data[['title','function','function_group','industries','industry_group','cluster']].sort_values(by='cluster', ascending=True)
     df_sorted_by_cluster.to_csv('./csv_files/feature_clustering.csv', index=False)
     data.to_csv('./csv_files/csv_with_one_hot.csv', index=False)
+
+    df_id_and_cluster = data[['id', 'cluster']].sort_values(by='cluster', ascending=True)
+    df_id_and_cluster.to_csv('./csv_files/feature_clustering_id.csv', index=False)
+
+
     # pca = PCA(n_components=2)
     # subset_data_pca = pca.fit_transform(one_hot_scaled)
 
