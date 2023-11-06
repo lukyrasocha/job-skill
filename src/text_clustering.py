@@ -106,6 +106,8 @@ def main():
     ].sort_values(by="cluster", ascending=True)
     df_sorted_by_cluster.to_csv("./csv_files/text_clustering.csv", index=False)
 
+
+    # Saving below df is for later comparison of text and feature clustering.
     df_id_and_cluster = data[["id", "cluster"]].sort_values(
         by="cluster", ascending=True
     )
