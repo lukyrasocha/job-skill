@@ -8,8 +8,8 @@ from sklearn.metrics import silhouette_score
 import matplotlib.pyplot as plt
 
 # df = pd.read_csv("data/processed/cleaned_jobs_without_lemm_and_punct.csv", sep=';')
-df = pd.read_csv("data/processed/cleaned_jobs.csv", sep=';')
-documents = df['description']
+df = pd.read_csv("data/processed/cleaned_jobs.csv", sep=";")
+documents = df["description"]
 
 # Initialize the TF-IDF vectorizer
 tfidf_vectorizer = TfidfVectorizer()
@@ -37,7 +37,7 @@ tfidf_df = pd.DataFrame(tfidf_matrix_array, columns=feature_names)
 #     kmeans = KMeans(n_clusters=k)
 #     cluster_labels = kmeans.fit_predict(tfidf_matrix)
 #     score = silhouette_score(tfidf_matrix, cluster_labels)
-    
+
 #     if score > best_score:
 #         best_score = score
 #         best_k = k
@@ -57,7 +57,7 @@ for k in range(2, max_k + 1):
     kmeans = KMeans(n_clusters=k)
     cluster_labels = kmeans.fit_predict(tfidf_matrix_reduced)
     score = silhouette_score(tfidf_matrix_reduced, cluster_labels)
-    
+
     if score > best_score:
         best_score = score
         best_silhouette_k = k
@@ -99,12 +99,12 @@ for cluster in range(best_silhouette_k):
     plt.scatter(
         tfidf_matrix_reduced[clusters == cluster, 0],
         tfidf_matrix_reduced[clusters == cluster, 1],
-        label=f'Cluster {cluster}',
+        label=f"Cluster {cluster}",
     )
 
-plt.title('TF-IDF Clustering Visualization')
-plt.xlabel(f'Component 1 (Explained Variance: {svd.explained_variance_ratio_[0]:.2f})')
-plt.ylabel(f'Component 2 (Explained Variance: {svd.explained_variance_ratio_[1]:.2f})')
+plt.title("TF-IDF Clustering Visualization")
+plt.xlabel(f"Component 1 (Explained Variance: {svd.explained_variance_ratio_[0]:.2f})")
+plt.ylabel(f"Component 2 (Explained Variance: {svd.explained_variance_ratio_[1]:.2f})")
 plt.legend()
-plt.savefig('./figures/cluster_k_means_cleaned_jobs.png')
+plt.savefig("./figures/cluster_k_means_cleaned_jobs.png")
 # plt.savefig('./figures/cluster_k_means_cleaned_jobs_without_lemm_and_punct.png')
