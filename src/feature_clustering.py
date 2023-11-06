@@ -26,7 +26,7 @@ from sklearn.cluster import KMeans, DBSCAN
 
 def preprocess_and_tokenize(text):
     """
-    The function preprocesses and tokenizes a given text by removing non-alphabetic characters,
+    Preprocesses and tokenizes a given text by removing non-alphabetic characters,
     converting tokens to lowercase, removing stop words, and lemmatizing the tokens.
 
     Args:
@@ -50,7 +50,7 @@ def preprocess_and_tokenize(text):
 
 def map_to_general_category(industry, mapping):
     """
-    The function `map_to_general_category` takes an industry and a mapping of categories to industries,
+    Takes an industry and a mapping of categories to industries,
     and returns the general categories that the industry belongs to.
 
     Args:

@@ -32,6 +32,20 @@ def is_english(text):
 
 
 def find_best_k(data, max_k):
+    """
+    Finds the best number of clusters for a given dataset using the silhouette score.
+
+    Args:
+      data: The "data" parameter is the dataset that you want to cluster. It should be a 2D array-like
+    object, such as a numpy array or a pandas DataFrame, where each row represents a data point and each
+    column represents a feature of that data point.
+      max_k: The `max_k` parameter represents the maximum number of clusters to consider when finding
+    the best value of `k` for the K-means algorithm.
+
+    Returns:
+      the best value of k, which represents the number of clusters that yields the highest silhouette
+    score.
+    """
     best_score = -1
     best_k = 0
 
@@ -50,6 +64,21 @@ def find_best_k(data, max_k):
 def choose_best_k_based_on_davies_bouldin_index(
     data, columns_to_predict, k_range=(2, 30)
 ):
+    """
+    Selects the best number of clusters based on the Davies-Bouldin index for a given dataset and set of columns to predict.
+
+    Args:
+        data: The `data` parameter is a pandas DataFrame that contains the data you want to cluster.
+        columns_to_predict: The parameter "columns_to_predict" refers to the columns in the "data"
+    dataframe that you want to use for clustering. These columns contain the features or variables that
+    you want to use to group the data points into clusters.
+        k_range: The `k_range` parameter is a tuple that specifies the range of values for the number of
+    clusters (k) to consider. The first element of the tuple represents the minimum value of k, and the
+    second element represents the maximum value of k.
+
+    Returns:
+        the best value of k (number of clusters) and the corresponding Davies-Bouldin index.
+    """
     best_k = None
     best_dbi = float("inf")
 
@@ -96,21 +125,6 @@ def apply_word2vec(data):
 def apply_pca(data, n_components):
     pca = PCA(n_components)
     return pca.fit_transform(data.toarray())
-
-
-def save_unique_entities(data, column_name):
-    file_name = f"unique_{column_name}.txt"
-    data[column_name] = (
-        data[column_name]
-        .astype(str)
-        .apply(preprocess_and_tokenize)
-        .apply(lambda token_list: " ".join(token_list))
-    )
-    data_array = data[column_name].unique()
-    with open(file_name, "w") as file:
-        # Write each element of the array as a line in the text file
-        for item in data_array:
-            file.write(f"{item}\n")
 
 
 def combine_text(row):

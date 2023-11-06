@@ -10,7 +10,7 @@ from utils import (
 from sklearn.cluster import KMeans
 from sklearn.metrics import davies_bouldin_score
 import re
-import ast  # Import the ast module for parsing the string representation of the list
+import ast
 
 
 # 2D or 3D
@@ -20,6 +20,22 @@ METHOD = "K-MEANS"
 
 
 def choose_best_k_based_on_davies_bouldin_index_tfidf(tfidf_matrix, k_max=30):
+    """
+    Determines the optimal number of
+    clusters (k) for a given TF-IDF matrix using the Davies-Bouldin index.
+
+    Args:
+      tfidf_matrix: The tfidf_matrix is a matrix representation of the TF-IDF (Term Frequency-Inverse
+    Document Frequency) values of a set of documents. It is typically a sparse matrix where each row
+    represents a document and each column represents a term, with the cell values indicating the TF-IDF
+    score for that term
+      k_max: The parameter `k_max` represents the maximum number of clusters to consider. In the given
+    code, it is set to 30, which means the function will iterate over values of `k` from 2 to 30
+    (inclusive) to find the best value of `k` based on the. Defaults to 30
+
+    Returns:
+      the best value of k (number of clusters) and the corresponding Davies-Bouldin index.
+    """
 
     best_k = None
     best_dbi = float("inf")  # Initialize with a high value
@@ -39,7 +55,18 @@ def choose_best_k_based_on_davies_bouldin_index_tfidf(tfidf_matrix, k_max=30):
 
 
 def remove_words_with_numbers(word_list_str):
-    word_list = ast.literal_eval(word_list_str)  # Convert the string to a list
+    """
+    Takes a string representation of a list of words as input,
+    removes any special characters from the words, and then removes any words that contain numbers.
+
+    Args:
+      word_list_str: A string representation of a list of words.
+
+    Returns:
+      The function `remove_words_with_numbers` returns a list of words without any special characters or
+    numbers.
+    """
+    word_list = ast.literal_eval(word_list_str)
     word_list_without_special = [
         re.sub(r"[^a-zA-Z0-9\s]", "", word) for word in word_list
     ]
