@@ -1,30 +1,18 @@
 import numpy as np
 import pandas as pd
 import mmh3
-import ast
-
-# make a description into k-shingles
-def shinge(s, k):
-    ans = []
-    words = ast.literal_eval(s)
-    for ch in range(len(words)-k+1):
-        ans.append(words[ch:ch+k])
-    return list(ans)
-
-# hashes a list of strings
-def listhash(l,seed):
-	val = 0
-	for e in l:
-		val = val ^ mmh3.hash(e, seed)
-	return val 
-
+from tqdm import tqdm
 # find the minimum value between hashes
 def minhashes(shingles, seeds):
     hashs =[]
     for seed in range(seeds):
         mini = float('inf')
         for shi in shingles:
-            hash = listhash(shi, seed)
+            # hashes a list of strings
+            hash = 0
+            for e in shi:
+                hash = hash ^ mmh3.hash(e, seed)
+            # find the minimum value
             if mini > hash:
                 mini = hash
         hashs.append(mini)
@@ -34,25 +22,49 @@ def minhashes(shingles, seeds):
 def signatures(df, k, seeds):
     hash_dic = {}
     for i in range(len(df)):
-        shi = shinge(df[i],k)
-        hash_dic[i] = minhashes(shi, seeds)
+        # make a description into k-shingles
+        shi = []
+        for ch in range(len(df[i])-k+1):
+            shi.append(df[i][ch:ch+k])
+        
+        hash_dic[i] = minhashes(list(shi), seeds)
     return hash_dic
 
-# calculate jaccard simiarity
-def jaccard(name_o, name_s, signature_dict):
-    first = signature_dict[name_o]
-    second = signature_dict[name_s]
+def convert_matrix(N, scores):
+    similarity_matrix = np.zeros((N,N))
+    for i in range(N):
+        for j in range(N):
+            if i == j:
+                similarity_matrix[i][j] = 1.0
+            elif i > j:
+                similarity_matrix[i][j] = scores[(j, i)]
+            else:
+                similarity_matrix[i][j] = scores[(i, j)]
+    return similarity_matrix
 
-    return len(np.intersect1d(first,second))/len(np.union1d(first,second))
+def find_sim(data, q, seed):
+    """
+    Finds the similarity between any two job's description for a given dataset using the shingle, minihash 
+    and jaccord similarity.
 
-# find all of the simiarity between any two job's description
-def find_sim(df, q, seed):
-    sign = signatures(df, q, seed)
+    Args:
+      data: The "data" parameter is the dataset that you want to cluster. It should be a 2D array-like
+    object, such as a numpy array or a pandas DataFrame, where each row represents a data point and each
+    column represents a feature of that data point.
+      q: The q parameter represents the number of shingles ( k = 2 or 3 for small documents such as emails)
+      seed: The seed parameter represents how mand seeds to use for doing the minihashes
+
+    Returns:
+      A dictionary where the keys are pairs of indices, and the values are scores representing the similarity 
+      between job descriptions at those indices
+    """
+    sign = signatures(data, q, seed)
 
     score_list = {}
     keys =list(sign.keys())
-    for k in range(len(keys)-1):
-        for j in range(k+1,len(keys)):
-            score = jaccard(keys[k],keys[j],sign)
+    for k in tqdm(range(len(keys)-1), desc = 'Calculating jaccard similarity', delay=0.1):
+        for j in tqdm(range(k+1,len(keys)), delay=0.1):
+            # calculate jaccard simiarity and store the score
+            score = len(np.intersect1d(sign[keys[k]],sign[keys[j]]))/len(np.union1d(sign[keys[k]],sign[keys[j]]))
             score_list[(keys[k],keys[j])] = score
     return score_list

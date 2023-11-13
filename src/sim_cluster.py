@@ -1,11 +1,12 @@
 from networkx.algorithms import community
 from sklearn.cluster import DBSCAN
+from sklearn.metrics import davies_bouldin_score
 from scipy.cluster.hierarchy import linkage, fcluster
 from scipy.spatial.distance import squareform
 import networkx as nx
 import numpy as np
 
-def points_graph(num_nodes, scores, threshold):
+def girvan_cluster(num_nodes, scores):
     # Create a graph
     G = nx.Graph()
 
@@ -14,61 +15,71 @@ def points_graph(num_nodes, scores, threshold):
 
     # Add edges based on similarity scores (you can adjust the threshold)
     for idx, idy in scores:
-        if scores[(idx,idy)] > threshold :
-            G.add_edge(idx, idy)
-    return G
+        G.add_edge(idx, idy, weight = scores[(idx,idy)])
 
-def girvan_cluster(G):
     # Use Girvan-Newman algorithm to detect communities
-    comp = community.girvan_newman(G)
-
-    # Convert the communities to a list for easier access
-    communities = list(tuple(c) for c in next(comp))
-
+    communities = community.louvain_communities(G)
+    
     # Create a DataFrame for the communities
     clusters = {}
-    for i, node in enumerate(communities):
-        clusters[i] = node
-    
+    for label, nodes in enumerate(communities):
+        for idx in nodes:
+            clusters[idx] = label
+
+    # clusters = {}
+    # for label, nodes in enumerate(communities):
+    #     clusters[label] = nodes
+        
     return clusters
 
-def sim_DBSAN(N, scores):
-    similarity_matrix = np.zeros((N,N))
-    for i in range(N):
-        for j in range(N):
-            if i == j:
-                similarity_matrix[i][j] = 1.0
-            elif i > j:
-                similarity_matrix[i][j] = scores[(j, i)]
-            else:
-                similarity_matrix[i][j] = scores[(i, j)]
 
-    # DBSCAN clustering
-    epsilon = 0.2  # Adjust as needed
-    min_samples = 2  # Adjust as needed
-    dbscan = DBSCAN(eps=epsilon, min_samples=min_samples, metric="precomputed")
-    labels = dbscan.fit_predict(1 - similarity_matrix)  # Convert similarity to distance
+def sim_DBSAN(N, scores):
+    similarity_matrix = convert_matrix(N,scores)
+
+    labels, dbi  = choose_best_parameter_based_on_davies_bouldin_index_DBSCAN(similarity_matrix)
+    print(dbi)
 
     # Retrieve the cluster assignments
     clusters = {}
-    for i, node in zip(labels, range(N)):
-        if i in clusters:
-            clusters[i].append(node)
-        else:
-            clusters[i] = [node]
+    for label, idx in zip(labels, range(N)):
+        
+        clusters[idx] = label
 
     return clusters
 
+def choose_best_parameter_based_on_davies_bouldin_index_DBSCAN(similarity_matrix):
+    """
+    Determines the optimal number of
+    clusters for a given similarity matrix using the Davies-Bouldin index.
+    The minimum score is zero, with lower values indicating better clustering
+    
+    Args:
+      similarity_matrix
+      label
+
+    Returns:
+      the best parameter and the corresponding Davies-Bouldin index.
+    
+    """
+
+    best_dbi = float("inf")  # Initialize with a high value
+    best_labels = None
+    for min_samples in range(2, 6):
+        for epsilon in np.arange(0.01, 0.5, 0.01):
+            # DBSCAN clustering
+            dbscan = DBSCAN(eps=epsilon, min_samples=min_samples, metric="precomputed")
+            labels = dbscan.fit_predict(1-similarity_matrix)  # Convert similarity to distance
+
+            dbi = davies_bouldin_score(1-similarity_matrix, labels)
+
+            if dbi < best_dbi:
+                best_labels = labels
+                best_dbi = dbi
+
+    return best_labels, best_dbi
+
 def sim_AHC(N, scores):
-    similarity_matrix = np.zeros((N,N))
-    for i in range(N):
-        for j in range(N):
-            if i == j:
-                similarity_matrix[i][j] = 1.0
-            elif i > j:
-                similarity_matrix[i][j] = scores[(j, i)]
-            else:
-                similarity_matrix[i][j] = scores[(i, j)]
+    similarity_matrix = convert_matrix(N,scores)
 
     # Convert similarity values to a condensed distance matrix
     distance_matrix = 1 - similarity_matrix
@@ -81,11 +92,16 @@ def sim_AHC(N, scores):
     threshold = 0.2  # Adjust as needed
     labels = fcluster(linkage_matrix, threshold, criterion='distance')
 
-    # Create clusters and print the results
+    # # Create clusters and print the results
+    # clusters = {}
+    # for label, idx in zip(labels, range(N)):
+    #     if label in clusters:
+    #         clusters[label].append(idx)
+    #     else:
+    #         clusters[label] = [idx]
+    # Retrieve the cluster assignments
     clusters = {}
     for label, idx in zip(labels, range(N)):
-        if label in clusters:
-            clusters[label].append(idx)
-        else:
-            clusters[label] = [idx]
+        
+        clusters[idx] = label
     return clusters
