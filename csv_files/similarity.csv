@@ -1,0 +1,1930 @@
+,id,title,industries,cluster_graph,cluster_kmean,ground
+0,3701420292,ryanair cabin crew - copenhagen,"technology, information and internet",10,0,17
+1,3712625082,able seamen,maritime,11,0,17
+2,3664534049,junior engineers,maritime,11,0,5
+3,3576920179,uopfordret ansøgning mercedes-benz cph,"motor vehicle manufacturing, wholesale, and financial services",11,0,18
+4,3590303623,unsolicited applications,"technology, information and internet",4,0,4
+5,3677574361,head of global sales,"technology, information and internet",13,0,14
+6,3676512433,hardware technician,internet publishing,10,0,4
+7,3728004252,test site technician,internet publishing,10,0,5
+8,3613046264,unsolicited applications,data infrastructure and analytics,11,0,4
+9,3737301784,executive assistant,manufacturing,0,0,1
+10,3738080536,"client director, global","technology, information and internet",13,0,14
+11,3641818000,"cabin crew - billund, denmark","technology, information and internet",10,0,4
+12,3730296704,communications officer,international affairs,7,0,12
+13,3741652472,creative lead,"technology, information and internet",7,0,13
+14,3677571574,country manager denmark,"technology, information and internet",13,0,14
+15,3741940841,president,,13,0,6
+16,3730295799,project officer,international affairs,7,0,6
+17,3720792891,propulsion ait technician,internet publishing,10,0,5
+18,3726706642,associate consultant – strategy & transformation,data infrastructure and analytics,13,5,14
+19,3694417130,kitchen crew,food and beverage services,13,0,17
+20,3664561521,crew member,restaurants,2,0,17
+21,3732227337,trainee,business consulting and services,11,0,18
+22,3724283325,can't find a specific job advertised? send your cv and join our danish talent pool!,"technology, information and internet",13,0,4
+23,3735224232,network engineer,"technology, information and internet",11,0,4
+24,3738079781,client director denmark,"technology, information and internet",13,0,4
+25,3694738651,unsolicited job application - dk office,machinery manufacturing,4,0,1
+26,3736837642,junior graphic designer (remote internship – graphic design),human resources services,13,5,19
+27,3733038094,guest service officer,travel arrangements and hospitality,13,0,16
+28,3597210726,project manager,it services and it consulting,11,0,3
+29,3719165720,energy rebel (unsolicited application),"technology, information and internet",11,0,4
+30,3730355137,production supervisor (relocate to malta),"food and beverage services, industrial machinery manufacturing, and manufacturing",13,0,7
+31,3732334774,store manager full-time,retail,11,0,12
+32,3690376629,creative director,"technology, information and internet",13,5,4
+33,3690822022,cnc engineer,internet publishing,10,0,5
+34,3722078958,head of technology - renewables,industrial machinery manufacturing,11,0,10
+35,3664566535,unsolicited application,"appliances, electrical, and electronics manufacturing",4,0,10
+36,3739548009,marketing project manager for an ecommerce d2c company,"technology, information and internet",13,0,4
+37,3735624409,brand communication leader,"appliances, electrical, and electronics manufacturing",3,0,3
+38,3739540923,commercial sales director,"technology, information and internet",13,0,13
+39,3664569359,unsolicited application,"technology, information and internet",11,0,4
+40,3660402916,senior product manager,"technology, information and internet",11,0,14
+41,3708511439,ui/ux designer (internship),staffing and recruiting,13,0,15
+42,3736461750,it infrastructure engineer,"technology, information and internet",4,0,4
+43,3626006447,"business development representative (dk, no, se, nl)","technology, information and internet",4,0,14
+44,3702558693,propulsion systems engineer,internet publishing,10,0,5
+45,3734143827,production worker,,13,5,6
+46,3741072427,sales advisor 8-20 h/week,retail,11,0,12
+47,3707383358,vp of product development,computers and electronics manufacturing,13,5,11
+48,3738081533,social media specialist,"technology, information and internet",13,0,13
+49,3738076957,client specialist ( part time position),"technology, information and internet",13,5,4
+50,3733092655,frontend developer,farming,11,0,5
+51,3736863213,legal counsel,computer games,0,0,0
+52,3729450167,ux designer,software development,13,0,4
+53,3736440819,product developer,textile manufacturing,13,5,11
+54,3725269981,customer success associate,"technology, information and internet",13,0,4
+55,3705898427,react developer,staffing and recruiting,13,0,15
+56,3661674712,"applied mathematician, scientist, or engineer (dk)","technology, information and internet",8,0,4
+57,3735225045,assistant production accountant,"technology, information and internet",13,5,0
+58,3667477972,visiting professor,it services and it consulting,13,0,16
+59,3736833781,junior marketing specialist (remote internship - marketer),"transportation, logistics, supply chain and storage",13,5,16
+60,3664549741,shift leader,food and beverage services,13,5,17
+61,3741714848,ai & business analyst (remote internship),internet publishing,5,0,4
+62,3740228656,business to business director,staffing and recruiting,4,5,2
+63,3715833718,scientist,food and beverage services,4,0,10
+64,3726619692,quality control technician -  relocation to malta,"food and beverage services, industrial machinery manufacturing, and manufacturing",13,0,7
+65,3730667079,senior director digital transformation strategy & partnerships,pharmaceutical manufacturing,4,5,12
+66,3736438870,vp of engineering,"technology, information and internet",11,0,4
+67,3711771502,"learning specialist (mid-level, remote, contract)","technology, information and internet",13,0,4
+68,3734830056,grafik designer as our next jedi padawan,staffing and recruiting,4,0,19
+69,3737913396,junior ui/ux designer,staffing and recruiting,4,0,19
+70,3728887478,creative director - girls,manufacturing,0,0,10
+71,3741661149,classroom assistant,education administration programs,13,5,6
+72,3728828230,head of project excellence – remote,staffing and recruiting,11,0,17
+73,3720399629,head of growth,it services and it consulting,13,0,12
+74,3720189094,business development lead - germany,"technology, information and internet",13,5,14
+75,3641771159,speaker manager at hrtechx,"technology, information and internet",2,4,4
+76,3732666032,trainee,business consulting and services,11,0,18
+77,3661677108,commercial development lead (dk),"technology, information and internet",8,0,13
+78,3732117137,senior buyer,"appliances, electrical, and electronics manufacturing",4,0,1
+79,3731370303,creative futures is looking for interns,advertising services,8,0,12
+80,3738027557,associate to kpmg's financial due diligence team (deal advisory) in aarhus,business consulting and services,11,0,18
+81,3733365182,senior director digital transformation strategy,staffing and recruiting,4,5,8
+82,3645682476,unsolicited applications,"technology, information and internet",11,0,4
+83,3732039378,associate project manager,"it services and it consulting, defense and space manufacturing, and security and investigations",11,0,16
+84,3736445225,data analyst (part time),"technology, information and internet",13,5,4
+85,3623656829,email marketing specialist,"technology, information and internet",11,0,13
+86,3714345128,data scientist,"transportation, logistics, supply chain and storage",8,0,5
+87,3630042904,data centre engineer (on demand model),"technology, information and internet",13,0,4
+88,3737525910,multimedia designer,staffing and recruiting,4,0,19
+89,3677263075,senior specialist - quality engineering,it services and it consulting,13,0,5
+90,3667909373,firstmind - uk - marketing,"technology, information and internet",2,0,13
+91,3670459911,join our group (unsolicited application – groupm – copenhagen),"advertising services, market research, and online audio and video media",0,0,5
+92,3720129223,key account manager,personal care product manufacturing and manufacturing,11,0,12
+93,3739537528,investment banking internship - copenhagen,internet publishing,13,0,13
+94,3736331292,"marketing analyst (remote, contract)","technology, information and internet",13,5,13
+95,3710059086,engineering manager,"technology, information and internet",11,0,4
+96,3731725473,massage therapists - 30h contract,wellness and fitness services,13,0,16
+97,3737262887,customer success manager,software development and e-learning providers,13,5,9
+98,3741151380,business to business director – urgent hire,staffing and recruiting,4,5,2
+99,3728094708,child nutrition assistant,education administration programs,11,0,6
+100,3641771087,head of content at hrtechx,"technology, information and internet",2,4,13
+101,3730874575,head of it infrastructure,aviation and aerospace component manufacturing,11,0,10
+102,3658777464,customer success manager,information services,13,0,16
+103,3717180033,head of growth,public relations and communications services,3,0,12
+104,3721857254,we are looking for talented architectural interns to join our office in aarhus from spring semester 2024.,architecture and planning,11,0,6
+105,3728791480,mechanical engineer,research services,11,0,16
+106,3740231308,head of programme – get hired fast,staffing and recruiting,11,0,2
+107,3720410334,warehouse manager,"appliances, electrical, and electronics manufacturing",13,5,7
+108,3736389897,associate professor,computer networking products,13,0,9
+109,3703222634,technical content specialist,"technology, information and internet",13,0,13
+110,3627723574,operations manager (denmark),financial services,13,0,17
+111,3713668871,process improvement expert,"food and beverage manufacturing, manufacturing, and hospitality",13,5,7
+112,3740392159,it graduate programme - multinational company,"technology, information and internet",13,5,4
+113,3719405745,freelance sr. behavioral research & strategy consultant to help farmers e africa,"technology, information and internet",4,0,14
+114,3724284038,global internship (23/24),"technology, information and internet",2,0,9
+115,3660131161,enterprise architect / remote,it services and it consulting,11,0,5
+116,3738567018,junior project manager,staffing and recruiting,4,5,3
+117,3675363211,qa specialist and qp (delegated qp),pharmaceutical manufacturing,13,5,7
+118,3590317674,"sales account manager, denmark","technology, information and internet",13,0,13
+119,3737302902,business to business director,retail,4,5,11
+120,3725605613,we are looking for future talents for groupm – internship starting january 2024,advertising services,4,5,16
+121,3728173131,business controller reporting to cfo,,3,0,6
+122,3706082745,fullstack developer (node.js & react),staffing and recruiting,13,0,15
+123,3732705232,mechanical engineer,computers and electronics manufacturing,13,0,7
+124,3706087109,"js (react, node.js) developer",staffing and recruiting,13,0,18
+125,3734727297,fashion advisor,retail and retail luxury goods and jewelry,13,0,10
+126,3678671484,weighing supervisor,machinery manufacturing,4,0,1
+127,3733577210,unsolicited applications / simac,machinery manufacturing,11,0,10
+128,3722977205,senior technical product manager,"technology, information and internet",11,0,14
+129,3741951508,executive assistant - energy markets,"transportation, logistics, supply chain and storage",11,0,16
+130,3703428683,massage therapist,human resources services,13,0,18
+131,3735322439,search marketing manager,"technology, information and internet",4,0,13
+132,3734020007,anthropologist (56002),staffing and recruiting,8,3,8
+133,3641775716,copywriting manager at hrtechx,"technology, information and internet",2,4,4
+134,3714628061,we are looking for warehouse workers in lynge,staffing and recruiting,4,0,17
+135,3736297822,junior cyber security specialist (remote it internship – cybersecurity),"transportation, logistics, supply chain and storage",13,5,5
+136,3730355141,buyer - electronic components,"appliances, electrical, and electronics manufacturing and retail luxury goods and jewelry",13,0,1
+137,3725846809,"medical affairs director, the nordics","technology, information and internet",4,0,4
+138,3694897683,professional for regulatory affairs cmc,"technology, information and internet",4,5,0
+139,3724283011,junior analyst,"technology, information and internet",2,0,14
+140,3738122272,social media content creator,staffing and recruiting,3,0,8
+141,3732853334,vice president - european infrastructure advisory (55956),staffing and recruiting,8,3,19
+142,3651897605,growth marketing engineer,"technology, information and internet",12,0,13
+143,3736031813,green innovation consultant,staffing and recruiting,11,0,15
+144,3720177336,chief project manager,it services and it consulting and financial services,11,0,3
+145,3697940654,p|esg lead,"technology, information and internet",4,0,4
+146,3739544372,search engine marketing (sem) specialist,"technology, information and internet",13,0,13
+147,3736024481,warehouse worker for a global company in brøndby,staffing and recruiting,4,0,17
+148,3669209828,sign up to our cv database!,engineering services,13,0,5
+149,3737067021,project manager,software development,13,5,4
+150,3735323587,volunteer team member,"technology, information and internet",11,0,17
+151,3708513181,scrum master,staffing and recruiting,13,0,15
+152,3732482827,ui/ux designer (internship),,13,0,6
+153,3727013725,physical product design illustrator,retail apparel and fashion,13,0,10
+154,3659796428,r&d manager,research services,11,0,16
+155,3590309767,industrial control / automation engineer (dk),"technology, information and internet",8,0,4
+156,3731469545,head of commercial,food and beverage services,13,0,11
+157,3740054447,art director,staffing and recruiting,9,0,19
+158,3652073089,senior product manager,software development,13,5,14
+159,3733657541,phd positions,research,13,0,10
+160,3708510454,machine learning developer,staffing and recruiting,13,0,15
+161,3732202341,svp lean partner,pharmaceutical manufacturing,4,5,7
+162,3727086963,responsible engagement manager,manufacturing,0,0,12
+163,3733213888,vp workplace solutions & operations,manufacturing,0,0,10
+164,3736575016,"associate art director, the barn - aarhus","dairy product manufacturing, food and beverage manufacturing, and manufacturing",11,0,10
+165,3641771228,copywriting expert at hrtechx,"technology, information and internet",2,4,4
+166,3729835937,sales manager in denmark,"technology, information and internet",11,0,14
+167,3731339767,creative futures is looking for interns,"advertising services, market research, and online audio and video media",8,0,12
+168,3729693958,marketing student assistant,retail apparel and fashion,13,0,6
+169,3725329388,we are looking for future talents for groupm – internship starting january 2024,"advertising services, market research, and online audio and video media",4,5,16
+170,3731086384,hotel technician,hospitality,8,0,5
+171,3714593817,head of analytics nordics,financial services,11,0,18
+172,3739288570,sustainability analyst (internship),it services and it consulting,11,0,16
+173,3732711007,creative intern,staffing and recruiting,3,0,8
+174,3732112853,global unsolicited application,renewable energy semiconductor manufacturing,4,0,10
+175,3673080821,research internship,"technology, information and internet",2,0,4
+176,3649664540,junior quantity surveyor,staffing and recruiting,11,0,17
+177,3664567641,part-time job as a rider in copenhagen!,"transportation, logistics, supply chain and storage",4,0,16
+178,3739547004,commercial graduate programme - multinational company,"technology, information and internet",13,0,17
+179,3732183140,communications leader,"medical equipment manufacturing, biotechnology research, and pharmaceutical manufacturing",3,0,1
+180,3738793498,supply chain specialist,staffing and recruiting,3,2,17
+181,3726266848,head of electrical engineering,biotechnology,3,0,5
+182,3724268272,support associate,computer and network security,13,0,4
+183,3699956924,head of finance modular,automation machinery manufacturing,11,0,12
+184,3732711036,graphic designer intern,staffing and recruiting,4,0,19
+185,3714594624,global business development director,renewable energy semiconductor manufacturing,13,0,11
+186,3736669357,it-specialist,,4,0,6
+187,3689060136,"executive director quality, (primary qualified person)",pharmaceutical manufacturing,11,0,7
+188,3606883718,business transformation manager,manufacturing,0,0,11
+189,3733962940,medical science liaison denmark/nordics,staffing and recruiting,8,0,19
+190,3727927783,in vivo senior scientist - cell therapy,pharmaceutical manufacturing,4,5,10
+191,3641768342,head of finance at retail insights,"technology, information and internet",2,9,13
+192,3668169080,quality assurance coordinator,"appliances, electrical, and electronics manufacturing",4,5,7
+193,3667473845,accounting (accountant),it services and it consulting,11,0,16
+194,3731599814,hr & hse manager,motor vehicle manufacturing,6,0,1
+195,3733056389,it senior project manager,food and beverage services,13,0,3
+196,3670841342,business development manager - denmark,software development,13,0,14
+197,3732893216,associate scientist for cell therapy research,pharmaceutical manufacturing,4,5,10
+198,3736912097,business data engineer,"technology, information and internet",13,0,4
+199,3733150069,lead mechanical engineer,manufacturing,13,5,7
+200,3730014538,we are looking for talented architectural interns to join our office in copenhagen from spring semester 2024,architecture and planning,11,0,6
+201,3735313410,#new spirit offshore programme - your entry point into the exciting world of offshore wind,utilities,11,0,6
+202,3708508814,qa engineer,staffing and recruiting,13,0,15
+203,3734719627,"director, market operations",manufacturing,0,0,7
+204,3646122151,senior software engineer - full stack - remote or in-house,"technology, information and internet",13,0,4
+205,3728565347,sustainability management intern,"technology, information and internet",11,0,9
+206,3732705657,digital marketing intern,staffing and recruiting,4,0,8
+207,3641762978,content director at hrtechx,"technology, information and internet",2,4,13
+208,3638079487,community manager,software development,13,0,13
+209,3708567308,mid frontend developer,staffing and recruiting,13,0,15
+210,3737945910,manufacturing support scientist,biotechnology research,4,0,10
+211,3673082406,content manager at hrtechx,"technology, information and internet",2,4,13
+212,3737993183,front-end developer (internship),staffing and recruiting,4,0,15
+213,3694664644,satellite operations superintendent,oil and gas,11,0,17
+214,3724277796,"business analyst - dubai, uae","technology, information and internet",13,0,4
+215,3742712983,executive assistant operations - copenhagen,personal care product manufacturing and manufacturing,4,0,16
+216,3705897415,java developer,staffing and recruiting,13,0,15
+217,3740389548,compliance graduate programme - multinational company,"technology, information and internet",13,5,0
+218,3741481000,"vice president strategy and operations, c&i europe","it services and it consulting, technology, information and internet, and financial services",11,0,2
+219,3716914342,global head of fraud,financial services,11,0,8
+220,3732560177,sales development representative,software development,4,0,14
+221,3730374331,head of project excellence – cbs,staffing and recruiting,11,0,17
+222,3673108398,qa/qc officer,aviation and aerospace component manufacturing,3,0,6
+223,3656429001,process engineer,research services,11,0,16
+224,3736840242,junior network engineer (remote internship – it),human resources services,13,5,19
+225,3737201525,junior consultant in management consulting,,13,0,6
+226,3735263030,"design internship, bags and accessories",textile manufacturing,13,0,10
+227,3734693394,quality inspector,aviation and aerospace component manufacturing,11,0,6
+228,3736246337,user experience designer,environmental services,4,0,10
+229,3707649794,technical account manager,software development,13,0,14
+230,3728826395,people operations director,staffing and recruiting,13,5,17
+231,3736674976,art director – excellent benefits package,staffing and recruiting,11,0,19
+232,3734203493,consultant / trainer - remote opportunity,staffing and recruiting,11,0,2
+233,3702211594,clinical trial associate,staffing and recruiting,11,0,19
+234,3724266285,key account manager,business consulting and services,13,0,2
+235,3648520788,"project director, floating offshore wind",staffing and recruiting,11,0,15
+236,3673576440,account manager,"transportation, logistics, supply chain and storage",8,0,2
+237,3732710120,unsolicited application,staffing and recruiting,4,0,19
+238,3707032590,area manager multi label,retail apparel and fashion,13,5,11
+239,3738080557,technical sales manager,"technology, information and internet",13,0,14
+240,3738922458,sales coordinator,aviation and aerospace component manufacturing,11,0,11
+241,3676865762,nautical superintendent - rohde nielsen,maritime transportation,4,0,17
+242,3590303571,principal architect (6 months freelance remote contract),"technology, information and internet",11,0,4
+243,3737417817,art direction,staffing and recruiting,4,0,19
+244,3738247853,"junior trader - dubai, uae","technology, information and internet",13,0,13
+245,3735911902,project assistant (part-time) – dtu skylab,education administration programs and research services,4,0,16
+246,3739613047,distributor business manager,oil and gas,11,0,11
+247,3581141629,unsolicited application,spectator sports,4,0,5
+248,3710999854,projects manager - emea,it services and it consulting,11,0,3
+249,3706081820,node.js developer,staffing and recruiting,13,0,15
+250,3732704943,digital marketing designer,staffing and recruiting,13,0,19
+251,3732710094,unsolicited applications,staffing and recruiting,3,0,19
+252,3724277833,business intern,"technology, information and internet",2,0,9
+253,3735034364,portfolio analyst,pharmaceutical manufacturing,11,0,1
+254,3711690478,it security consultant,it services and it consulting,2,0,5
+255,3735913304,senior enterprise customer success manager (m/f/d),software development,13,5,4
+256,3735093942,field clinical specialist - electrophysiology - denmark,medical equipment manufacturing,13,0,17
+257,3705727021,senior financial controller,"technology, information and internet",3,0,0
+258,3739532869,visual content creator,staffing and recruiting,4,5,8
+259,3734559102,junior supply chain analyst,wholesale building materials,4,5,17
+260,3725581026,senior quality assurance manager,food and beverage services,11,0,6
+261,3716063050,process engineer - component responsible,renewable energy semiconductor manufacturing,13,0,7
+262,3673083503,cfo at retail insights,"technology, information and internet",2,9,13
+263,3739872224,finance graduate programme - multinational company,"technology, information and internet",13,5,0
+264,3732206129,project manager,pharmaceutical manufacturing,4,5,3
+265,3740232223,"head of property & expansion, asia",staffing and recruiting,13,0,2
+266,3701738308,technical superintendent - m.h. simonsen,maritime transportation,4,0,5
+267,3726643133,technology manager,renewable energy semiconductor manufacturing and chemical manufacturing,4,0,7
+268,3642711952,area sales manager,maritime transportation,11,0,11
+269,3738160990,deskside support,it services and it consulting,7,0,5
+270,3664073509,"business development manager, fintech","transportation, logistics, supply chain and storage",13,5,2
+271,3673089033,managing director at hrtechx,"technology, information and internet",2,4,14
+272,3733575296,project manager,industrial machinery manufacturing,11,0,3
+273,3737604175,growth manager,"technology, information and internet",13,0,13
+274,3733083485,senior ux/ui designer,"transportation, logistics, supply chain and storage",13,0,5
+275,3740096086,senior finance partner,pharmaceutical manufacturing,4,5,12
+276,3733971159,internship in project management,biotechnology research,11,0,3
+277,3708506883,it security engineer,staffing and recruiting,13,5,19
+278,3708506876,networking engineer,staffing and recruiting,13,0,19
+279,3728609454,offshore data processor,"technology, information and internet",13,5,4
+280,3707350323,life sciences - pharma & biotechnology - talent pipeline for student assistant positions,pharmaceutical manufacturing,4,5,10
+281,3717056831,performance marketing specialist,"technology, information and internet",11,0,13
+282,3677243430,storage architect,it services and it consulting,11,0,5
+283,3740391406,"environmental, hsec and human rights graduate programme - multinational company","technology, information and internet",13,5,4
+284,3733676570,student assistant - production planning,"appliances, electrical, and electronics manufacturing",4,0,7
+285,3736851202,"english language teacher in viby, denmark",education management,13,0,6
+286,3695980818,cloud solution architect / denmark,it services and it consulting,11,0,5
+287,3732280842,project director,pharmaceutical manufacturing,4,5,7
+288,3669506663,technical project engineer,maritime transportation,4,0,10
+289,3715850196,customer success manager,software development,13,5,4
+290,3736170203,european gas trader,oil and gas and international trade and development,13,0,6
+291,3728284107,finance manager,manufacturing,0,5,12
+292,3740052241,supply chain manager,food and beverage services,4,0,17
+293,3724260027,warehouse job at bring in greve,staffing and recruiting,4,0,17
+294,3740302723,digital design internship,staffing and recruiting,4,0,19
+295,3723238539,hr administrator,retail apparel and fashion,13,5,6
+296,3718415807,mechanical engineer,automation machinery manufacturing,3,0,7
+297,3739534588,chief technology officer (cto),staffing and recruiting,4,0,19
+298,3731376318,student assistant for business support in global support functions,"technology, information and internet",13,5,4
+299,3742166838,service supervisor,machinery manufacturing,4,0,1
+300,3709397356,"novo nordisk consulting, unsolicited applications",pharmaceutical manufacturing,4,5,11
+301,3732708242,coo,staffing and recruiting,4,0,17
+302,3739325114,partner success & sales specialist,photography,13,0,2
+303,3727737543,two new colleagues for seismic data acquisition to the green transition,research services,4,5,2
+304,3664541738,assistant head chef,food and beverage services,13,5,6
+305,3723241407,hr advisor,retail apparel and fashion,13,5,6
+306,3737066056,assistant store manager,retail apparel and fashion,13,0,11
+307,3703429324,assistant head chef,food and beverage services,13,5,6
+308,3664562997,marine project engineer with plc experience,"appliances, electrical, and electronics manufacturing",4,0,3
+309,3736677743,program director,staffing and recruiting,13,5,2
+310,3641777295,linkedin content manager at hrtechx,"technology, information and internet",2,4,13
+311,3731920207,supply chain project manager,pharmaceutical manufacturing,4,5,3
+312,3738195467,gallery manager & communications lead,,11,0,6
+313,3735666549,revenue manager,travel arrangements,13,5,0
+314,3641767486,copywriting expert at setsales,"technology, information and internet",2,4,4
+315,3732010959,business onboarding specialist,financial services,11,0,18
+316,3673084695,account consultant at hrtechx,"technology, information and internet",2,9,14
+317,3711655059,pricing operations manager,"technology, information and internet",11,0,17
+318,3711771384,leadership trainee,"technology, information and internet",6,0,4
+319,3740232214,head of project excellence – cbs – flexible working,staffing and recruiting,11,0,17
+320,3726963258,key account manager,renewable energy semiconductor manufacturing,4,0,11
+321,3736841128,junior qa specialist (remote internship – quality assurance),human resources services,13,5,15
+322,3732218970,vp green transition advisory (55957),staffing and recruiting,8,3,18
+323,3687764366,product quality lead,computers and electronics manufacturing,13,0,1
+324,3736344200,"vice president, global inbound warehouse operations for gmp raw materials",pharmaceutical manufacturing,4,5,11
+325,3731290042,product development scientist,pharmaceutical manufacturing,4,5,10
+326,3718297052,it and logistic support,aviation and aerospace component manufacturing,13,0,10
+327,3670387950,"senior backend engineer, financial services (copenhagen)","technology, information and internet",8,0,4
+328,3716916747,piping and mechanical designer,"industrial machinery manufacturing, oil and gas, and pharmaceutical manufacturing",13,0,7
+329,3721890512,senior petroleum engineer,oil and gas,11,0,5
+330,3732706601,ux design internship,staffing and recruiting,4,0,19
+331,3675558535,newly graduated engineers for a life-changing career within digitalisation and automation,pharmaceutical manufacturing,4,5,7
+332,3737494827,brewer,food & beverages,8,0,17
+333,3730577605,sr. marketing specialist,embedded software products,13,5,13
+334,3732711040,design intern for circular brand folk copenhagen,staffing and recruiting,4,0,19
+335,3730375312,operational excellence director | flexible bagsværd,staffing and recruiting,4,0,17
+336,3738163980,e-commerce assistant,,13,0,6
+337,3706656699,c++ developer,staffing and recruiting,13,0,15
+338,3740231313,head of pr and marketing – hiring now,staffing and recruiting,13,0,8
+339,3704896303,medical science liaison (msl),staffing and recruiting,11,0,19
+340,3737065241,senior customer success manager,software development,13,5,4
+341,3730720194,finance manager,textile manufacturing,4,0,12
+342,3734213818,anthropologist with expertise within social sustainability (56002),staffing and recruiting,8,3,8
+343,3641770042,head of content at setsales,"technology, information and internet",2,4,13
+344,3723217544,supply chain strategy partner,pharmaceutical manufacturing,4,5,7
+345,3701731722,chartering manager - m.h. simonsen,maritime transportation,4,5,17
+346,3741138074,are you looking for work in november and december? earn extra money!,staffing and recruiting,4,0,18
+347,3711780164,r&d scientist (2 year),biotechnology research,11,0,6
+348,3737515553,technical officer (alcohol networks),international affairs,7,0,10
+349,3732587432,communications manager,"transportation, logistics, supply chain and storage",13,5,16
+350,3724349678,commercial director,medical equipment manufacturing,13,0,11
+351,3736842052,junior corporate accountant (remote internship – accounting),"transportation, logistics, supply chain and storage",13,5,0
+352,3735129894,food regulatory specialist - aarhus,"dairy product manufacturing, food and beverage manufacturing, and manufacturing",11,0,7
+353,3735266151,key account manager to global accounts,"appliances, electrical, and electronics manufacturing",11,0,11
+354,3732708293,junior modelling specialist,staffing and recruiting,11,0,2
+355,3735650008,communication professional,pharmaceutical manufacturing,4,5,12
+356,3707759475,sap s/4 hana senior consultant / manager procure to pay,"technology, information and internet",11,0,4
+357,3724258629,counsel,"it services and it consulting, technology, information and internet, and financial services",11,0,0
+358,3741481582,recruiter bootcamp and project work (remote -part-time),staffing and recruiting,1,0,18
+359,3741125847,quality engineer,industrial machinery manufacturing,13,0,7
+360,3641766823,speaker manager at setsales,"technology, information and internet",2,4,4
+361,3734919525,assistant cra,biotechnology research and pharmaceutical manufacturing,13,0,1
+362,3598845835,electrical engineer,staffing and recruiting,13,0,15
+363,3690683736,web graphic designer,e-learning providers and education administration programs,11,0,5
+364,3728826396,head of product marketing,staffing and recruiting,11,0,2
+365,3732357331,financial auditor,accounting,11,0,0
+366,3710751759,open application - copenhagen,staffing and recruiting,9,0,19
+367,3641767702,head of conference production at hrtechx,"technology, information and internet",2,4,13
+368,3732005746,group financial controller,staffing and recruiting,13,0,0
+369,3738503630,sales manager,,6,0,6
+370,3703434032,barbers wanted: join copenhagen's premier chain,human resources services,13,0,17
+371,3710756337,social media specialist,automotive,3,0,12
+372,3641774635,"gas spot trader - dubai, uae","technology, information and internet",13,0,13
+373,3709481584,senior frontend developer,software development,13,5,4
+374,3732890637,senior scientist for cell therapy research,pharmaceutical manufacturing,4,5,10
+375,3736255795,qa engineer,"transportation, logistics, supply chain and storage",13,0,5
+376,3622508936,junior service engineer,aviation and aerospace component manufacturing,13,5,5
+377,3712839025,drug discovery specialist,pharmaceutical manufacturing,4,5,1
+378,3673078872,managing director at retail insights,"technology, information and internet",2,4,14
+379,3716062022,earned/owned media manager for mac cosmetics nordics,personal care product manufacturing,11,0,12
+380,3720128091,financial controller | nordics,pharmaceutical manufacturing,13,0,0
+381,3742154360,data scientist,wholesale building materials,13,5,15
+382,3737648360,trade finance professional,"wholesale import and export, banking, and insurance",13,0,8
+383,3635614728,strategy & innovation lead - data & analytics,it services and it consulting and financial services,8,0,2
+384,3718388727,"director, clean ammonia and hydrogen",it services and it consulting,13,0,16
+385,3661861055,key account manager (copenhagen),"technology, information and internet",11,0,14
+386,3729092063,senior director global construction procurement,renewable energy semiconductor manufacturing,3,2,1
+387,3724280682,marketing intern,"technology, information and internet",2,0,13
+388,3732711004,digital marketing and social media intern,staffing and recruiting,4,0,8
+389,3732704903,social media intern,staffing and recruiting,3,0,8
+390,3707038340,frontend tech lead,staffing and recruiting,13,5,2
+391,3742407096,content graduate - consumer products division - copenhagen,personal care product manufacturing and manufacturing,4,5,12
+392,3738534220,"sales development representative, copenhagen (maternity cover)",staffing and recruiting,8,0,2
+393,3741916905,product manager - pioneering green energy systems and cutting-edge digital products,telecommunications,4,0,14
+394,3641777083,cfo at cfo insights,"technology, information and internet",2,9,13
+395,3673669734,account manager-  electronic components,semiconductor manufacturing,13,5,11
+396,3727540810,logistics analyst,"technology, information and internet",13,0,17
+397,3735665665,head of revenue performance - northern europe,travel arrangements,13,5,0
+398,3737787516,operational scientist,biotechnology research,4,0,10
+399,3735218997,senior backend developer (python),"technology, information and internet",11,0,4
+400,3725262357,software developer intern,"mechanical or industrial engineering, environmental services, and information technology & services",5,0,4
+401,3686759489,business development manager,"advertising services, staffing and recruiting, and manufacturing",13,0,2
+402,3723236759,market development manager (mdm) - scandinavia,"appliances, electrical, and electronics manufacturing",11,0,11
+403,3741083262,renewables portfolio manager,international trade and development,13,0,6
+404,3670243526,"project manager, gmp pharma",industrial machinery manufacturing and pharmaceutical manufacturing,13,5,7
+405,3720127424,earned/owned media manager for mac cosmetics nordics,personal care product manufacturing and manufacturing,11,0,12
+406,3737397873,analytics engineer intern,"technology, information and internet",13,0,4
+407,3725564838,administrative services supervisor,public safety,13,0,6
+408,3728463995,laboratory scientist for process science,biotechnology research,13,5,10
+409,3728426360,technical designer,computer games,0,0,4
+410,3741517723,creative lead,staffing and recruiting,7,0,8
+411,3706995810,unsolicited application - wavemaker,"advertising services, market research, and online audio and video media",0,0,5
+412,3741588866,producer,,11,0,6
+413,3735374477,r&d scientist - pathology,biotechnology research,11,0,6
+414,3734467681,coach,retail,11,0,6
+415,3738108382,embedded software developer c/c++,computers and electronics manufacturing,13,5,7
+416,3641766866,speaker manager at insurtech insights,"technology, information and internet",2,4,4
+417,3733683006,agco catalyst graduate program,,11,0,6
+418,3641775779,managing director at setsales,"technology, information and internet",2,4,14
+419,3735742164,regional application manager - bakery and lipid,food and beverage manufacturing,13,0,10
+420,3731643132,it manager,pharmaceutical manufacturing,4,5,10
+421,3740578243,scientific issue editor,,13,0,6
+422,3703431294,hairdressers for norway,human resources services,8,0,19
+423,3724764727,propulsion ait technician,defense and space manufacturing and aviation and aerospace component manufacturing,10,0,6
+424,3719613299,head of corporate r&d in cheonan,staffing and recruiting,11,0,19
+425,3729947683,head of section - areas and rights (55730),staffing and recruiting,8,0,2
+426,3708574187,ceo,"it services and it consulting, software development, and utilities",3,0,14
+427,3720991428,hubspot sales manager,advertising services,4,0,2
+428,3641768531,head of content at private equity insights,"technology, information and internet",2,4,13
+429,3732086091,internship at sia connect,software development,4,0,9
+430,3730983181,supply chain planner,pharmaceutical manufacturing,4,5,7
+431,3736798822,marketing intern,staffing and recruiting,4,0,8
+432,3721786066,qa scientist - qa material management,biotechnology research,8,0,10
+433,3716068182,"data analyst, internal - copenhagen",staffing and recruiting,11,0,19
+434,3695087132,technical manager vejle,automation machinery manufacturing,13,5,7
+435,3736566235,chief sales officer,staffing and recruiting,4,0,2
+436,3733407124,(lead) project manager for executive office,pharmaceutical manufacturing,4,5,3
+437,3742720063,scientist for qc general analytics,biotechnology research,4,0,10
+438,3740884492,office coordinator (part-time - 8h/week),translation and localization,13,5,16
+439,3726229371,laundry attendant,travel arrangements,13,0,16
+440,3724257006,consultant - capital excellence,"civil engineering, industrial machinery manufacturing, and oil and gas",2,0,7
+441,3641771014,managing director at private equity insights,"technology, information and internet",2,4,14
+442,3714444948,quality project manager,"it services and it consulting, defense and space manufacturing, and security and investigations",11,0,16
+443,3732709192,chief technology officer (cto),staffing and recruiting,13,5,19
+444,3738377339,communications intern,,4,0,6
+445,3736143091,looking for a mystery shoppers,,4,0,6
+446,3727402685,brand ambassador - copenhagen,retail,4,0,11
+447,3731845135,b5 - strategic communication manager - “eu knowledge hub on prevention of radicalisation”,international affairs and government administration,13,0,12
+448,3712727254,audio programmer,computer games,0,0,4
+449,3735683954,data science & bi developer,spectator sports,4,0,5
+450,3736346139,"vice president, material manufacturing development",pharmaceutical manufacturing,4,5,1
+451,3740044821,production technician,oil and gas,11,0,7
+452,3737783809,garment technologist,,13,0,6
+453,3728818966,meeting & events intern,hospitality,13,0,16
+454,3732489753,accounting manager,software development,13,0,0
+455,3732612100,"sales support specialist massey ferguson, denmark, sweden and baltics",machinery manufacturing and farming,13,0,1
+456,3641766647,webinar manager at hrtechx,"technology, information and internet",2,4,4
+457,3673078808,business development executive - telephone sales at hrtechx,"technology, information and internet",2,9,14
+458,3738158604,"investment banking analyst, corporate finance",banking,13,5,8
+459,3733402718,medical doctor - medical devices & digital health,pharmaceutical manufacturing,4,5,1
+460,3736256809,senior account manager,"research services, biotechnology research, and pharmaceutical manufacturing",13,0,11
+461,3732126059,microbiologist/project manager to support reference laboratory functions for antimicrobial resistance - dtu food,education administration programs and research services,13,5,3
+462,3726292305,backend engineer,"transportation, logistics, supply chain and storage",13,0,5
+463,3739392611,personal assistant to senior vice president - people and culture (55825),staffing and recruiting,8,3,18
+464,3651754067,compliance student assistant,"transportation, logistics, supply chain and storage",13,5,12
+465,3737451006,senior bi analyst - gtm saas,software development,13,0,4
+466,3710526267,quality specialist,staffing and recruiting,11,0,15
+467,3732707471,co-founder,staffing and recruiting,3,0,2
+468,3649666448,head of floating wind technology,staffing and recruiting,13,0,19
+469,3735409924,"revenue marketing specialist, eu & uk",software development,3,0,0
+470,3737405580,project development manager,renewable energy semiconductor manufacturing,11,0,7
+471,3732704923,digital design intern - copenhagen 👩🎨👨🏾💻,staffing and recruiting,4,0,19
+472,3733438493,advertising product specialist,software development,13,0,13
+473,3708835883,high school graduate,"technology, information and internet",6,0,9
+474,3729001415,process engineer - food manufacturing,"food and beverage services, food and beverage manufacturing, and manufacturing",11,0,7
+475,3741767383,ecommerce internship,textile manufacturing,4,0,7
+476,3737723368,machine learning team lead,"technology, information and internet",4,0,4
+477,3738981922,global vertical head of fmcg,"transportation, logistics, supply chain and storage",13,5,2
+478,3720122993,earned/owned media manager & team lead,personal care product manufacturing and manufacturing,11,0,12
+479,3584484398,sales accounts manager - plastics,plastics manufacturing,13,0,11
+480,3641768357,cfo at hrtechx,"technology, information and internet",2,9,13
+481,3732570080,service owner o365,food and beverage services,3,0,11
+482,3723988355,r&d manager,staffing and recruiting,11,0,19
+483,3688418060,head of operational finance,consumer services,13,5,12
+484,3673080745,volunteer team member,"technology, information and internet",11,0,17
+485,3741947507,controlling manager,consumer services,4,0,11
+486,3735956531,sustainability specialist,staffing and recruiting,4,5,18
+487,3730373638,director of product development – hybrid denmark & hungary,staffing and recruiting,11,0,2
+488,3673082400,head of finance at hrtechx,"technology, information and internet",2,9,13
+489,3720326473,senior procurement consultant - offshore wind,renewable energy semiconductor manufacturing and oil and gas,11,0,1
+490,3641769989,management associate at european offices,"technology, information and internet",2,0,4
+491,3725316569,programme assistant (roster),hospitals and health care,13,0,6
+492,3736648138,data analyst,pharmaceutical manufacturing,4,5,10
+493,3724258124,digital project manager,automotive,3,0,3
+494,3714629012,warehouse workers with a truck certificate to lynge!,staffing and recruiting,4,0,17
+495,3737357769,project manager,pharmaceutical manufacturing,4,5,3
+496,3736647172,global project associate director,pharmaceutical manufacturing,4,5,11
+497,3667476344,infra project manager,it services and it consulting,11,0,16
+498,3735306827,"quality assurance assistant, gs-5, ft, qac, supply division, copenhagen, denmark",non-profit organizations and consumer services,3,0,6
+499,3699644267,"senior director, integrated digital and campaigns",software development,13,0,13
+500,3741968274,deskside support,staffing and recruiting,7,0,19
+501,3740059000,director of machine learning,staffing and recruiting,8,0,15
+502,3738514558,nordic talent acquisition graduate - copenhagen,personal care product manufacturing and manufacturing,4,0,1
+503,3723972823,business development manager (localization industry),"advertising services, staffing and recruiting, and manufacturing",13,0,2
+504,3735365289,"field service technician, industrial storage - supercharging, kastrup","renewable energy semiconductor manufacturing, motor vehicle manufacturing, and utilities",13,5,7
+505,3737404038,senior frontend engineer,"transportation, logistics, supply chain and storage",13,0,5
+506,3732282540,training professional with a solution-oriented mindset,pharmaceutical manufacturing,4,5,1
+507,3664554925,senior product analyst,software development,13,0,4
+508,3728467377,junior system engineer,"it services and it consulting, defense and space manufacturing, and security and investigations",11,0,5
+509,3728146520,talent acquisition analyst,research services,11,0,16
+510,3668047229,scrum master,staffing and recruiting,11,0,15
+511,3730066671,internship with the media team at findus/nomad foods,manufacturing,4,0,1
+512,3734118028,affiliate marketing manager based in copenhagen or remote,advertising services,13,0,12
+513,3738833453,executive assistant,,13,0,6
+514,3732715357,some,staffing and recruiting,4,5,18
+515,3681922904,sales assistant – uniqlo stroget,retail,13,5,11
+516,3736840210,junior pr specialist (remote internship – public relations),human resources services,13,5,8
+517,3664531955,business consultant – healthcare,it services and it consulting,4,0,2
+518,3731365652,operations associate (facilities and assets),international affairs,7,0,17
+519,3724691051,retail stores associate ii,retail,11,0,6
+520,3737043011,"teacher, class teacher",education administration programs,4,0,6
+521,3668254640,growth engineer,"technology, information and internet",12,0,13
+522,3736839140,junior market analyst (remote internship – market research),"transportation, logistics, supply chain and storage and internet publishing",13,5,13
+523,3726387224,"investor relations, finance",staffing and recruiting,3,2,8
+524,3737987688,community lead,staffing and recruiting,4,0,18
+525,3739116156,sales assistant,retail apparel and fashion,11,0,11
+526,3733813907,communication manager,pharmaceutical manufacturing,4,5,12
+527,3691765287,cinematic artist,computer games,0,0,4
+528,3739558733,project supply coordinator,staffing and recruiting,13,0,17
+529,3732894230,strategic business partner for vice president,pharmaceutical manufacturing,4,5,11
+530,3734123702,digital design internship,staffing and recruiting,4,0,19
+531,3734720606,junior games lab moderator [game intelligence],computer games,11,0,13
+532,3672714202,"manager, international human resources",professional training and coaching,13,5,6
+533,3737359708,department assistant,pharmaceutical manufacturing,4,5,1
+534,3670843133,business development manager/field sales (se),software development,13,0,14
+535,3726615898,start your career as audit graduate at deloitte denmark,accounting,4,0,18
+536,3691150403,head of operational finance,"technology, information and internet",13,5,13
+537,3734596946,"personal assistant to vice president, medical & science centre of expertise",pharmaceutical manufacturing,4,5,1
+538,3730371784,head of development operations,staffing and recruiting,13,5,2
+539,3735936484,projects director,real estate,11,0,17
+540,3732415810,data scientist / machine learning engineer,health and human services,8,0,5
+541,3741259248,investment principal,"transportation, logistics, supply chain and storage",11,0,16
+542,3621022700,customer success manager based in copenhagen,advertising services,13,0,16
+543,3737357802,department assistant,pharmaceutical manufacturing,4,5,1
+544,3724819775,product owner,it services and it consulting and financial services,4,0,2
+545,3736897918,junior revenue operations specialist (part-time),"transportation, logistics, supply chain and storage",13,0,17
+546,3735955237,creative marketing and production intern,staffing and recruiting,4,0,8
+547,3737727290,donor engagement and resource mobilization specialist,international affairs,4,0,17
+548,3733570913,account executive,software development,11,0,14
+549,3641764860,cfo at insurtech insights,"technology, information and internet",2,9,13
+550,3731286342,project assistant talent pipeline - greater copenhagen area,pharmaceutical manufacturing,4,5,1
+551,3737359678,personal assistant to corporate vice president,pharmaceutical manufacturing,4,5,1
+552,3720305774,manager to our strategy and operations team at bearingpoint,photography,13,0,17
+553,3728844807,digitalisation manager,pharmaceutical manufacturing,4,5,1
+554,3664560294,fellowship program - diverse specialties,telecommunications,11,0,4
+555,3722176010,global returns and repair operations manager,computers and electronics manufacturing,13,5,7
+556,3732705621,"operational, logistics and purchasing manager",staffing and recruiting,4,0,18
+557,3730701144,post doctor – “clearcut-free” forestry in sweden,higher education,11,0,6
+558,3725353943,nordic digital education manager - professional products division - copenhagen,personal care product manufacturing and manufacturing,4,0,16
+559,3736834848,junior python developer (remote internship – it),"transportation, logistics, supply chain and storage",13,5,5
+560,3741970610,chief technical officer,education administration programs,13,0,10
+561,3720115111,purchasing manager - services and products,hospitals and health care,13,5,6
+562,3734873498,value excellence consultant,retail luxury goods and jewelry,4,0,0
+563,3654584312,calling new graduates with an interest in quality,pharmaceutical manufacturing,4,5,1
+564,3716402604,"specialist, in-country logistics & home delivery denmark",automotive,3,0,7
+565,3673078968,head of conference production at retail insights,"technology, information and internet",2,4,13
+566,3673085513,content manager at retail insights,"technology, information and internet",2,4,13
+567,3728461550,electronics technician,computer hardware manufacturing,13,0,7
+568,3679822317,head of finance at insurtech insights,"technology, information and internet",2,9,13
+569,3737396674,"travel consultant, sales",travel arrangements,11,0,17
+570,3707353481,life sciences - pharma & biotechnology talent pipeline for internships,pharmaceutical manufacturing,4,5,10
+571,3736257697,real estate planner,wellness and fitness services,13,5,3
+572,3674619341,head of social media at retail insights,"technology, information and internet",2,4,14
+573,3738976895,mechanical engineer,it services and it consulting,13,5,5
+574,3732705619,hr manager,staffing and recruiting,11,5,18
+575,3742061238,digital product design lead,manufacturing,0,0,10
+576,3731776850,french speaking customer success hero (maternity cover),manufacturing,13,5,1
+577,3727732407,document controller,pharmaceutical manufacturing,13,0,7
+578,3736258401,it support technician,telecommunications,4,0,4
+579,3732710108,digital marketing & pr intern,staffing and recruiting,4,0,8
+580,3690899529,junior purschaser,staffing and recruiting,11,0,18
+581,3727571312,senior global product manager,pharmaceutical manufacturing,4,5,11
+582,3673085739,finance manager at retail insights,"technology, information and internet",2,9,13
+583,3732706680,operations & support specialist,staffing and recruiting,4,0,17
+584,3641762901,content director at retail insights,"technology, information and internet",2,4,13
+585,3738559982,event specialist,staffing and recruiting,4,0,17
+586,3673077892,senior content manager at hrtechx,"technology, information and internet",2,4,13
+587,3699871889,senior development coach,business consulting and services,11,0,18
+588,3704949611,part-time sales coordinator (weekend and afternoon / evening shifts),education management,13,0,11
+589,3730068366,freelance pattern translator - italian,manufacturing,11,0,12
+590,3733476979,global head of omnichannel transportation growth and strategy,staffing and recruiting,11,0,8
+591,3735084527,pharmaceutical logistics coordinator,pharmaceutical manufacturing,4,5,7
+592,3690100373,producer,furniture and home furnishings manufacturing,4,0,10
+593,3664564688,.net developers,it services and it consulting,13,0,5
+594,3735954336,market manager,chemical manufacturing,11,0,11
+595,3736467084,content strategist,staffing and recruiting,3,0,8
+596,3740217048,legal counsel -copenhagen,consumer services,13,0,0
+597,3734223438,business development director – marine,staffing and recruiting,8,0,2
+598,3718297408,tech-savvy marketing student assistant (part-time),farming,11,0,6
+599,3733071905,communications and event manager,medical equipment manufacturing,11,0,17
+600,3742900228,"junior hr business partner to our international zone - arla, copenhagen","dairy product manufacturing, food and beverage manufacturing, and manufacturing",11,0,1
+601,3732710165,sales consultant (spanish speaking) - full-time position,staffing and recruiting,4,0,2
+602,3732709222,digital marketing intern,staffing and recruiting,3,0,8
+603,3702212539,clinical trial associate,staffing and recruiting,11,0,19
+604,3728786842,revisor,,6,0,6
+605,3732708256,internship - graphic designer,staffing and recruiting,4,0,19
+606,3641773703,telesales team lead at hrtechx,"technology, information and internet",2,9,14
+607,3641765661,copywriting expert at retail insights,"technology, information and internet",2,4,14
+608,3673086430,cfo at setsales,"technology, information and internet",2,9,13
+609,3742754996,risk graduate to ess in lund!,staffing and recruiting,4,0,19
+610,3742755564,event- and marketing coordinator to camurus,staffing and recruiting,4,0,8
+611,3732283343,continuous improvement expert,pharmaceutical manufacturing,4,5,1
+612,3644204385,store manager,retail,13,5,11
+613,3737895853,project manager,construction,11,0,3
+614,3673126607,climate data specialist,business consulting and services,13,5,19
+615,3735950841,become a sustainability advocate,staffing and recruiting,4,0,0
+616,3717206861,junior solution architect,staffing and recruiting,13,5,15
+617,3739541982,sales manager,"technology, information and internet",13,5,13
+618,3736443618,marketing content manager,"technology, information and internet",11,0,13
+619,3601393306,"entrepreneur in residence (remote), denmark","transportation, logistics, supply chain and storage",11,0,16
+620,3738131454,finance senior director supporting norlys digital,telecommunications,13,0,13
+621,3714217421,brand manager,retail luxury goods and jewelry,13,0,12
+622,3731563557,brand communication leader,computers and electronics manufacturing,3,0,12
+623,3732233018,head of communications,telecommunications,11,0,13
+624,3737951338,head of operations,"transportation, logistics, supply chain and storage",7,0,17
+625,3729711413,head of offshore construction,renewable energy semiconductor manufacturing,3,2,7
+626,3732707467,communication & marketing supporter | student worker (15-20 hrs.),staffing and recruiting,4,0,18
+627,3699684603,open application - aarhus (data & bi),staffing and recruiting,4,0,19
+628,3735673332,join our consulting cfo graduate programme in aarhus,business consulting and services,4,0,0
+629,3723396992,technical project manager,biotechnology,11,0,3
+630,3736168524,accenture strategy - direct dinner - aarhus,it services and it consulting,3,0,16
+631,3732215603,"people (hr) specialist, social responsibility",apparel & fashion,4,0,6
+632,3724368970,automation engineer,biotechnology,4,5,5
+633,3737526833,executive assistant for founders,staffing and recruiting,13,5,18
+634,3732704092,marketing assistant intern,human resources services and business consulting and services,13,0,2
+635,3741028092,custodian - evening shift,education administration programs,13,0,17
+636,3733406794,buyer | boutique,retail,4,0,6
+637,3641761745,"graduate software engineer - dubai, uae","technology, information and internet",13,0,4
+638,3665707277,head of sales and kam - denmark (m/f/d),consumer goods,13,0,11
+639,3727015683,finance graduate,apparel & fashion,4,0,0
+640,3738377797,social media manager (internship),staffing and recruiting,4,0,8
+641,3732218963,portfolio strategy lead,staffing and recruiting,3,2,8
+642,3738185958,communications coordinator,oil and gas,13,0,11
+643,3725555874,executive assistant to coo,computers and electronics manufacturing,4,0,3
+644,3711655940,senior project manager,renewable energy semiconductor manufacturing,3,2,3
+645,3707040281,data engineer,staffing and recruiting,13,0,19
+646,3737190461,business to business director,retail,4,5,6
+647,3730141592,category manager global procurement,staffing and recruiting,3,2,8
+648,3303581157,software engineer,staffing and recruiting,11,0,15
+649,3668765607,"senior specialist, data intelligence",advertising services,4,0,5
+650,3722160337,internship: landscape architect,architecture and planning,11,0,6
+651,3732705660,ux/ui design internship - start 1. semester 2024,staffing and recruiting,4,0,18
+652,3737780092,professor(s) at the department of dentistry and oral health,research,4,0,6
+653,3728820236,business solution specialist,retail,4,0,11
+654,3732708311,digital marketing intern,staffing and recruiting,3,0,8
+655,3736136818,bi consultant,retail furniture and home furnishings,4,0,10
+656,3726590884,senior it project manager,it services and it consulting,11,0,3
+657,3728211952,quality supervisor,staffing and recruiting,3,2,15
+658,3742143529,"construction cost analyst (aarhus n, region central jutland, dk)","renewable energy semiconductor manufacturing, environmental services, and oil and gas",3,2,12
+659,3720770374,software project manager,staffing and recruiting,3,2,3
+660,3704876682,contract manager,renewable energy semiconductor manufacturing,3,2,1
+661,3735648339,frontend developer to international consultancy,it services and it consulting,11,0,5
+662,3641767139,"algorithmic power trader - dubai, uae","technology, information and internet",13,5,13
+663,3737990074,digital design internship in fast growing scale-up,staffing and recruiting,4,0,19
+664,3729945866,(lead) power plant solutions engineer,staffing and recruiting,3,2,15
+665,3715189653,students for strategic sustainability consulting in aarhus,civil engineering,3,0,6
+666,3672966254,purchasing manager,renewable energy semiconductor manufacturing,3,2,1
+667,3707080426,unsolicited application - wavemaker,advertising services,0,0,5
+668,3733350418,head of sales in the nordic region,"appliances, electrical, and electronics manufacturing",4,1,11
+669,3711520489,project manager intern,advertising services,6,0,3
+670,3723324396,category manager global procurement,renewable energy semiconductor manufacturing,3,2,12
+671,3732704984,🎯 business development intern,staffing and recruiting,13,5,2
+672,3732709227,unsolicited application - sales development representative (full-time) - any language,staffing and recruiting,4,8,2
+673,3727215539,"chief fbp, ind cee + we",industrial machinery manufacturing,4,0,0
+674,3710033176,senior global customer support manager,"dairy product manufacturing, food and beverage manufacturing, and manufacturing",11,0,1
+675,3711660203,senior sales manager - offshore,renewable energy semiconductor manufacturing,3,2,11
+676,3730370874,head of global incident management,staffing and recruiting,4,1,19
+677,3735095264,"sales responsible, dach",retail,4,0,12
+678,3688197861,senior copywriter,"appliances, electrical, and electronics manufacturing",4,1,12
+679,3738992010,finance business partner,"transportation, logistics, supply chain and storage",7,0,12
+680,3731410302,finance manager – aarhus,railroad equipment manufacturing,13,5,12
+681,3708507837,azure engineer,staffing and recruiting,13,5,15
+682,3732706583,business development representative,staffing and recruiting,4,0,2
+683,3732868165,"software engineer - dubai, uae","technology, information and internet",11,0,4
+684,3715387834,barber for naestved/silkeborg,human resources services,13,0,17
+685,3731094871,scrum master,renewable energy semiconductor manufacturing,3,2,7
+686,3723249462,software engineer,it services and it consulting and financial services,4,0,15
+687,3726278718,head of global incident management,"appliances, electrical, and electronics manufacturing",4,1,10
+688,3582398671,business development intern,software development,4,0,14
+689,3718941896,country product manager denmark,it services and it consulting,4,5,2
+690,3729057275,construction engineer (f/m/d),renewable energy semiconductor manufacturing,3,2,7
+691,3738982865,procurement manager,"transportation, logistics, supply chain and storage",11,0,16
+692,3707036647,android developer (java & kotlin),staffing and recruiting,13,0,15
+693,3731098662,business process consultant (m/f/d),renewable energy semiconductor manufacturing,3,2,7
+694,3673084182,"intraday power trader - dubai, uae","technology, information and internet",13,0,13
+695,3681500777,full stack developer with a focus on the frontend,staffing and recruiting,13,0,15
+696,3735094325,cbo sales responsible,retail,4,0,12
+697,3732705571,front-end developer (angular) internship start 1.semester 2024,staffing and recruiting,4,0,15
+698,3728773839,backend developer,,8,0,6
+699,3736672605,"manager, product management, open banking europe (experience design team)","it services and it consulting, technology, information and internet, and financial services",8,0,2
+700,3688542865,data warehouse specialist - aarhus,staffing and recruiting,11,0,2
+701,3707368288,"internship: pr, communication & social media",software development,4,0,13
+702,3730249697,unsolicited application - sales development representative (full-time) - any language,"software development, technology, information and internet, and legal services",4,8,13
+703,3724367768,fullstack developer,it services and it consulting,4,0,5
+704,3731604585,internship in talent acquisition,software development,11,0,4
+705,3724415000,process engineering manager til farmaceutisk virksomhed,staffing and recruiting,6,0,15
+706,3661007506,software project manager,renewable energy semiconductor manufacturing,3,2,3
+707,3699221597,commodity specialist,renewable energy semiconductor manufacturing,3,2,1
+708,3728426916,p-dag på katrinebjerg 2023,manufacturing,11,0,1
+709,3708576454,broadcast intern,advertising services,6,0,12
+710,3685997399,commercial manager for powerbi solutions,staffing and recruiting,13,0,2
+711,3708513143,devops engineer (gcp),staffing and recruiting,13,0,15
+712,3732710097,marketing & content creation internship start 1. semester 2024,staffing and recruiting,4,0,8
+713,3726709647,hse continuous improvement specialist,renewable energy semiconductor manufacturing,3,2,1
+714,3737986658,video and photography intern in fast growing scale-up,staffing and recruiting,4,0,8
+715,3733761710,senior purchaser (f/m/d),renewable energy semiconductor manufacturing,3,2,1
+716,3741193095,junior trader,oil and gas,4,0,0
+717,3701782278,senior specialist training and competency development,renewable energy semiconductor manufacturing,3,2,1
+718,3734118425,"global category manager (12 months maternity cover), arla pro - aarhus","dairy product manufacturing, food and beverage manufacturing, and manufacturing",4,0,12
+719,3706656763,node.js developer with graphql,staffing and recruiting,13,0,15
+720,3708567312,senior python developer,staffing and recruiting,13,0,15
+721,3728598012,postdoc in experimental surface science and catalysis,research,4,0,10
+722,3738545172,german content creator,,3,0,6
+723,3741764560,territory sales manager (f/m/d) surgical technologies – denmark (jütland),"appliances, electrical, and electronics manufacturing, medical equipment manufacturing, and industrial machinery manufacturing",13,0,11
+724,3732711085,🇩🇰 finance manager,staffing and recruiting,13,0,8
+725,3737491805,assistant store manager,retail,13,5,11
+726,3724340990,commodity lead,renewable energy semiconductor manufacturing,3,2,1
+727,3696198710,therapeutic strategy vice president,pharmaceutical manufacturing,11,0,11
+728,3708509642,salesforce developer,staffing and recruiting,13,0,19
+729,3727350502,"market head aarhus, dk",financial services,11,0,8
+730,3737776257,associate professor(s) at the department of dentistry and oral health,research,4,0,6
+731,3733971563,influencer campaign manager intern,advertising services,6,0,16
+732,3716913790,data engineer,renewable energy semiconductor manufacturing,3,2,10
+733,3736639218,head of operations,"transportation, logistics, supply chain and storage",7,0,16
+734,3721923080,specialist supplier relationships,renewable energy semiconductor manufacturing,3,2,7
+735,3732174140,vice president - european infrastructure advisory,civil engineering and business consulting and services,8,3,17
+736,3737231871,"finance manager, international performance management - aarhus (12 month maternity cover)","dairy product manufacturing, food and beverage manufacturing, and manufacturing",11,0,12
+737,3730574393,collaboration sales specialist,it services and it consulting,6,0,2
+738,3732039435,it security specialist,it services and it consulting,13,0,5
+739,3729712439,"intern, internal & leadership communications",renewable energy semiconductor manufacturing,3,2,1
+740,3733349683,"business solution tester, finance",retail,4,0,5
+741,3696884481,commodity specialist,renewable energy semiconductor manufacturing,3,2,1
+742,3671822345,delivery manager /agile coach,renewable energy semiconductor manufacturing,3,2,7
+743,3732174143,vice president green transition advisory,civil engineering and business consulting and services,8,3,3
+744,3725576217,(lead) power plant solutions engineer,renewable energy semiconductor manufacturing,3,2,7
+745,3706787822,internship: user experience designer,software development,4,0,4
+746,3693024492,"lead electrical engineer, nordics (north & west region)",renewable energy semiconductor manufacturing,3,2,7
+747,3713673550,intern for strategic sustainability consulting,civil engineering,3,0,6
+748,3715804445,service product manager,renewable energy semiconductor manufacturing,3,2,7
+749,3732705648,business development intern,staffing and recruiting,4,0,2
+750,3710067327,internship in digital learning & content development,"appliances, electrical, and electronics manufacturing",4,1,1
+751,3656541480,kamstrup is on behalf of thvilum looking for a new ceo – odder,"appliances, electrical, and electronics manufacturing",3,0,1
+752,3723072614,construction cost analyst,staffing and recruiting,3,2,8
+753,3732557610,head of supplier quality & compliance,"appliances, electrical, and electronics manufacturing",4,1,1
+754,3736572752,procurement contract manager for business services - aarhus,"dairy product manufacturing, food and beverage manufacturing, and manufacturing",11,0,1
+755,3736607505,"qa manager, software development",retail,4,5,6
+756,3658909284,lead software project manager,renewable energy semiconductor manufacturing,3,2,3
+757,3709889735,internship in computational or experimental fluid dynamics,"appliances, electrical, and electronics manufacturing",4,1,1
+758,3728292237,tribe lead for reduce legacy,it services and it consulting and financial services,4,0,19
+759,3734691158,load engineer,,13,5,6
+760,3738162692,student worker,renewable energy semiconductor manufacturing,3,2,1
+761,3727847609,"head of quintet, aarhus","capital markets, banking, and investment management",4,0,8
+762,3730587613,offshore service operations specialist,renewable energy semiconductor manufacturing,3,2,10
+763,3718384423,intern web developer,software development,12,0,4
+764,3687823200,it solution consultant,retail furniture and home furnishings,4,0,5
+765,3725265172,student analyst,oil and gas and international trade and development,4,0,10
+766,3738190928,project manager,renewable energy semiconductor manufacturing,4,0,3
+767,3684417077,retail achitecture project manager -nordics (m/f/d),consumer goods,13,0,3
+768,3734721199,senior hr business partner,"appliances, electrical, and electronics manufacturing",4,1,1
+769,3712054491,"global portfolio manager, bakery",food production,4,0,12
+770,3661673807,project proposal in augmented reality (ar),"appliances, electrical, and electronics manufacturing",4,1,1
+771,3731299366,specialist assembly tooling,staffing and recruiting,3,2,17
+772,3738378291,quality and food safety manager/senior specialist in global qehs - aarhus,"dairy product manufacturing, food and beverage manufacturing, and manufacturing",11,5,10
+773,3737171146,data warehouse engineer,staffing and recruiting,11,0,19
+774,3721301968,senior business development manager production ce,"dairy product manufacturing, food and beverage manufacturing, and manufacturing",11,0,11
+775,3727032112,client advisor - denmark (aarhus),financial services,11,0,2
+776,3730562750,platform engineer,renewable energy semiconductor manufacturing,3,2,7
+777,3677220558,junior d365 bc developer,staffing and recruiting,13,0,15
+778,3733663096,industrioperatør i højteknologisk produktionsvirksomhed,,6,0,6
+779,3732707461,🚀 customer success intern,staffing and recruiting,13,5,18
+780,3708579255,strategy & insight intern,advertising services,6,0,16
+781,3681504095,"full stack developer, laravel and vuejs",staffing and recruiting,4,0,15
+782,3676099252,power platform consultant - aarhus,staffing and recruiting,4,0,2
+783,3709893182,internship in global operations & engineering,"appliances, electrical, and electronics manufacturing",4,1,7
+784,3717178169,customer success engineer associate,,11,0,6
+785,3732612168,ambitious software engineering interns,it services and it consulting and financial services,13,5,15
+786,3709893173,internship in .net app development,"appliances, electrical, and electronics manufacturing",4,1,1
+787,3661065121,specialist - mechanical structures,renewable energy semiconductor manufacturing,3,2,7
+788,3732565214,senior project manager,retail,11,0,3
+789,3676095688,full stack developer (frontend heavy),staffing and recruiting,13,0,15
+790,3720914441,senior analyst - global offshore wind fixed and floating capex modelling,information services,11,0,16
+791,3731852198,senior claims specialist - aarhus,"dairy product manufacturing, food and beverage manufacturing, and manufacturing",11,0,12
+792,3730568794,experienced software craftsman,software development,13,0,17
+793,3732711063,🇩🇪 sales development representative (part-time),staffing and recruiting,4,8,2
+794,3738995417,"solutions design manager, projects","transportation, logistics, supply chain and storage",7,5,3
+795,3737404545,npi coordinator,renewable energy semiconductor manufacturing,3,2,1
+796,3724312445,student assistant for business hr,industrial machinery manufacturing,3,0,1
+797,3709887889,internship in hr,"appliances, electrical, and electronics manufacturing",4,1,1
+798,3736215508,it business consultant,computers and electronics manufacturing,4,0,3
+799,3695404872,software engineer,renewable energy semiconductor manufacturing,3,2,10
+800,3727239529,consultant for commercial trade planning,retail,4,0,17
+801,3724886109,senior service delivery manager,telecommunications,11,0,4
+802,3733689511,fp&a manager,civil engineering and business consulting and services,8,3,17
+803,3350686113,"unsolicited internship during your studies - food safety & quality (randers sv, dk, 8940)",food and beverage manufacturing,3,0,1
+804,3712054488,global bakery leader,food production,13,5,17
+805,3728314596,procurement specialist,,13,0,6
+806,3618977206,customer experience manager with focus on customer surveys and feedback analyses,"appliances, electrical, and electronics manufacturing",4,1,1
+807,3711520488,digital performance intern,advertising services,6,0,5
+808,3739116255,"solutions design engineer, projects","transportation, logistics, supply chain and storage",7,5,5
+809,3736882027,data engineer,oil and gas,3,0,10
+810,3712797338,global program development manager,industrial machinery manufacturing,11,0,7
+811,3737382375,"leder af beta.health, aarhus universitetshospital","it services and it consulting, government administration, and hospitals and health care",6,0,16
+812,3709892762,"internship in commercial product management, heat/cooling","appliances, electrical, and electronics manufacturing",4,1,1
+813,3734599812,product manager - machine learning and ai,"it services and it consulting, newspaper publishing, and online audio and video media",13,0,2
+814,3735089906,"buyer, occasion and pants",retail apparel and fashion,11,0,6
+815,3730583887,manufacturing engineer,manufacturing,3,0,7
+816,3741518336,global senior quality specialist,"dairy product manufacturing, food and beverage manufacturing, and manufacturing",11,0,7
+817,3737168273,agile portfolio specialist,staffing and recruiting,3,2,8
+818,3709891533,internship in engineering department,"appliances, electrical, and electronics manufacturing",6,0,7
+819,3686771280,product specialist,software development,3,0,14
+820,3736017010,business development manager - paraffin applications,food production,13,5,11
+821,3730143357,technical product owner / solution architect - service domain,staffing and recruiting,3,2,2
+822,3709888840,internship in business area marketing,"appliances, electrical, and electronics manufacturing",4,1,1
+823,3726708678,prototype and test wind turbine manager,renewable energy semiconductor manufacturing,3,2,7
+824,3708566339,cobol developer,staffing and recruiting,13,0,19
+825,3738816981,software engineer,renewable energy semiconductor manufacturing,3,2,10
+826,3736266000,it apprentices,renewable energy semiconductor manufacturing,3,2,10
+827,3701057059,🇩🇪 sales development representative (part-time),"software development, technology, information and internet, and legal services",4,8,14
+828,3705742466,lead program manager,industrial machinery manufacturing,13,5,1
+829,3725493546,foundation package manager,renewables & environment,13,0,17
+830,3727074428,"student worker, corporate tax",apparel & fashion,4,0,0
+831,3728955932,"internship at stark group it, viby j",wholesale building materials,4,0,18
+832,3727380304,junior finance consultant - d365 bc,staffing and recruiting,13,5,8
+833,3711089762,business intelligence intern,advertising services,6,0,2
+834,3735366205,specialist - nacelle cover,staffing and recruiting,3,2,18
+835,3691343257,communication student for radical innovation,wholesale building materials,11,0,18
+836,3587419609,specialist customer relations -norway (m/f/d),consumer goods,13,5,6
+837,3733587081,senior project manager,wholesale building materials,11,0,3
+838,3709893165,internship in hardware rf communication,"appliances, electrical, and electronics manufacturing",4,1,1
+839,3724443929,senior project manager,wholesale building materials,13,5,3
+840,3709890677,internship in commercial and portfolio management,"appliances, electrical, and electronics manufacturing",4,1,12
+841,3711552586,"project manager, upstream partnership",wholesale building materials,11,5,3
+842,3733785817,global project sales development manager,industrial machinery manufacturing,11,0,7
+843,3723352045,java backend developer in salling group,retail,4,0,5
+844,3730691551,"senior back-end developer - dubai, uae","technology, information and internet",13,0,4
+845,3721920219,lead developer floating segment,renewable energy semiconductor manufacturing,3,2,7
+846,3725539893,financial coordinator,software development,13,0,13
+847,3648595807,converter simulation engineer,renewable energy semiconductor manufacturing,3,2,7
+848,3721427060,"payroll specialist for aarhus, denmark","transportation, logistics, supply chain and storage",11,0,16
+849,3695765815,fullstack developer,"medical equipment manufacturing, biotechnology research, and hospitals and health care",3,0,5
+850,3698323911,senior consultant (salaried productivity),industrial machinery manufacturing,11,0,11
+851,3734826801,"internship opportunities in our technology & innovation department for bachelor (diplomingeniør) students, lystrup or søborg",defense and space manufacturing and aviation and aerospace component manufacturing,11,0,3
+852,3709892498,internship in wireless communication,"appliances, electrical, and electronics manufacturing",4,1,12
+853,3732000005,lead manager for module tech leads and integration,renewable energy semiconductor manufacturing,3,2,7
+854,3733090098,scada engineer,renewable energy semiconductor manufacturing,3,2,7
+855,3736460851,senior frontend developer,staffing and recruiting,13,5,15
+856,3729388425,finance and digital interns - finance operate & transformation team (aarhus),"it services and it consulting, business consulting and services, and accounting",4,0,0
+857,3652428321,crm consultant,"appliances, electrical, and electronics manufacturing",4,1,11
+858,3729371610,cloud engineer,it services and it consulting,4,0,5
+859,3696880883,data architect,renewable energy semiconductor manufacturing,3,2,10
+860,3691112889,senior d365 business central team lead - aarhus,staffing and recruiting,11,0,3
+861,3726576930,specialist - future sensor technologies,renewable energy semiconductor manufacturing,3,2,7
+862,3693547733,erp specialist,"appliances, electrical, and electronics manufacturing",4,1,10
+863,3656360733,specialist assembly tooling,renewable energy semiconductor manufacturing,3,2,7
+864,3728254395,sales director,renewable energy semiconductor manufacturing and software development,13,0,14
+865,3738987298,it support student assistant,"transportation, logistics, supply chain and storage",8,0,5
+866,3737792367,it security specialist,it services and it consulting,13,0,5
+867,3711522298,seo manager intern,advertising services,6,0,12
+868,3701580172,d365 f&o production/supply chain consultant,staffing and recruiting,13,5,17
+869,3709889736,internship in erp,"appliances, electrical, and electronics manufacturing",4,1,1
+870,3721187215,"team leader, server & data",renewable energy semiconductor manufacturing,3,2,7
+871,3646735885,🇩🇰 finance manager,"technology, information and internet and financial services",13,0,0
+872,3733091059,offshore subject matter expert,renewable energy semiconductor manufacturing,3,2,7
+873,3720350499,lead test supervisor,renewable energy semiconductor manufacturing,3,2,7
+874,3729740204,software engineer,pharmaceutical manufacturing,11,0,7
+875,3731095764,senior developer,renewable energy semiconductor manufacturing,3,2,10
+876,3738548768,industrial engineer,wholesale building materials,11,0,17
+877,3709887878,internship in cellular technology solutions,"appliances, electrical, and electronics manufacturing",4,1,1
+878,3729832137,"legal counsel /data privacy, viby","dairy product manufacturing, food and beverage manufacturing, and manufacturing",11,0,1
+879,3733085776,"lead engineer, cyber security",renewable energy semiconductor manufacturing,3,2,7
+880,3736639726,finance business partner,"transportation, logistics, supply chain and storage",7,0,16
+881,3646973068,senior project manager – ports and marine,civil engineering,13,5,6
+882,3694156485,oracle lead support analyst,it services and it consulting,13,0,5
+883,3711519921,web analytics & optimization intern,advertising services,6,0,12
+884,3679810790,d.365 fo finance consultant - aarhus,staffing and recruiting,4,0,8
+885,3738812353,student assistant for accounts receivable,retail,4,0,0
+886,3718295235,technical product owner / solution architect - service domain,renewable energy semiconductor manufacturing,3,2,10
+887,3732863099,software engineer for digital core modernization journey,it services and it consulting and financial services,11,0,15
+888,3742411069,marketing & event coordinator,utilities,4,0,17
+889,3737169148,vice president green transition advisory (55957),staffing and recruiting,8,3,18
+890,3726695455,assistant general manager,hospitals and health care,11,0,17
+891,3732220891,vp european infrastructure advisory (55956),staffing and recruiting,8,3,19
+892,3675322136,open application - aalborg,staffing and recruiting,9,0,19
+893,3680684629,unsolicited applications for student assistants,utilities,4,0,6
+894,3737206149,"junior analyst, modelling",renewable energy semiconductor manufacturing,4,0,11
+895,3341144377,game designer,staffing and recruiting,13,0,19
+896,3741153245,business controller | remote | hybrid,staffing and recruiting,6,6,0
+897,3644641934,business controller,renewable energy semiconductor manufacturing,6,6,0
+898,3687641072,"sales account manager - aalborg, denmark",wireless services,13,0,13
+899,3667296454,originator,utilities,4,0,12
+900,3737240258,"logistics co-worker for night and morning shift,10 hours per week, aalborg",retail,4,0,6
+901,3737169152,sustainability project manager (56018),staffing and recruiting,8,3,3
+902,3729502869,student assistant for marketing and communication,"mechanical or industrial engineering, environmental services, and information technology & services",5,0,9
+903,3741736001,"financial controller, aalborg",renewable energy semiconductor manufacturing,4,0,0
+904,3730362209,project manager - drainage and climate adaption (55764),staffing and recruiting,8,3,3
+905,3732705590,"student worker, marketing",staffing and recruiting,4,0,18
+906,3725260601,graphic design intern in marketing,"mechanical or industrial engineering, environmental services, and information technology & services",13,0,4
+907,3732711073,sales executive - connected vehicle solutions,staffing and recruiting,13,0,2
+908,3740721379,svanehøj is looking for a project manager for offshore and marine projects,human resources services,4,0,18
+909,3729152801,sales development representative,software development,11,0,14
+910,3721885159,bi consultant,"mechanical or industrial engineering, environmental services, and information technology & services",5,0,4
+911,3664528389,d365 business consultant within production,information technology & services,11,0,14
+912,3702211593,electrical engineer,staffing and recruiting,13,0,15
+913,3722468093,engineering leadership development program,"construction, civil engineering, and industrial machinery manufacturing",4,0,7
+914,3687783196,business consultant - logic apps,it services and it consulting,6,0,2
+915,3741216623,"student worker, technical support",staffing and recruiting,11,0,18
+916,3737237519,(remote + dansk) strategi møder eksekvering: sælger,staffing and recruiting,4,0,18
+917,3737686109,group lead,renewable energy semiconductor manufacturing,6,0,1
+918,3708511295,safety architect,staffing and recruiting,13,0,19
+919,3687778767,it security consultant,it services and it consulting,2,0,5
+920,3729504686,web developer,"mechanical or industrial engineering, environmental services, and information technology & services",5,0,4
+921,3720761308,group lead,renewable energy semiconductor manufacturing,6,0,1
+922,3738374889,"technical support specialist, emea",software development,11,0,4
+923,3666754882,senior project manager,renewable energy semiconductor manufacturing,6,6,3
+924,3732851578,structural engineer specialised in timber structures - buildings and industry #yournextproject (55168),staffing and recruiting,8,3,15
+925,3725412467,statistical omics specialist,pharmaceutical manufacturing,4,5,1
+926,3733999716,anthropologist with expertise within social sustainability,civil engineering and business consulting and services,8,3,3
+927,3741122921,ehs officer,renewable energy semiconductor manufacturing,6,6,7
+928,3735956323,backend developer at subaio,staffing and recruiting,4,0,15
+929,3725934350,renewable energy trading & optimisation compliance advisory lead,utilities,5,0,17
+930,3734800883,global shipowner sales manager,industrial machinery manufacturing,4,0,11
+931,3724301912,ucn matchmaking 2023,"automation machinery manufacturing, industrial machinery manufacturing, and machinery manufacturing",11,0,7
+932,3740272014,lead offshore supervisor,"industrial machinery manufacturing, machinery manufacturing, and oil and gas",4,5,7
+933,3728966326,renewable energy trading & optimisation compliance advisory lead,oil and gas and utilities,5,0,0
+934,3731366794,"senior consultant – renewable energy, denmark",renewable energy semiconductor manufacturing,4,0,11
+935,3730099190,lean specialist,renewable energy semiconductor manufacturing,4,0,7
+936,3732083135,partnership sales manager,real estate,2,0,11
+937,3716097654,student assistant for an international software company,it services and it consulting,13,0,16
+938,3723233073,manufacturing support - industrial engineer for carbon,renewable energy semiconductor manufacturing,6,6,7
+939,3742409272,business opportunity in the sports industry,"spectator sports, recreational facilities, and wellness and fitness services",11,0,16
+940,3735655343,casting - team lead,renewable energy semiconductor manufacturing,6,6,10
+941,3676099235,senior .net developer for r&d team,staffing and recruiting,13,0,15
+942,3728772181,maskinmester,,0,0,6
+943,3600143852,senior pm for new plant projects,renewable energy semiconductor manufacturing,6,6,3
+944,3739615190,global mobility and compensation specialist,renewable energy semiconductor manufacturing,13,5,1
+945,3733346039,commissioning manager,construction and renewable energy semiconductor manufacturing,11,0,7
+946,3724340705,lead paid social media specialist (m/f/d),apparel & fashion,13,5,12
+947,3736649012,head of biostatistics department in søborg/aalborg,pharmaceutical manufacturing,4,5,1
+948,3726897583,technical project manager,biotechnology research,11,0,17
+949,3741078863,unlimited business potential | open your sports franchise,spectator sports and events services,11,0,16
+950,3735566188,"sr field service engineer, ioms (emea)",biotechnology research and pharmaceutical manufacturing,13,0,1
+951,3737170105,senior lca specialist (56020),staffing and recruiting,8,3,19
+952,3741667936,field services engineer,"renewable energy semiconductor manufacturing, oil and gas, and utilities",13,0,7
+953,3737216328,it finops analyst,utilities,13,0,10
+954,3688000649,senior project manager (veovo),information technology & services,11,0,4
+955,3732704982,senior .net developer,staffing and recruiting,4,0,15
+956,3719385199,senior territory manager - denmark,it services and it consulting,13,0,12
+957,3729508158,angular developer,"mechanical or industrial engineering, environmental services, and information technology & services",5,0,4
+958,3732706548,skilled c++ developer,staffing and recruiting,4,0,15
+959,3735954414,business central solution architect,,6,0,6
+960,3732893218,senior statistical programmer,pharmaceutical manufacturing,4,5,10
+961,3729509052,software architect,"mechanical or industrial engineering, environmental services, and information technology & services",5,0,4
+962,3578402741,el -projekt/maintenance responsible with focus on production,renewable energy semiconductor manufacturing,6,6,7
+963,3720873885,trading solutions developer,"it services and it consulting, information services, and software development",11,0,5
+964,3734688497,online data analyst,it services and it consulting,3,0,5
+965,3733344902,low voltage site engineer,construction and renewable energy semiconductor manufacturing,11,0,7
+966,3731138907,sap s4 hana / basis specialist,staffing and recruiting,13,0,19
+967,3737235572,(remote+danish) bæredygtighed gennem markedsføring.,staffing and recruiting,4,0,18
+968,3741472622,automation engineers / senior engineers – pharma,"appliances, electrical, and electronics manufacturing",11,0,7
+969,3741786747,svanehøj is looking for a commissioning and warranty manager for offshore and marine projects,human resources services,4,0,3
+970,3741130129,"technician, parts handling",hospitals and health care,11,0,17
+971,3582801924,senior hse specialist,renewable energy semiconductor manufacturing,6,6,7
+972,3741631204,student worker – electrical engineering within power-to-x,"appliances, electrical, and electronics manufacturing",11,0,1
+973,3727062441,automation engineer,"appliances, electrical, and electronics manufacturing, renewable energy semiconductor manufacturing, and industrial machinery manufacturing",4,5,7
+974,3711939258,"production planner, produktionsplanlægger",,6,0,6
+975,3600127954,senior account manager (smart energy & thermal solutions),"appliances, electrical, and electronics manufacturing",4,0,7
+976,3733565849,technical draftsman for mechanical constructions,industrial machinery manufacturing,4,0,10
+977,3734548655,freelance data center engineer,"it services and it consulting, computer and network security, and technology, information and internet",13,0,5
+978,3707414961,project manager - drainage and climate adaption,civil engineering and business consulting and services,8,3,15
+979,3633352527,senior chemical expert,renewable energy semiconductor manufacturing,6,6,7
+980,3733661135,software developer in risk,oil and gas,2,0,5
+981,3729503803,azure devops engineer,"mechanical or industrial engineering, environmental services, and information technology & services",5,0,4
+982,3650476595,senior python developer,utilities,4,0,5
+983,3741551173,sap supply chain analyst - onshore wind,utilities,13,0,10
+984,3731379010,electronics technician,,11,0,6
+985,3647989948,microsoft dynamics customer engagement technical lead,"it services and it consulting, information services, and software development",4,0,4
+986,3702372033,software quality control lead,renewable energy semiconductor manufacturing,6,6,7
+987,3721826694,tax manager,utilities,13,0,0
+988,3719154047,embedded software developer,machinery manufacturing,4,0,10
+989,3636871164,senior system engineer,industrial machinery manufacturing,4,0,10
+990,3718919084,senior software engineer,software development,13,5,4
+991,3727803992,senior mechanical engineer,,11,0,6
+992,3736551056,master thesis in production,industrial machinery manufacturing,4,0,1
+993,3734672249,senior developer for ml applications,oil and gas,8,0,5
+994,3736551899,senior lca specialist,civil engineering and business consulting and services,8,3,15
+995,3736013880,8d expert / leader - maternity cover,renewable energy semiconductor manufacturing,6,6,3
+996,3670739772,netsuite functional consultant,it services and it consulting,4,0,5
+997,3737710573,experienced structural engineer - buildings and industry #yournextproject,civil engineering and business consulting and services,8,3,15
+998,3646584855,discipline lead - structures - buildings and industry #yournextproject,civil engineering and business consulting and services,8,3,17
+999,3737709595,certified structural engineer - buildings and industry #yournextproject,civil engineering and business consulting and services,8,3,15
+1000,3731368445,projektledere og specialister til fjernvarmeafdeling,civil engineering and business consulting and services,6,0,15
+1001,3669795214,oracle netsuite erp developer,it services and it consulting,4,0,5
+1002,3736159322,er du interesseret i revision af landets største offentlige økonomier og opgaver relateret hertil - så er det måske dig vi søger,accounting,6,0,0
+1003,3741116073,sales development representative,information services,13,0,2
+1004,3734553609,junior supply chain analyst,"appliances, electrical, and electronics manufacturing, industrial machinery manufacturing, and machinery manufacturing",4,5,1
+1005,3744796238,packing assistant,"technology, information and internet",13,0,17
+1006,3742291935,country manager,it services and it consulting,13,0,2
+1007,3739413486,offshore manager,renewable energy semiconductor manufacturing,13,0,7
+1008,3738534194,chief project manager - global capex,food and beverage manufacturing,13,5,3
+1009,3733965737,"o+o graduate in copenhagen, denmark",personal care product manufacturing and manufacturing,4,5,10
+1010,3743903323,project officer,international affairs,7,0,6
+1011,3743138505,it administrator,motor vehicle manufacturing,13,5,10
+1012,3744796594,demand generation marketer,"technology, information and internet",13,0,13
+1013,3744798358,senior product manager - germany (remote),"technology, information and internet",13,0,14
+1014,3743323865,intern web developer,internet publishing,12,0,5
+1015,3696928320,experienced cabin crew,airlines and aviation,3,0,17
+1016,3742631137,senior product manager,"technology, information and internet",11,5,14
+1017,3739450574,data and economic analysis intern,international affairs,11,0,10
+1018,3744799431,business development representative,"technology, information and internet",13,0,13
+1019,3741343036,digital graduate,food and beverage services,3,0,10
+1020,3745303782,production artist - ecommerce and paid social media marketing,retail apparel and fashion,13,0,10
+1021,3742816391,government & public affairs specialist,manufacturing,0,0,1
+1022,3736085676,supply chain planner,pharmaceutical manufacturing,4,5,7
+1023,3741336412,legal counsel,computer games,0,0,0
+1024,3746570402,business development representative - part-time,"technology, information and internet",13,0,13
+1025,3746993465,content specialist,software development,13,0,13
+1026,3744811227,internship engineering,"appliances, electrical, and electronics manufacturing",3,0,7
+1027,3742532970,purchaser,staffing and recruiting,13,0,18
+1028,3744774482,b2b ecommerce business manager - professional products division - copenhagen,personal care product manufacturing and manufacturing,4,0,11
+1029,3742616236,"director, sales operations",software development,13,0,13
+1030,3742815528,business development manager,"appliances, electrical, and electronics manufacturing, industrial machinery manufacturing, and machinery manufacturing",4,0,12
+1031,3724250588,consultant - supply chain management,"transportation, logistics, supply chain and storage, truck transportation, and warehousing and storage",2,0,16
+1032,3746604117,business development manager,"software development, technology, information and internet, and manufacturing",4,0,3
+1033,3747393873,digital designer,staffing and recruiting,13,0,19
+1034,3734598695,it supporter,pharmaceutical manufacturing,4,5,10
+1035,3732415801,legal intern - student position (fixed term),renewable energy power generation,4,5,0
+1036,3730665533,lean coordinator,pharmaceutical manufacturing,4,5,7
+1037,3736680393,project controller – urgent hire,staffing and recruiting,13,5,0
+1038,3742409674,product manager,staffing and recruiting,11,0,2
+1039,3744880691,community engagement lead,manufacturing,0,0,12
+1040,3714585731,financial controller,software development,13,0,0
+1041,3744885856,business development manager - emea,financial services,13,0,2
+1042,3747636984,copywriter,,4,0,6
+1043,3740096085,senior project manager,pharmaceutical manufacturing,4,5,3
+1044,3673091156,head of finance at private equity insights,"technology, information and internet",2,9,13
+1045,3746741494,reservation & ticketing agent,,11,0,6
+1046,3735363543,global strategic purchaser,staffing and recruiting,3,2,18
+1047,3740905487,chemist,staffing and recruiting,11,0,19
+1048,3732656497,communication and change management partner,pharmaceutical manufacturing,4,5,12
+1049,3732530872,health & safety coordinator,public safety and pharmaceutical manufacturing,13,0,1
+1050,3742577734,gmp coordinator,pharmaceutical manufacturing,4,5,7
+1051,3725268739,regional sales manager,automation machinery manufacturing and industrial machinery manufacturing,11,0,11
+1052,3744807778,"research manager, global insights",manufacturing,0,0,12
+1053,3741107987,ux/ui designer,pharmaceutical manufacturing,4,5,10
+1054,3732288454,omnichannel buyer,retail apparel and fashion,11,0,6
+1055,3703048376,product quality manager,biotechnology research,13,0,6
+1056,3739971062,field marketing manager,computer and network security,13,0,13
+1057,3728941840,group financial controller,retail luxury goods and jewelry,4,0,0
+1058,3740231881,fintech marketing associate,software development,11,0,13
+1059,3728827378,orderyoyo |  head of fp&a,software development,13,0,0
+1060,3744882176,"performance manager, analytics & insights",manufacturing,0,0,10
+1061,3743664722,field service engineer - norway,medical device,11,0,10
+1062,3728810189,compliance manager,"retail apparel and fashion, design services, and retail luxury goods and jewelry",13,0,6
+1063,3747309506,"agile coach (aarhus n, region central jutland, dk)","renewable energy semiconductor manufacturing, environmental services, and oil and gas",3,2,7
+1064,3738513038,da ceo/co-owner,it services and it consulting,13,0,2
+1065,3736006617,talent acquisition partner r&ed,pharmaceutical manufacturing,4,5,1
+1066,3743482803,"business analyst - dubai, uae","technology, information and internet",13,0,4
+1067,3742267093,junior payroll purser,travel arrangements,13,0,0
+1068,3744893258,finance senior director – urgent hiring,staffing and recruiting,13,0,8
+1069,3743683123,bus business director ��� nordics,motor vehicle manufacturing,13,0,7
+1070,3679872809,global procurement lead,"capital markets, venture capital and private equity principals, and investment management",13,5,0
+1071,3747353472,country manager,online and mail order retail,13,0,14
+1072,3707353353,"communication, marketing, training & hr - talent pipeline for student assistant positions",pharmaceutical manufacturing,4,5,12
+1073,3723593067,channel sales manager denmark,human resources services,13,0,2
+1074,3742637787,project manager - pharmaceutical industry,"business consulting and services, biotechnology research, and pharmaceutical manufacturing",11,0,17
+1075,3641772055,event sales manager/representative at hrtechx,"technology, information and internet",2,9,17
+1076,3747365066,product manager,"industrial machinery manufacturing, food and beverage manufacturing, and international trade and development",13,0,1
+1077,3736089029,senior finance partner for business development,pharmaceutical manufacturing,4,5,12
+1078,3737862110,"digital transformation manager, ifm",manufacturing,0,0,11
+1079,3728779202,administrative assistant (kontorelev),"legal services, financial services, and accounting",13,0,18
+1080,3715638564,procurement - sourcing professional,pharmaceutical manufacturing,4,5,1
+1081,3743913500,ux / ui design internship,staffing and recruiting,4,0,15
+1082,3672850068,associate vice president r&d,biotechnology research,11,0,6
+1083,3730128093,corporate recruiter - copenhagen,automotive,3,0,1
+1084,3737359709,digital learning & development instructional designer,pharmaceutical manufacturing,4,5,1
+1085,3724241613,learning and business development consultant,software development,13,0,14
+1086,3635334017,it business systems analyst,"appliances, electrical, and electronics manufacturing, industrial machinery manufacturing, and machinery manufacturing",11,0,10
+1087,3746500933,label coordinator,,13,0,6
+1088,3745369437,b2b business development manager,business consulting and services,11,0,18
+1089,3740400681,"projektleder congress, meetings & events",hospitality,6,0,3
+1090,3742521835,public affairs specialist (maternity cover),non-profit organizations,13,0,6
+1091,3745036873,bioplastics ceo at your own start-up (100 % remote) (m/f/d),administrative and support services,12,0,18
+1092,3704587299,business manager in performance & business management,it services and it consulting and financial services,4,5,2
+1093,3739486904,it systems service delivery management officer,international affairs,11,0,10
+1094,3733399869,it system supporter,pharmaceutical manufacturing,4,5,10
+1095,3728892829,"electrical engineer / construction project manager, supercharging, denmark","renewable energy semiconductor manufacturing, motor vehicle manufacturing, and utilities",13,0,7
+1096,3701087956,"technician, mammalian upstream, manufacturing",biotechnology research,4,0,17
+1097,3652202961,head of data science,it services and it consulting and financial services,8,0,2
+1098,3731595329,electrical engineer,civil engineering and pharmaceutical manufacturing,13,5,7
+1099,3740060176,senior category manager - indirect procurement (f/m/x),"technology, information and internet",11,0,13
+1100,3731062740,onshore civil engineer,civil engineering and industrial machinery manufacturing,13,5,7
+1101,3714331463,c++ programmers,computer games,0,0,4
+1102,3742032723,business engagement & delivery director,pharmaceutical manufacturing,4,5,10
+1103,3744091309,planning engineer,"construction, architecture and planning, and civil engineering",13,0,3
+1104,3746565935,data science intern,staffing and recruiting,4,0,15
+1105,3745342754,ux writer,"technology, information and internet",11,0,4
+1106,3641768561,business development manager - telephone sales at hrtechx,"technology, information and internet",2,9,14
+1107,3736009224,regulatory affairs cmc professionals,pharmaceutical manufacturing,4,5,1
+1108,3744715306,marketing coordinator,staffing and recruiting,11,0,8
+1109,3660036359,electrical designer for machine builder,industrial automation,11,0,7
+1110,3740587540,are you the new support associate for one of the largest international shipping companies? then read along!,international trade and development,4,0,6
+1111,3745327390,data center engineer,,13,5,6
+1112,3724324602,customer project manager - green hydrogen systems,human resources,4,0,3
+1113,3740929677,lead generation officer,financial services,13,0,8
+1114,3641765568,finance manager at hrtechx,"technology, information and internet",2,9,13
+1115,3733406167,it system supporter,pharmaceutical manufacturing,4,5,10
+1116,3735008229,it operations manager,staffing and recruiting,11,0,19
+1117,3746604137,general manager,,11,0,6
+1118,3735085354,investor relations coordinator,pharmaceutical manufacturing,4,0,12
+1119,3675556906,newly graduated engineers for a life-changing career within digitalisation and automation,pharmaceutical manufacturing,4,5,7
+1120,3733759915,analytics engineer intern,consumer services,13,0,10
+1121,3737905440,logistics controller & procurement manager,oil and gas,13,5,17
+1122,3735085396,procurement professional for expansion projects,pharmaceutical manufacturing,4,5,1
+1123,3736224051,"analyst, corporate & institutional wealth",banking,4,0,8
+1124,3740090779,global head of manufacturing maintenance and engineering,pharmaceutical manufacturing,4,5,7
+1125,3744813137,head of performance & quality management,manufacturing,0,0,7
+1126,3719947061,it student helper,hospitals and health care,11,0,6
+1127,3744150996,marketing intern,staffing and recruiting,3,0,8
+1128,3732204255,associate process scientist,pharmaceutical manufacturing,4,5,10
+1129,3673087608,account consultant at retail insights,"technology, information and internet",2,9,14
+1130,3732704973,full-stack developer internship,staffing and recruiting,4,0,15
+1131,3728844824,strategic sourcing internship,pharmaceutical manufacturing,4,5,1
+1132,3744152721,communications intern,staffing and recruiting,4,0,8
+1133,3745313568,communications specialist (maternity cover),non-profit organizations,13,5,6
+1134,3735079926,senior it project manager,pharmaceutical manufacturing,4,5,3
+1135,3728463068,mechanical engineer,civil engineering and pharmaceutical manufacturing,13,0,7
+1136,3728419029,associate consultant,software development,11,0,14
+1137,3731984273,data analyst - copenhagen (in-house),staffing and recruiting,13,0,19
+1138,3732856782,plant inspector,staffing and recruiting,8,0,17
+1139,3745037647,industry 4.0 entrepreneur & ceo at your own start-up (100 % remote) (m/f/d),administrative and support services,12,0,18
+1140,3673082411,account consultant at setsales,"technology, information and internet",2,9,14
+1141,3733813905,lean partner,pharmaceutical manufacturing,4,5,7
+1142,3735314980,principal scientist,staffing and recruiting,4,5,19
+1143,3711152233,qa specialist,pharmaceutical manufacturing,4,5,7
+1144,3736533016,"business development manager, defence, lystrup",defense and space manufacturing,11,0,12
+1145,3747393408,graphical design intern,,13,5,6
+1146,3736393183,specialist bioprocessing for cell therapy research,pharmaceutical manufacturing,4,5,10
+1147,3729051650,site quality inspector - onshore substation,renewable energy semiconductor manufacturing,13,5,7
+1148,3733315884,it operations manager,staffing and recruiting,11,0,19
+1149,3732034668,project manager service,renewable energy equipment manufacturing,11,0,1
+1150,3659386794,project controller,civil engineering,11,0,0
+1151,3741328598,social media specialist,,3,0,6
+1152,3750698893,administrative assistant,construction,11,0,6
+1153,3739564093,salary up to 33 500 czk/month|free acommodation|no charge to applicants,staffing and recruiting,9,0,18
+1154,3749736506,people & culture manager (m/f/d),software development,13,5,4
+1155,3749658944,head of programmes in angola,"technology, information and internet",13,5,14
+1156,3750536550,recruitment specialist,"technology, information and internet",13,0,4
+1157,3756927435,service manager,"technology, information and internet",13,5,4
+1158,3742800981,management team assistant – 100% remotely,staffing and recruiting,11,0,2
+1159,3739872182,strategic buyer,"technology, information and internet",13,0,4
+1160,3750299690,art & design teacher,internet publishing,9,7,9
+1161,3755339331,head of support services for afghanistan,"technology, information and internet",13,0,14
+1162,3744882183,product marketing specialist,financial services,13,0,8
+1163,3754307170,scrum master,software development,13,0,4
+1164,3741139156,general laborer,it services and it consulting,11,0,16
+1165,3742812973,data analyst,financial services,13,5,19
+1166,3744799333,buzz cabin crew ostrava,"technology, information and internet",10,0,4
+1167,3748414803,sales excellence specialist,financial services,13,0,2
+1168,3755104649,education technical lead,"technology, information and internet",13,0,9
+1169,3744091667,financial analyst – hr data,financial services,13,5,8
+1170,3746599881,product designer,software development,13,0,4
+1171,3750535656,executive assistant to the directorate of relief and development department (hq),"technology, information and internet",13,0,4
+1172,3750544259,history & geography teacher,internet publishing,9,7,9
+1173,3750699856,head of product strategy | director of product,software development,13,5,14
+1174,3746806186,fp&a controlling manager,financial services,13,5,8
+1175,3741862091,localization project manager,translation and localization,11,0,3
+1176,3745303914,international ecomm store manager,retail apparel and fashion,13,5,11
+1177,3746801783,accounts payable processor - part time,financial services,13,5,0
+1178,3739565360,brand development and sales manager (pl&cz markets),"technology, information and internet",13,5,13
+1179,3751474163,regional procurement manager,staffing and recruiting,13,0,18
+1180,3755719042,entrepreneurship bootcamp (remote – part-time),staffing and recruiting,1,0,18
+1181,3745480515,call center agent (paraguay),consumer services,4,0,6
+1182,3741652503,emergency preparedness and response technical lead,"technology, information and internet",13,0,4
+1183,3748140458,sourcing specialist,human resources services,11,5,18
+1184,3747428185,"reception/administration support, part-time",retail,11,0,6
+1185,3751467724,community manager,personal care product manufacturing and manufacturing,11,0,12
+1186,3742067304,executive assistant internship,software development,13,0,4
+1187,3743139219,student recruitment advisor,higher education,11,0,6
+1188,3751481342,operational excellence manager,,13,5,6
+1189,3748837959,category manager,retail,13,5,12
+1190,3741160431,project manager,"technology, information and internet",13,5,4
+1191,3749003592,data analyst,staffing and recruiting,13,5,19
+1192,3740566260,data analyst (freelance/ico),staffing and recruiting,13,0,19
+1193,3746745157,technical lead,"technology, information and internet",13,0,4
+1194,3747790280,multimedia designer,environmental services,11,0,10
+1195,3750689848,production engineer for cat plastic products,retail,4,0,17
+1196,3750821477,logistics specialist,"transportation, logistics, supply chain and storage",11,0,17
+1197,3742485569,ai & business analyst (remote internship),outsourcing and offshoring consulting,5,0,10
+1198,3744790964,buzz cabin crew recruitment day - prague - 21st november 2023,"technology, information and internet",10,0,4
+1199,3754624498,product brand manager la roche-posay,personal care product manufacturing and manufacturing,11,0,12
+1200,3753067120,executive assistant,,13,0,6
+1201,3744153445,junior legal associate |it law|,staffing and recruiting,13,0,0
+1202,3740409739,external relations intern,international affairs,11,0,11
+1203,3750536686,access and security manager for nes and iraq,"technology, information and internet",13,0,4
+1204,3750891388,researcher,"technology, information and internet",13,0,4
+1205,3755209776,product manager,,13,5,6
+1206,3740819701,data engineer,financial services,13,0,19
+1207,3748210116,content marketing coordinator [czechia - remote],internet publishing,13,0,13
+1208,3744007403,artist for game development project,it services and it consulting,13,0,5
+1209,3747974364,cook,,13,0,6
+1210,3744009807,director of global customer support,"technology, information and internet",13,0,4
+1211,3746720751,ai business strategy consultant,business consulting and services,13,0,2
+1212,3750537559,business analyst- it & ot integration,"technology, information and internet",13,0,4
+1213,3745521026,project management officer in business development team eu,"food and beverage services, food and beverage manufacturing, and manufacturing",11,0,3
+1214,3745590693,general ledger (gl) senior accountant,financial services,13,5,0
+1215,3744437566,qa intern,"it services and it consulting, software development, and computer and network security",13,0,9
+1216,3741339021,group financial analyst,"retail, hospitals and health care, and pharmaceutical manufacturing",13,0,0
+1217,3749540247,project designer,,13,5,6
+1218,3748852662,"buyer, it infrastructure",human resources services,11,0,18
+1219,3754594297,"strategic partner manager, hardware, central and eastern europe","information services and technology, information and internet",13,0,14
+1220,3753768188,brand management traineeship (prague),manufacturing,11,0,12
+1221,3743485566,junior people operations administrator,"technology, information and internet",3,0,17
+1222,3742660721,sales manager,renewable energy semiconductor manufacturing,13,0,12
+1223,3754909856,sourcing specialist,retail,11,5,6
+1224,3744797372,buzz cabin crew - ostrava,"technology, information and internet",10,0,17
+1225,3747004451,junior payroll specialist with english,human resources services,13,0,0
+1226,3743400838,new product introduction specialist,staffing and recruiting,11,0,15
+1227,3744003838,project manager for game development project,it services and it consulting,13,0,3
+1228,3748748240,human resources director,human resources services,13,5,18
+1229,3741084191,senior java / backend developer,software development,13,0,4
+1230,3754311743,change manager- it & ot integration project,"technology, information and internet",13,0,4
+1231,3754307481,ap accountant with english,staffing and recruiting,13,0,0
+1232,3747439961,technology manager,packaging and containers manufacturing and industrial machinery manufacturing,13,5,7
+1233,3754448700,devops engineer,"technology, information and internet",13,0,4
+1234,3742189561,expert - full truck load forwarding (m/f/d),"transportation, logistics, supply chain and storage",13,0,16
+1235,3755215822,pm coordinator / pmo / project lead/ project team,"it services and it consulting, human resources services, and pharmaceutical manufacturing",11,0,3
+1236,3747762018,clinical research associate - entry level,pharmaceutical manufacturing,13,0,10
+1237,3752625210,commercial head czech republic & slovakia,"research services, hospitals and health care, and pharmaceutical manufacturing",13,0,11
+1238,3753140016,supply chain coordinator cz&sk - h/f,pharmaceutical manufacturing,11,0,7
+1239,3742659730,technical support engineer,renewable energy semiconductor manufacturing,13,5,1
+1240,3747511119,global head of rewards,"appliances, electrical, and electronics manufacturing and motor vehicle manufacturing",13,0,1
+1241,3748518070,english to czech video game translator (freelance/remote),"technology, information and internet",13,0,4
+1242,3753684677,business intelligence (bi) analyst (full or part time),it services and it consulting,13,0,16
+1243,3740438172,financial governance senior it risk associate,business consulting and services,11,0,19
+1244,3743129503,data scientist,"it services and it consulting, software development, and computer and network security",13,5,5
+1245,3741127353,senior product manager eastern cluster,medical equipment manufacturing,3,0,11
+1246,3744007414,audio engineer for game development project,it services and it consulting,13,0,5
+1247,3754786431,content marketing specialist,"motor vehicle manufacturing, industrial machinery manufacturing, and machinery manufacturing",3,0,12
+1248,3746724491,junior data architect,staffing and recruiting,13,0,15
+1249,3747798081,data analyst,software development,13,0,4
+1250,3748507913,local study manager,"chemical manufacturing, biotechnology research, and pharmaceutical manufacturing",8,0,10
+1251,3754420877,"windows server engineer (configuration, powershell, vmware, azure)","technology, information and internet",13,0,4
+1252,3743050242,end to end planner (hybrid),human resources services,13,5,18
+1253,3742087060,it specialist,"technology, information and internet",13,5,4
+1254,3755213276,digital content creator,,3,0,6
+1255,3742809066,javascript developer,staffing and recruiting,11,0,15
+1256,3757110729,country people delivery manager (m/w/d),"technology, information and internet",13,5,17
+1257,3753489436,office manager (emea hub),human resources services,11,0,18
+1258,3753401591,"account manager - uk, partner success, vacation rental","it services and it consulting, software development, and travel arrangements",11,0,9
+1259,3741252772,"satellite communications engineer- south pole, antarctica (2 openings) (austral summer 2023/austral winter 2024)",software development,11,0,4
+1260,3744808292,electrical trainee,staffing and recruiting,11,0,15
+1261,3747354677,executive assistant to the ceo (dubai - french & english fluent),education,11,0,6
+1262,3748850946,junior payments specialist - english/spanish,human resources services,11,0,0
+1263,3750426315,prospective director sales (m/f/d) - sales manager composites - prag area,business consulting and services,11,0,18
+1264,3747760122,clinical trial assistant - clinical monitoring,pharmaceutical manufacturing,13,5,10
+1265,3744803947,trainee in project management,staffing and recruiting,11,0,3
+1266,3746209485,medical billing specialist,hospitals and health care,13,0,6
+1267,3743824948,sales engineer prague,motor vehicle manufacturing,13,0,11
+1268,3753766261,"part-time atlassian administrator (remote freelancer, eu based)","software development, motor vehicle manufacturing, and embedded software products",4,0,4
+1269,3748938068,sales manager,financial services,13,0,8
+1270,3742802765,recruiter – talent sourcer,staffing and recruiting,11,0,18
+1271,3744047316,.net developer,banking and financial services,13,5,15
+1272,3747573011,test engineer,it services and it consulting,13,0,5
+1273,3749632127,(junior) business analyst,"medical equipment manufacturing, hospitals and health care, and pharmaceutical manufacturing",4,0,12
+1274,3747762062,clinical trial assistant - clinical trial management,pharmaceutical manufacturing,13,5,10
+1275,3746221609,data analytics & bi manager,staffing and recruiting,11,0,19
+1276,3755711047,project coordinator,it services and it consulting,13,0,16
+1277,3748499948,software developer,"transportation, logistics, supply chain and storage",13,0,5
+1278,3743068692,sqa engineer axis,"transportation, logistics, supply chain and storage",13,5,5
+1279,3755320766,full stack engineer c#/.net,software development,13,0,4
+1280,3744345209,supply chain manager,motor vehicle manufacturing,11,0,7
+1281,3748943079,c# developer | 80% remote,staffing and recruiting,13,0,15
+1282,3746717742,financial analyst,hospitals and health care,13,0,0
+1283,3748785659,firefighter,defense and space manufacturing,11,0,3
+1284,3748750152,design engineer,motor vehicle manufacturing,13,0,7
+1285,3743408117,ux designer (unannounced project),"technology, information and internet",13,0,4
+1286,3750133017,country manager,,4,0,6
+1287,3748857242,"ebs reporting & analytics, operations manager",human resources services,11,0,17
+1288,3754911889,business development manager,packaging and containers manufacturing,13,0,11
+1289,3741885578,project manager – digitalization,"it services and it consulting, information services, and industrial machinery manufacturing",13,0,5
+1290,3742808052,procurement and logistics - euopc department manager,staffing and recruiting,11,0,18
+1291,3740804429,internal trainer,"it services and it consulting, technology, information and internet, and wellness and fitness services",13,0,9
+1292,3741258090,le finance analyst,hospitals and health care,13,5,12
+1293,3739962624,quality assurance engineer,staffing and recruiting,13,5,15
+1294,3756995151,international accounting coordinator,sporting goods manufacturing,13,0,0
+1295,3745372663,internship - software engineer - aerospace,"appliances, electrical, and electronics manufacturing",4,0,7
+1296,3742804837,electrical engineer (possible re-location package to czechia),staffing and recruiting,11,0,15
+1297,3754811579,field / inside sales,,11,0,6
+1298,3745136504,senior project manager (freelancer),business consulting and services,13,0,3
+1299,3749630927,ap accountant with spanish,staffing and recruiting,13,0,0
+1300,3741161325,content specialist for business and technical audiences,"technology, information and internet",11,0,13
+1301,3745914374,"manager, talent science","technology, information and internet",11,0,4
+1302,3742835673,senior product manager - ecosystem team,"technology, information and internet",13,0,14
+1303,3749524954,key account manager,"telecommunications, computers and electronics manufacturing, and consumer services",11,0,11
+1304,3739611424,buyer - external manufacturing,retail,11,5,6
+1305,3751730212,operations manager,,13,5,6
+1306,3754351250,engineer energy systems,"appliances, electrical, and electronics manufacturing",13,0,1
+1307,3749003594,head of cloud engineering,staffing and recruiting,11,0,15
+1308,3744787928,buzz cabin crew - brno,"technology, information and internet",10,0,17
+1309,3740215608,senior tax associate,business consulting and services,11,0,0
+1310,3750420647,"financial / accounting assistant (part-time / student, prague)",it services and it consulting,13,0,16
+1311,3750342685,junior digital specialist with arabic,advertising services,8,0,5
+1312,3750347100,junior digital specialist,advertising services,8,0,5
+1313,3754947356,junior concept artist,computer games,13,0,4
+1314,3745480774,general workers/ packing to poland,"appliances, electrical, and electronics manufacturing",12,0,7
+1315,3755108311,operations manager (usaid projects),"technology, information and internet",13,0,17
+1316,3755103584,crew controller,"technology, information and internet",13,0,0
+1317,3750196304,group brand manager food products - rekrutacja online,staffing and recruiting,13,0,2
+1318,3746567673,junior accountant,"technology, information and internet",13,5,0
+1319,3749838558,"area sales manager (poland) - based in katowice, kraków or wroclaw",pharmaceutical manufacturing,11,0,12
+1320,3754427175,data entry,"technology, information and internet",13,0,4
+1321,3755112281,quality control microbiology specialist,biotechnology research,13,0,6
+1322,3749452894,internal auditor,medical practices,13,0,0
+1323,3755125929,flight operations controller,"technology, information and internet",13,5,4
+1324,3750109964,demand planner,manufacturing,11,0,7
+1325,3749209599,aerospace - supplier quality engineer,internet publishing,11,0,9
+1326,3747712056,cinematic designer,computer games,13,0,4
+1327,3755111025,clinical trials assistant - poland,internet publishing,13,0,4
+1328,3748711618,trainee aircraft mechanic,"technology, information and internet",13,0,4
+1329,3745606584,head of supply chain finance,"food and beverage services, food and beverage manufacturing, and manufacturing",13,5,7
+1330,3748494711,data analyst with python,insurance,11,0,19
+1331,3745344274,logistics expert (supply chain),mechanical or industrial engineering,13,5,17
+1332,3755218059,site planner,"technology, information and internet",11,0,4
+1333,3754311746,project manager - customer onboarding,"technology, information and internet",13,5,4
+1334,3754420851,junior pmo specialist,"technology, information and internet",11,0,4
+1335,3754856979,chief academic officer,,13,5,6
+1336,3745473636,international legal counsel (contracts) - fully remote,internet publishing,13,0,9
+1337,3750302174,customer support agent - billing and subscriptions,"technology, information and internet",11,0,4
+1338,3747714013,level artist,computer games,13,0,4
+1339,3745593549,project manager,it services and it consulting,11,0,3
+1340,3745376619,global head of client experience,financial services,13,5,2
+1341,3748985092,"senior recruiter, biotech and pharma, freelancer, remote",internet marketplace platforms,13,0,6
+1342,3750125578,business analyst,"food and beverage services, food and beverage manufacturing, and manufacturing",13,5,11
+1343,3747484415,adm - krakow,"technology, information and internet",8,0,4
+1344,3754310821,product owner,"technology, information and internet",8,0,14
+1345,3750544432,english teacher,internet publishing,9,7,9
+1346,3750810060,corporate lawyer,broadcast media production and distribution,13,0,0
+1347,3750114276,"transport planner, fixed term contract",retail,3,0,17
+1348,3754429363,react frontend developer - full-time - wrocław,software development,1,0,4
+1349,3747015687,junior compliance officer,information technology & services,13,0,0
+1350,3747422842,junior sales manager poland,"technology, information and internet",13,0,13
+1351,3746900492,animator,"technology, information and internet",13,0,4
+1352,3750298721,customer success manager,"technology, information and internet",13,0,4
+1353,3754941363,digital designer,insurance and financial services,13,0,19
+1354,3747347620,tribe47 | become our {future star},human resources,13,0,18
+1355,3749898552,"director, cloud and security operations","technology, information and internet",13,0,4
+1356,3747482699,customer success associate,"technology, information and internet",8,0,17
+1357,3749263426,head of hr,software development,13,0,4
+1358,3747648316,welder,human resources services,12,0,17
+1359,3747651117,production worker,human resources services,12,0,8
+1360,3745344621,lawyer,"technology, information and internet",13,5,0
+1361,3748433196,market events executive,food and beverage services,13,0,11
+1362,3754139530,investment analyst,venture capital and private equity principals,13,5,0
+1363,3750539897,history & geography teacher,internet publishing,9,7,9
+1364,3746628025,production worker,human resources services,12,0,8
+1365,3745317350,sales order manager,broadcast media production and distribution,13,0,6
+1366,3746298204,purchasing manager - own brands food (all genders),retail,11,0,6
+1367,3744753974,finance associate,outsourcing and offshoring consulting,13,0,6
+1368,3747647473,cnc operator (9/1/1/9329-o),human resources services,12,0,17
+1369,3749271124,location acquisition manager poland,real estate,13,0,6
+1370,3747326577,junior home page editor,"technology, information and internet",13,0,14
+1371,3747648312,environmental specialist,renewable energy semiconductor manufacturing and environmental services,13,0,7
+1372,3748425053,quest designer,computer games,13,0,4
+1373,3747646688,production worker,human resources services,12,0,8
+1374,3747494658,global privacy counsel,business consulting and services,13,0,0
+1375,3747345799,tig welder (32/1/1),human resources services,12,0,17
+1376,3750186110,qa engineer,"technology, information and internet",13,0,4
+1377,3745373596,frontend intern,software development,11,0,9
+1378,3748492859,open world designer,computer games,11,0,4
+1379,3750340323,supply chain officer poland - h/f,pharmaceutical manufacturing,11,0,7
+1380,3746628055,upholsterer,human resources services,12,0,17
+1381,3749260693,hr specialist / junior hr business partner,software development,13,5,4
+1382,3755342265,technical standards engineer,"technology, information and internet",13,0,4
+1383,3747649230,mig-mag welder (9/1/1/721245),human resources services,12,0,17
+1384,3747010195,communications coordinator (b2b contract),"appliances, electrical, and electronics manufacturing, industrial machinery manufacturing, and manufacturing",3,0,12
+1385,3746792078,junior e-commerce specialist,financial services,13,0,2
+1386,3747285651,talent sourcer (remote),staffing and recruiting,13,5,18
+1387,3752266744,physics teacher,internet publishing,9,7,9
+1388,3752266734,physics teacher,internet publishing,9,7,9
+1389,3747346778,electrical fitter/ electrician,human resources services,12,0,17
+1390,3754799955,general manager,"transportation, logistics, supply chain and storage and truck transportation",13,5,16
+1391,3746800869,general counsel,computer games,11,0,0
+1392,3750108372,global business intelligence director,human resources services,4,0,18
+1393,3755341322,senior qa engineer,"technology, information and internet",8,0,4
+1394,3750503429,frontend engineer (poland remote),internet publishing,11,0,5
+1395,3745308618,international ecomm store manager,retail apparel and fashion,13,5,11
+1396,3747047280,kyc onboarding specialist,financial services,13,0,18
+1397,3748465837,digital product owner,"transportation, logistics, supply chain and storage, motor vehicle manufacturing, and truck transportation",11,0,5
+1398,3754137828,senior program manager,financial services,13,0,3
+1399,3752267544,physics teacher,internet publishing,9,7,9
+1400,3748496633,commercial contracts counsel,biotechnology research,13,0,0
+1401,3750698928,event & partnership marketing manager,software development,13,5,13
+1402,3755109679,junior compliance officer,internet publishing,13,0,9
+1403,3754915946,general manager,staffing and recruiting,13,5,17
+1404,3747011188,group quality director - (automotive),"appliances, electrical, and electronics manufacturing, industrial machinery manufacturing, and manufacturing",13,0,11
+1405,3747349391,assembler,human resources services,12,0,17
+1406,3754606808,asystent projektanta mostowego,human resources services,13,0,19
+1407,3749551873,financial crime analyst (poland/remote),financial services,13,0,3
+1408,3750657297,senior producer,computer games,11,0,4
+1409,3749143753,intermediate/senior qa engineer - op01186-02,"technology, information and internet",11,0,4
+1410,3752268426,mathematics teacher,internet publishing,9,7,9
+1411,3749500713,java web fullstack engineer,"technology, information and internet",13,0,4
+1412,3747650224,tig welder (9/1/1/721206),human resources services,12,0,17
+1413,3744950191,business analyst intern (krakow-remote),"transportation, logistics, supply chain and storage",13,5,5
+1414,3746801680,ui/ux designer,human resources,13,5,15
+1415,3754611190,project manager,it services and it consulting,11,0,3
+1416,3751514518,internship - software engineer,aviation and aerospace component manufacturing,13,0,5
+1417,3754430005,fullstack developer - full-time - wrocław,software development,1,0,4
+1418,3745484241,welders to germany & poland,architecture and planning,12,0,17
+1419,3749262441,(m/f/d) head of supply chain finance,"food and beverage services, food and beverage manufacturing, and manufacturing",13,5,1
+1420,3746460986,operations intern,motor vehicle manufacturing,13,0,7
+1421,3749050694,recruitment coordinator - visa,staffing and recruiting,13,5,18
+1422,3745170209,it business analyst,"technology, information and internet",13,0,4
+1423,3750199681,desktop support engineer,information technology & services,13,5,4
+1424,3749556219,ui designer,design services and computer games,2,0,4
+1425,3747348407,machine operator,human resources services,12,0,17
+1426,3753688274,youtube video editor at gostek media sp.z o.o.,e-learning providers,13,5,12
+1427,3746464548,accounting intern,motor vehicle manufacturing,13,0,0
+1428,3746622605,global sourcing manager,staffing and recruiting,13,0,18
+1429,3750890305,product owner - inventory team,"it services and it consulting, software development, and retail",13,0,5
+1430,3754333226,veterinarian specialist for customer success,veterinary services and medical equipment manufacturing,13,0,6
+1431,3754695530,release engineer,internet publishing,13,0,5
+1432,3746223665,character artist - outsourcing team,computer games,11,5,4
+1433,3755338778,react native engineer,"technology, information and internet",13,0,4
+1434,3754708847,epc business development manager,human resources services,13,0,2
+1435,3747493354,implementation consultant,software development,11,0,4
+1436,3754651989,administrative assistant,staffing and recruiting,13,0,18
+1437,3754181455,recruiter bootcamp and project work (remote -part-time),staffing and recruiting,1,0,18
+1438,3750174797,technical support specialist,"technology, information and internet",8,0,4
+1439,3750298730,amos business/systems analyst,"technology, information and internet",13,5,4
+1440,3748930060,buyer,truck transportation and railroad equipment manufacturing,11,0,1
+1441,3751178015,clinical logistics coordinator i,pharmaceutical manufacturing,11,0,7
+1442,3755224314,project manager,,11,0,6
+1443,3748499383,junior power bi specialist (talent acquisition),biotechnology research,4,0,11
+1444,3747782372,team manager,"technology, information and internet",13,0,4
+1445,3755182698,game designer,"it services and it consulting, software development, and computer games",13,0,9
+1446,3746260213,communication strategist - sustainability,staffing and recruiting,13,0,8
+1447,3754596337,event lead,,13,0,6
+1448,3748625267,project manager,it services and it consulting,11,0,3
+1449,3752268403,mathematics teacher,internet publishing,9,7,9
+1450,3750872796,junior automation software tester (remote in poland),"technology, information and internet",13,5,4
+1451,3747645842,production operator (6/1/1/9329-o),human resources services,12,0,17
+1452,3748732555,new test,staffing and recruiting,11,0,15
+1453,3748263293,digital communication intern,staffing and recruiting,13,0,19
+1454,3754811723,project manager - global creative team,insurance and financial services,13,5,3
+1455,3749143742,full stack developer - nodejs / vue,"technology, information and internet",13,0,4
+1456,3754302003,business data analyst,"software development and technology, information and internet",13,5,4
+1457,3748912413,clinical trial coordinator,"veterinary services, biotechnology research, and pharmaceutical manufacturing",13,5,1
+1458,3745188111,customer experience client coordinator,financial services,13,0,2
+1459,3754922494,product manager,"technology, information and internet",11,0,14
+1460,3750178057,chief accountant,"transportation, logistics, supply chain and storage, motor vehicle manufacturing, and truck transportation",11,0,0
+1461,3754263847,business controller,pharmaceutical manufacturing,13,5,0
+1462,3755104538,(native japanese) customer support consultant (fully remotely),"technology, information and internet",13,5,4
+1463,3750039934,manager of luminator service center and spare part management,internet publishing,11,0,9
+1464,3747019010,international project manager,human resources services,11,0,3
+1465,3747120620,application support specialist,"transportation, logistics, supply chain and storage, motor vehicle manufacturing, and truck transportation",11,5,5
+1466,3755109962,qualified person / qp,biotechnology research,13,0,6
+1467,3750002863,freelance specialist recruiter (in poland),staffing and recruiting,13,0,18
+1468,3749668806,qc microbiology expert,biotechnology research,13,0,6
+1469,3747646712,welder (11/1/1/721206),human resources services,12,0,17
+1470,3747653378,clinical research associate,staffing and recruiting,11,0,19
+1471,3748495364,legal counsel compliance,biotechnology research,11,0,0
+1472,3745344357,全国经理,,13,0,6
+1473,3756981515,account development manager,"transportation, logistics, supply chain and storage",13,0,5
+1474,3750568693,dsp cell culture plant specialist,biotechnology research,13,0,6
+1475,3754943312,business programme director,advertising services,11,0,2
+1476,3750072963,gl accountant with english,staffing and recruiting,13,0,0
+1477,3748492629,group buyer,biotechnology research,13,5,6
+1478,3748733536,head of information technology department,staffing and recruiting,13,0,19
+1479,3754921596,marketing specialist,it services and it consulting,13,0,12
+1480,3757134902,graphic designer (b2b contractor),financial services,13,5,2
+1481,3746856252,technical artist,computer games,13,0,4
+1482,3754363548,(junior) regulatory affairs specialist,staffing and recruiting,13,5,0
+1483,3748514798,industrial engineer,mechanical or industrial engineering,11,0,17
+1484,3747076211,consultant- project manager,business consulting and services,11,0,3
+1485,3748530035,machine learning engineer,"advertising services, software development, and technology, information and internet",13,0,5
+1486,3749842470,event & partnership marketing manager,"technology, information and internet",13,5,13
+1487,3749246811,delivery manager,software development,13,5,14
+1488,3747041213,"director, enterprise sales emea & apac",it services and it consulting,13,5,2
+1489,3746241665,d365 finance & operations,it services and it consulting,13,5,12
+1490,3746399314,technical product manager (katowice),,13,0,6
+1491,3754940828,front-end developer,staffing and recruiting,13,0,15
+1492,3750076696,aftersales intern,motor vehicle manufacturing,13,0,1
+1493,3745657719,delivery manager,it services and it consulting,13,0,17
+1494,3754809952,clinical trial associate,biotechnology research and pharmaceutical manufacturing,11,0,10
+1495,3748409796,senior frontend engineer - react,gambling facilities and casinos,13,5,5
+1496,3745605745,clinical research coordinator,translation and localization and pharmaceutical manufacturing,13,5,7
+1497,3748953826,player support agent for brazilian-portuguese remote - video games,"technology, information and internet",13,0,4
+1498,3749551890,business finance analyst,staffing and recruiting,13,0,8
+1499,3745612349,"sr director, project management",biotechnology research and pharmaceutical manufacturing,13,5,7
+1500,3750848525,java developer,it services and it consulting,11,0,5
+1501,3748040663,warehouse specialist,computer games,13,0,17
+1502,3747647486,quality manager,human resources services,11,0,15
+1503,3754151357,quality assurance specialist (regular / senior),it services and it consulting,13,0,16
+1504,3751515085,frontend engineer,aviation and aerospace component manufacturing,13,0,5
+1505,3748855987,jr qa manual engineer,software development,13,0,4
+1506,3755177733,financial analyst,financial services and investment management,13,0,8
+1507,3749049678,talent sourcing partner - visa,staffing and recruiting,13,5,18
+1508,3750687958,senior project manager,"technology, information and internet",8,0,4
+1509,3750829762,"senior manager, procurement performance management",hospitals and health care,11,0,6
+1510,3755230001,e-commerce category manager- international travel,travel arrangements,8,0,2
+1511,3747055160,regional manager - north poland,retail apparel and fashion and retail,13,5,11
+1512,3747025596,business controller/junior business controller,oil and gas,13,0,0
+1513,3747038829,junior customer marketing manager,personal care product manufacturing,13,0,2
+1514,3745277522,seo specialist,software development,13,0,13
+1515,3750432624,intl: group human resources director,staffing and recruiting,4,0,18
+1516,3748257971,innovation and emerging services  ai intern,staffing and recruiting,13,0,18
+1517,3748887683,recruiter,staffing and recruiting,13,0,18
+1518,3754916972,business analyst,it services and it consulting,13,5,5
+1519,3749166910,sr. service manager (poland-based),software development,11,0,4
+1520,3750539319,senior content analyst - 1 year cover,"technology, information and internet",13,5,17
+1521,3746793051,project manager,it services and it consulting,11,0,3
+1522,3747013039,"data analyst (azure, etl)",,13,0,6
+1523,3746236342,junior digital project manager,human resources services,11,0,3
+1524,3746379019,sap inventory management consultant,it services and it consulting,11,0,16
+1525,3747649233,social media support manager,human resources,3,0,19
+1526,3748517623,quality manager,mechanical or industrial engineering,11,0,6
+1527,3747970918,network engineer,it services and it consulting,13,0,3
+1528,3755130696,product manager,it services and it consulting and software development,13,5,14
+1529,3754426251,c++ developer,"technology, information and internet",13,0,4
+1530,3750187663,bulk carrier / eto,maritime transportation,13,0,10
+1531,3747147145,marketing design head/lead,"technology, information and internet",3,0,13
+1532,3754915949,bess specialist - lithuania,civil engineering and environmental services,13,5,7
+1533,3745656913,"manager, quality assurance",financial services,13,0,3
+1534,3746219802,director - digital and data,staffing and recruiting,4,0,8
+1535,3754336779,tester it,it services and it consulting,11,0,5
+1536,3754326889,node.js  developer,it services and it consulting,13,5,5
+1537,3754303560,internship - hr administration team with english,pharmaceutical manufacturing,13,5,1
+1538,3747482714,software test engineer i,"technology, information and internet",8,0,4
+1539,3753282996,lcv eucom poland: warehouseman,it services and it consulting,11,0,17
+1540,3747424704,senior tableau developer,it services and it consulting,13,0,5
+1541,3750347065,fp&a analyst,staffing and recruiting,13,0,8
+1542,3748421734,senior ui artist,computer games,13,5,4
+1543,3750341819,ar/treasury accountant (remote),financial services and accounting,13,0,18
+1544,3748308551,marketing designer,computer games,4,0,4
+1545,3754329753,node.js full - stack developer,it services and it consulting,13,5,5
+1546,3754984929,technical artist (remote europe),it services and it consulting,13,5,16
+1547,3747458612,technical project manager,"it services and it consulting, software development, and retail",13,0,5
+1548,3750342661,finance & administration assistant,software development,13,0,4
+1549,3754938960,associate marketing manager (campaigns),financial services and investment management,13,5,8
+1550,3746556586,warehouse worker in fashion industry,retail luxury goods and jewelry,2,0,17
+1551,3755211802,future opportunities in tagvenue!,,13,0,6
+1552,3754423061,mid software engineer (genai/ai) - poland,internet publishing,13,0,5
+1553,3748470187,service area leader - application infrastructure integration services,"transportation, logistics, supply chain and storage, motor vehicle manufacturing, and truck transportation",11,5,5
+1554,3754977460,agile coach,wellness and fitness services,8,0,5
+1555,3749545871,r&d team leader,industrial machinery manufacturing,13,5,10
+1556,3747674563,hr partner,computer games,13,5,4
+1557,3747471584,technical product manager,software development,13,0,14
+1558,3750807358,java support engineer,it services and it consulting,11,0,5
+1559,3749246833,ar accountant with english,staffing and recruiting,13,0,0
+1560,3748736106,"specjalista ds. ubezpieczeń, likwidacji szkód i obsługi polisowej",human resources,3,0,8
+1561,3749524868,sales executive,,13,0,6
+1562,3750678779,test automation engineer,staffing and recruiting,13,0,15
+1563,3746277412,local study start-up specialist i/ii (poland),pharmaceutical manufacturing,13,5,1
+1564,3747651106,135 mag welder,human resources services,12,0,17
+1565,3747982041,senior project manager,it services and it consulting,11,0,3
+1566,3750338413,junior pmo specialist,holding companies,13,5,3
+1567,3745529244,business development manager for game & vr studio,"technology, information and internet",13,5,14
+1568,3744950195,fintech ui/ux designer intern (krakow-remote),"transportation, logistics, supply chain and storage",13,5,16
+1569,3748262484,technical and administration support,staffing and recruiting,13,5,19
+1570,3755129484,mobile developer,it services and it consulting,11,0,5
+1571,3755106507,"mid backend engineer (python, go)","technology, information and internet",13,0,4
+1572,3751915578,manager m&a poland,veterinary services,4,0,0
+1573,3754997144,qa project manager,computer games,13,5,4
+1574,3750885044,it service delivery leader - core infrastructure services,"transportation, logistics, supply chain and storage, motor vehicle manufacturing, and truck transportation",11,0,5
+1575,3745373914,administration assistant,"transportation, logistics, supply chain and storage and truck transportation",13,5,16
+1576,3748925694,office coordinator,software development,13,0,4
+1577,3750300551,site reliability engineer,internet publishing,11,0,5
+1578,3755110146,legal secretary,"technology, information and internet",13,5,0
+1579,3746727107,talented it developers,it services and it consulting,3,0,5
+1580,3746224458,3d weapon artist - outsourcing team,computer games,11,5,4
+1581,3751107252,android app developer [bgsw],mechanical or industrial engineering,11,0,5
+1582,3749512337,internal quality & control coordinator,financial services,13,5,15
+1583,3754613072,incident manager,computer games,8,0,4
+1584,3748216642,software/server engineer,internet publishing,13,0,4
+1585,3750185182,product specialist,"technology, information and internet",13,5,14
+1586,3747341729,procurement specialist,medical equipment manufacturing,13,0,6
+1587,3748427423,product support analyst,law practice,4,0,10
+1588,3746168886,"auditor, quality assurance",staffing and recruiting,11,0,15
+1589,3749559412,quality process specialist,staffing and recruiting,11,0,17
+1590,3754366505,sales assistant,staffing and recruiting and retail,13,0,8
+1591,3749589482,data operations analyst,staffing and recruiting,13,0,17
+1592,3753516484,frontend js developer,it services and it consulting,13,5,5
+1593,3750889379,"web frontend engineer - js, css, react, flutter","technology, information and internet",11,0,4
+1594,3748331679,e-commerce data scientist,food and beverage services,3,0,12
+1595,3753409220,global head of fraud (remote),it services and it consulting,11,0,16
+1596,3754818290,ap/ar accountant with languages,staffing and recruiting,13,0,0
+1597,3754926173,global clinical trial manager - oncology (cell & gene therapy preferred) - anywhere in emea,staffing and recruiting,11,0,19
+1598,3747052368,sales executive,financial services,13,0,2
+1599,3747015815,project manager in medical field,human resources services,11,0,3
+1600,3747708853,tech art/graphics programmer,computer games,13,0,4
+1601,3748666595,junior credit risk modelling,"banking, financial services, and investment banking",11,0,8
+1602,3751106855,sales specialist,staffing and recruiting,8,0,8
+1603,3750863642,(sr.) project coordinator assessment & succession,"human resources services, business consulting and services, and events services",11,0,2
+1604,3748742193,erp project manager,human resources services,13,0,3
+1605,3754331714,ux designer,design services and computer games,3,0,4
+1606,3747003407,consultant,,13,5,6
+1607,3748419921,senior business analyst,it services and it consulting,11,0,5
+1608,3746783265,agile coach,"it services and it consulting, financial services, and outsourcing and offshoring consulting",13,0,15
+1609,3745374481,it support agent with english with night shifts,it services and it consulting,11,0,5
+1610,3747760164,budget & contract analyst,pharmaceutical manufacturing,13,5,10
+1611,3751165892,clinical data management- study leading roles,pharmaceutical manufacturing,13,5,10
+1612,3730751284,freelance film colorist,"technology, information and internet",13,0,17
+1613,3750112932,junior manual tester,insurance and financial services,13,0,15
+1614,3613078253,buyer (debrecen),"appliances, electrical, and electronics manufacturing",11,0,1
+1615,3714811919,cabin crew lauda europe,"technology, information and internet",11,0,17
+1616,3629561668,m&p support (debrecen),"appliances, electrical, and electronics manufacturing",11,0,1
+1617,3613077276,technical support (debrecen),"appliances, electrical, and electronics manufacturing",11,0,10
+1618,3660365077,reach – support engineer (debrecen),"appliances, electrical, and electronics manufacturing",13,5,10
+1619,3735225034,rota nanny,"technology, information and internet",13,5,17
+1620,3731823738,junior recruiter,outsourcing and offshoring consulting,13,5,6
+1621,3711829624,head of customer support & quality assurance,"technology, information and internet",13,5,4
+1622,3754423628,elementary teacher,internet publishing,9,7,9
+1623,3756927444,engagement director,"technology, information and internet",13,0,13
+1624,3750299687,art & design teacher,internet publishing,9,7,9
+1625,3734621117,administrative assistant (remote - hungary) 1 year fixed term,"technology, information and internet",13,0,4
+1626,3744772705,junior medical communication specialist,personal care product manufacturing and manufacturing,13,5,12
+1627,3747949512,founders associate - remote,information technology & services,13,0,14
+1628,3658777405,customer support representative,"it services and it consulting, information services, and software development",13,0,9
+1629,3747020725,junior project manager,e-learning providers,13,5,3
+1630,3734730206,spanish speaking hr operations associate,industrial machinery manufacturing,11,0,1
+1631,3719402956,project manager - design & experience team,"technology, information and internet",11,0,4
+1632,3622602041,call for expression of interest: various profiles,non-profit organizations,13,0,6
+1633,3725848478,digital content manager,"technology, information and internet",11,0,13
+1634,3750541694,biology teacher,internet publishing,9,7,9
+1635,3756206535,electrical technician,"appliances, electrical, and electronics manufacturing and semiconductor manufacturing",13,0,7
+1636,3629564516,quality engineer for design engineering (debrecen),"appliances, electrical, and electronics manufacturing",13,5,7
+1637,3614173658,mechanical design- and project engineer,"it services and it consulting, appliances, electrical, and electronics manufacturing, and motor vehicle manufacturing",11,0,7
+1638,3723991295,contract management specialist,farming,13,5,0
+1639,3736911251,applied llm researcher,"technology, information and internet",13,0,4
+1640,3732850121,vp of technology,computer games,7,0,4
+1641,3729136497,freelance social insights analyst - multiple languages,"technology, information and internet",8,0,4
+1642,3745623385,senior supply chain planner,"appliances, electrical, and electronics manufacturing and telecommunications",13,0,7
+1643,3581598274,junior project leader academy,"it services and it consulting, appliances, electrical, and electronics manufacturing, and motor vehicle manufacturing",11,0,3
+1644,3735098812,hr generalist,mechanical or industrial engineering,13,0,6
+1645,3752273001,history & geography teacher,internet publishing,9,7,9
+1646,3712312395,digital ux and ui designer,"it services and it consulting, information services, and telecommunications",11,0,4
+1647,3664570314,spanish customer service agent in budapest,human resources services,13,0,18
+1648,3676374840,stress & weight engineer (debrecen),"appliances, electrical, and electronics manufacturing",13,5,7
+1649,3690458305,performance project manager,"technology, information and internet",11,0,4
+1650,3733460520,manual tester,human resources services,13,0,15
+1651,3746462793,logistics specialist (f/m/x),motor vehicle manufacturing,13,0,7
+1652,3655541834,"graduate engineers (mechanical, electrical, materials science, chemistry)","glass, ceramics and concrete manufacturing",11,0,5
+1653,3739492344,associate supply officer,international affairs,13,5,3
+1654,3715603212,business analyst,insurance and financial services,13,0,19
+1655,3744190104,javascript developer with react,it services and it consulting,13,0,5
+1656,3701058926,client acquisition manager,"technology, information and internet",11,0,13
+1657,3696103695,head of sales | laba,"technology, information and internet",13,0,13
+1658,3748608085,purchase kam italy,,13,0,6
+1659,3670662091,warehouse project leader,"it services and it consulting, appliances, electrical, and electronics manufacturing, and motor vehicle manufacturing",11,0,16
+1660,3744948632,front end web developer intern (budapest-remote),"transportation, logistics, supply chain and storage",13,0,5
+1661,3735058524,junior ux designer,"technology, information and internet",11,0,4
+1662,3743469731,project support,education administration programs,13,5,6
+1663,3750815056,category buyer,industrial machinery manufacturing,13,5,12
+1664,3730177152,crm manager,it services and it consulting,11,0,16
+1665,3743669180,junior buyer,medical device,11,0,1
+1666,3752411908,food server,,13,5,6
+1667,3718613719,factory manager assistant,"food and beverage services, food and beverage manufacturing, and manufacturing",13,0,7
+1668,3742185675,chief accountant,,8,0,6
+1669,3713801395,engineering manager - automotive industry,human resources services,11,0,15
+1670,3746461968,logistics process management specialist (f/m/x),motor vehicle manufacturing,13,0,7
+1671,3681227741,google ads consultant (remote),advertising services,8,0,16
+1672,3727073335,seo / customer support,online audio and video media,13,5,12
+1673,3750850153,industrial engineer,,11,0,6
+1674,3739137903,junior managers program (technical field),"it services and it consulting, appliances, electrical, and electronics manufacturing, and motor vehicle manufacturing",11,0,7
+1675,3756513697,business analyst - software delivery team,"technology, information and internet",13,0,4
+1676,3740575335,senior sales manager,information technology & services,13,5,14
+1677,3734836142,clinical trial assistant,pharmaceutical manufacturing,11,0,10
+1678,3737034890,marketing automation expert (fully remote - emea),"technology, information and internet",13,5,13
+1679,3747568615,qa project manager,pharmaceutical manufacturing,13,0,3
+1680,3712369385,junior hr generalist,staffing and recruiting,13,5,18
+1681,3743669150,fp&a analyst,medical device,11,0,12
+1682,3746469192,module quality specialist - exterior / interior (f/m/x),motor vehicle manufacturing,13,0,7
+1683,3732849132,ui technical designer,computer games,7,0,4
+1684,3680702045,market research analyst,"appliances, electrical, and electronics manufacturing, wellness and fitness services, and hospitals and health care",13,5,12
+1685,3733977593,laboratory technician for automotive steering,"it services and it consulting, appliances, electrical, and electronics manufacturing, and motor vehicle manufacturing",11,0,7
+1686,3703082015,business analyst,staffing and recruiting,13,5,19
+1687,3682203522,technical support specialist,it services and it consulting,13,0,5
+1688,3660252179,brand management traineeship (budapest),manufacturing,11,0,12
+1689,3752605443,clinical project manager ii (europe),pharmaceutical manufacturing,11,0,3
+1690,3738526484,constructor,"it services and it consulting, appliances, electrical, and electronics manufacturing, and motor vehicle manufacturing",11,0,7
+1691,3746467291,process planning engineer (f/m/x),motor vehicle manufacturing,13,5,7
+1692,3737387213,concrete technologist (service life assessment),business consulting and services,13,0,17
+1693,3708565670,process engineer (hotforming area),human resources services,11,0,17
+1694,3746624885,clinical trial manager,staffing and recruiting,11,0,19
+1695,3646026149,"technikus in debrecen, hungary",staffing and recruiting,11,0,18
+1696,3732849139,gameplay animator,computer games,7,0,4
+1697,3699438712,project procurement lead,industrial machinery manufacturing,11,0,7
+1698,3725227920,office manager,automotive,13,5,1
+1699,3748815092,director asset management,"construction, financial services, and hospitality",13,0,0
+1700,3641737877,customer service agent,"technology, information and internet",11,0,4
+1701,3743454653,hr business partner,"it services and it consulting, information services, and telecommunications",11,0,9
+1702,3746464489,inspection planning specialist (f/m/x),motor vehicle manufacturing,13,5,7
+1703,3731377365,crm & loyalty manager,"technology, information and internet",11,0,14
+1704,3743664706,project manager supplier management,medical device,11,0,3
+1705,3744133576,nodejs developer,it services and it consulting,11,0,5
+1706,3752413049,senior it operator,insurance and financial services,13,0,19
+1707,3746463627,quality specialist electric / electronics (f/m/x),motor vehicle manufacturing,13,5,7
+1708,3605885493,fte band 2,information technology & services,13,0,17
+1709,3746466094,senior logistics engineer (f/m/x),motor vehicle manufacturing,13,0,7
+1710,3752496418,plant quality manager,wholesale building materials,13,0,15
+1711,3743665685,software developer,medical device,11,0,7
+1712,3735304049,mechanical r&d engineer (catia + german required),automotive,11,0,7
+1713,3746227403,senior lean leader,electric power generation,13,5,17
+1714,3665391003,financial controller,industrial machinery manufacturing,11,0,0
+1715,3740208183,junior manager - commercial client management,"it services and it consulting, information services, and telecommunications",13,0,14
+1716,3734664891,brand manager,"chemical manufacturing, biotechnology research, and pharmaceutical manufacturing",8,0,11
+1717,3684307372,social media marketing specialist,"technology, information and internet",11,0,13
+1718,3731776592,qa engineer,software development,13,0,4
+1719,3744131947,nodejs developer,it services and it consulting,11,0,5
+1720,3752027628,uk business development manager,staffing and recruiting,13,0,2
+1721,3731850708,junior finance manager,manufacturing,13,0,12
+1722,3748104928,people analytics data science intern,telecommunications,3,0,4
+1723,3698316359,java developer,insurance and financial services,13,5,15
+1724,3739145056,project quality engineer #software,"it services and it consulting, appliances, electrical, and electronics manufacturing, and motor vehicle manufacturing",11,0,7
+1725,3755241500,director of engineering,travel arrangements and hospitality,4,0,17
+1726,3725797541,sales assistant (consumer goods),consumer goods,13,0,11
+1727,3728290952,reporting analyst,"financial services, investment banking, and investment management",8,0,18
+1728,3609237645,senior ui designer,it services and it consulting,8,0,5
+1729,3752434574,customer service sales representative,,13,0,6
+1730,3746464537,battery cell stacking specialist (f/m/x),motor vehicle manufacturing,13,0,1
+1731,3604207327,first officer - a320 type rated - experienced,airlines and aviation,9,0,17
+1732,3737395739,junior risk reporting analyst,"financial services, investment banking, and investment management",13,0,0
+1733,3670990366,scientist,pharmaceutical manufacturing,13,5,10
+1734,3739987962,head of sales,e-learning providers,13,0,2
+1735,3725229858,junior key account manager,consumer goods,13,0,11
+1736,3746466061,sales operations - registration documentation specialist,motor vehicle manufacturing,13,0,11
+1737,3749743428,paersonal assistant (to md),automotive,13,0,1
+1738,3746466314,technical planner (f/m/x),motor vehicle manufacturing,13,0,7
+1739,3743975825,team assistant,professional services,4,0,6
+1740,3755126706,head of property,restaurants and food and beverage services,13,0,6
+1741,3738980211,financial accountant,"appliances, electrical, and electronics manufacturing",13,5,1
+1742,3750180159,sustainability governance analyst (hybrid),"banking, financial services, and investment banking",11,0,18
+1743,3739137890,process and master data expert,"it services and it consulting, appliances, electrical, and electronics manufacturing, and motor vehicle manufacturing",11,0,7
+1744,3756787350,junior accountant,financial services,13,0,0
+1745,3750898875,hr operations intern,industrial machinery manufacturing,11,0,1
+1746,3746464536,tool designer (f/m/x),motor vehicle manufacturing,13,0,7
+1747,3742635374,purchasing intern (m/f),chemical manufacturing and manufacturing,13,0,1
+1748,3708942720,quality engineer,computers and electronics manufacturing,13,5,7
+1749,3745636282,travel student,it services and it consulting,13,5,16
+1750,3691229224,"product manager, artificial intelligence and innovation",motor vehicle manufacturing,13,5,11
+1751,3744024426,cost-out specialist,"appliances, electrical, and electronics manufacturing",13,0,12
+1752,3746467016,"safety, security and environmental coordinator (f/m/x)",motor vehicle manufacturing,13,0,7
+1753,3751786005,sales manager,,13,0,6
+1754,3719685215,people operations specialist,insurance,13,0,18
+1755,3667473447,react developer- budapest hungary location,it services and it consulting,11,0,16
+1756,3746467017,production process specialist (f/m/x),motor vehicle manufacturing,13,5,7
+1757,3667725199,camo engineer,"oil and gas, retail office equipment, and consumer services",13,5,6
+1758,3742028980,junior management reporting controller,accounting,13,0,0
+1759,3729701327,talent care advisor,human resources services,13,0,18
+1760,3738522772,project leader - agv project engineer,"it services and it consulting, appliances, electrical, and electronics manufacturing, and motor vehicle manufacturing",11,0,7
+1761,3729434257,c#.net developer,it services and it consulting,13,5,5
+1762,3674540483,spare parts management specialist,human resources services,13,0,2
+1763,3713588129,human resources administrator,staffing and recruiting,13,5,18
+1764,3689974576,senior accountant,financial services,13,0,0
+1765,3741102684,job opening for _ lead solution architect,it services and it consulting,4,0,5
+1766,3696002702,"software engineer, platform","transportation, logistics, supply chain and storage",13,5,5
+1767,3743978782,operations supervisor,tobacco manufacturing,13,0,11
+1768,3752452065,production engineer with it focus,,13,5,6
+1769,3736590849,regional hvac engineer,staffing and recruiting,13,0,17
+1770,3734801812,emc hardware engineer for automotive electronics #hardware,"it services and it consulting, appliances, electrical, and electronics manufacturing, and motor vehicle manufacturing",11,5,7
+1771,3742593285,privacy legal counsel,"it services and it consulting, information services, and telecommunications",11,0,9
+1772,3734803730,test equipment developer #test and lab,"it services and it consulting, appliances, electrical, and electronics manufacturing, and motor vehicle manufacturing",11,0,16
+1773,3750402895,clinical trial assistant,pharmaceutical manufacturing,13,5,10
+1774,3743205828,regional marketing specialist,"technology, information and internet",11,0,13
+1775,3730585557,incident manager - emea,financial services,13,5,19
+1776,3656180765,electrical manufacturing engineer,manufacturing,11,0,7
+1777,3751748049,training coordinator,renewable energy semiconductor manufacturing,6,6,1
+1778,3689228087,financial controller,it services and it consulting,13,0,0
+1779,3724273774,graduate product marketing manager,"technology, information and internet",11,0,13
+1780,3730407510,purchasing coordinator,"medical equipment manufacturing, biotechnology research, and pharmaceutical manufacturing",13,0,1
+1781,3739750653,spanish vat country expert,accounting,13,0,18
+1782,3731836048,group leader for data and sap area,"it services and it consulting, appliances, electrical, and electronics manufacturing, and motor vehicle manufacturing",11,0,16
+1783,3739487777,asset management officer,international affairs,11,0,17
+1784,3752433503,sales representative,,13,0,6
+1785,3747569225,human rescources intern,,13,0,6
+1786,3743287894,"temporary appointment- hr assistant (course developer), gs5 in global learning centre, hr operations section, unicef global shared services centre, budapest, hungary",non-profit organizations and consumer services,3,0,6
+1787,3730978143,elementary teacher,education administration programs,11,0,6
+1788,3709890161,product manager,"technology, information and internet",13,0,4
+1789,3744795881,country manager (taiwan),"technology, information and internet",13,0,4
+1790,3642604713,data analyst,"technology, information and internet",13,0,4
+1791,3634608427,country head (new business),staffing and recruiting,11,0,2
+1792,3751143250,long term substitute - kindergarten dual language teacher,education administration programs,11,0,6
+1793,3738500368,2d animator (tw),media production,13,0,10
+1794,3590298846,front-end developer,"technology, information and internet",13,0,4
+1795,3679593042,student teacher,education administration programs,4,0,6
+1796,3713424208,videographer,"transportation, logistics, supply chain and storage",13,0,16
+1797,3732544055,country manager - japan,software development,11,0,14
+1798,3744799175,chief of staff (taiwan),"technology, information and internet",13,0,4
+1799,3676520150,marketing manager,internet publishing,13,5,13
+1800,3719978359,customer success manager (taiwan),hospitals and health care,13,0,6
+1801,3747429641,"software engineer, university graduate, 2024","information services and technology, information and internet",11,0,5
+1802,3745302938,graphic designer,"online audio and video media, telecommunications, and entertainment providers",13,5,4
+1803,3587581253,product developer (檔案同步與生產力軟體開發),it services and it consulting,13,0,2
+1804,3745302963,graphic designer,"online audio and video media, telecommunications, and entertainment providers",13,5,4
+1805,3744973548,taiwan country gm manager,semiconductor manufacturing,13,0,7
+1806,3711974587,business development manager,internet publishing,13,0,14
+1807,3726611909,rd20463 data scientist (時間序列預測模型),computer hardware manufacturing,11,0,7
+1808,3713420552,website translator,staffing and recruiting,13,0,8
+1809,3747532198,country product manager (india),computer hardware manufacturing,13,0,11
+1810,3633099799,sub-bus driver,education administration programs,8,0,17
+1811,3743843924,exam operation officer,non-profit organizations and education administration programs,11,0,3
+1812,3738164329,program manager產品經理(新聞組),software development,3,0,4
+1813,3645897117,country manager,"it services and it consulting, software development, and computer and network security",13,0,14
+1814,3745307544,video superstar,"online audio and video media, telecommunications, and entertainment providers",13,0,9
+1815,3674331329,field sales manager (anz region) - remote,it services and it consulting,13,5,2
+1816,3720892063,interim director of curriculum & instruction 23/24 sy,public relations and communications services,11,0,16
+1817,3676184380,digital executive - taiwan,"technology, information and internet",13,0,13
+1818,3728889492,client acquisition specialist,internet publishing,2,0,14
+1819,3654105005,product developer (影像監控 ios 影音串流軟體開發),it services and it consulting,13,0,2
+1820,3729514342,"changhua private school - earn 700nt per hour / 80 hours per month + 30,000nt bonus",internet publishing,12,0,9
+1821,3743054097,global product marketing (gaming),computer hardware manufacturing and computers and electronics manufacturing,13,0,12
+1822,3720976347,marketing head (retail and marcom),staffing and recruiting,11,0,8
+1823,3733886735,immigration associate – taiwan based,business consulting and services,13,5,0
+1824,3699454866,manager platform ecommerce,"sporting goods manufacturing, manufacturing, and retail",13,0,12
+1825,3726629378,product sales manager (產品銷售經理),it services and it consulting,11,0,2
+1826,3752454407,project coordinator,"appliances, electrical, and electronics manufacturing, industrial machinery manufacturing, and manufacturing",13,5,1
+1827,3706563426,ai applied scientist,"transportation, logistics, supply chain and storage",13,0,5
+1828,3724656213,"vice president, biologics discovery head",staffing and recruiting,4,0,18
+1829,3717741806,[janssen] medical science liaison,hospitals and health care,11,0,10
+1830,3699943088,product sales manager,it services and it consulting,11,0,2
+1831,3621454034,solution sales (高雄 presales),it services and it consulting,11,0,2
+1832,3748808946,crm specialist,staffing and recruiting,13,0,18
+1833,3733886741,administrator - taiwan based,business consulting and services,13,5,19
+1834,3719410410,localization manager (taipei),"technology, information and internet",13,5,4
+1835,3681767209,devops engineer - fully remote,internet publishing,13,5,5
+1836,3709888288,data engineer - python,"technology, information and internet",13,0,4
+1837,3727775448,"team leader, customer care - tx team",banking,7,0,19
+1838,3719412077,search engine evaluators (taiwan),"technology, information and internet",11,0,9
+1839,3743041900,project management - project manager,medical equipment manufacturing,13,0,3
+1840,3610049313,software engineer,software development,13,0,4
+1841,3645681627,"senior associate, marketing (pr/event)","technology, information and internet",13,0,13
+1842,3752028495,"client success representative apac (remote, contract)","technology, information and internet",13,5,17
+1843,3741334374,logistics manager,"dairy product manufacturing, medical equipment manufacturing, and food and beverage manufacturing",11,0,7
+1844,3746506617,coo - operations manager - avp,financial services,11,0,0
+1845,3745308598,software engineer,"information services, software development, and technology, information and internet",13,0,5
+1846,3742771289,[南港]外商品牌廠_engineering program manager,staffing and recruiting,13,0,3
+1847,3619292922,product specialist (hardware product),it services and it consulting,13,5,2
+1848,3730525697,bu head (renewable energy ),"wholesale furniture and home furnishings, mining, and oil and gas",13,5,17
+1849,3738143610,key account associate manager,,13,5,6
+1850,3647557670,product marketing manager (data management),it services and it consulting,13,5,12
+1851,3735560081,產品經理,,1,0,6
+1852,3617315234,game platform engineer,"technology, information and internet",13,5,4
+1853,3697773035,division manager ( apparel),"appliances, electrical, and electronics manufacturing, industrial machinery manufacturing, and manufacturing",13,0,12
+1854,3729784635,relationship mgr,banking,7,0,2
+1855,3737272064,account manager (vietnam region),it services and it consulting,11,0,2
+1856,3747510443,銷售經理,,13,5,6
+1857,3744545013,medical science liaison,pharmaceutical manufacturing,13,5,10
+1858,3706400748,supply chain planner,computer hardware manufacturing,13,0,7
+1859,3675098256,solution specialist,it services and it consulting,13,0,2
+1860,3747429967,school age child care site assistant,"health, wellness & fitness",11,0,6
+1861,3734664889,clinical science associate - rare disease (南區),"chemical manufacturing, biotechnology research, and pharmaceutical manufacturing",4,0,11
+1862,3719976537,care navigator (taiwan),hospitals and health care,13,0,3
+1863,3715252773,"client service executive, priority client",banking,7,0,8
+1864,3736846479,business development associate/manager,it services and it consulting and financial services,13,0,2
+1865,3590304129,knowledge engineer,"technology, information and internet",13,5,4
+1866,3667127469,"esl teachers needed in luzhou, new taipei - earn nt60,000 to nt70,000 per month",internet publishing,9,0,9
+1867,3745132592,reach truck driver,"transportation, logistics, supply chain and storage",8,0,5
+1868,3671106252,marketing director - domestic food & beverage,"personal care product manufacturing, retail groceries, and food and beverage manufacturing",13,0,12
+1869,3707595350,web developer,"technology, information and internet",13,0,4
+1870,3755972674,market research analyst (fmcg),market research,11,0,16
+1871,3738159830,program manager產品經理(雅婷 studio),software development,3,0,4
+1872,3719410401,behavioral health coach (taiwan),"technology, information and internet",2,0,4
+1873,3731285961,"account manager, residential energy","renewable energy semiconductor manufacturing, motor vehicle manufacturing, and utilities",13,0,11
+1874,3682735987,coo manufacturing,staffing and recruiting,4,0,17
+1875,3670567560,medical writer - biotech,"medical equipment manufacturing, hospitals and health care, and pharmaceutical manufacturing",13,0,12
+1876,3605698056,head of ir / publicly listed and otc-listed conglomerate,"food and beverage services, consumer services, and retail",13,5,6
+1877,3699467299,"associate, content operations",travel arrangements,13,5,17
+1878,3575890042,<生技業>採購長procurement head,"medical equipment manufacturing, hospitals and health care, and pharmaceutical manufacturing",13,0,7
+1879,3742269280,"策略合作關係經理, strategic alliances and partnerships manager, myviewboard & originals",it services and it consulting,13,0,2
+1880,3694024861,外商工業氣體公司-專案經理,staffing and recruiting,11,0,3
+1881,3744697785,market development manager,"food and beverage services, food and beverage manufacturing, and manufacturing",11,0,11
+1882,3679802748,sales assistant (業務助理),it services and it consulting,11,0,2
+1883,3590302859,sr. analyst/associate digital manager- assembly taipei,"technology, information and internet",13,5,17
+1884,3582185227,senior purchasing specialist,staffing and recruiting,13,5,18
+1885,3741827261,somali interpreter,non-profit organizations,13,0,10
+1886,3701425728,post approval studies manager,pharmaceutical manufacturing,13,5,10
+1887,3564818621,行政報告人員(台北),"oil and gas, retail office equipment, and consumer services",13,0,6
+1888,3746222860,enrollment advisor,primary and secondary education,11,0,6
+1889,3748869494,【bm】business management specialist,it services and it consulting and computer hardware manufacturing,4,5,16
+1890,3373755973,software engineer in test (intern),it services and it consulting,11,0,5
+1891,3675804451,project manager,public safety,11,0,3
+1892,3647560354,product developer ( ios 行動應用軟體開發),it services and it consulting,11,0,2
+1893,3577894554,global performance management & talent development sr. professional,"computer hardware manufacturing, computer networking products, and computer and network security",11,0,3
+1894,3699253535,senior e-commerce executive -omega,,0,0,6
+1895,3737847340,【it】data scientist,it services and it consulting and computer hardware manufacturing,13,0,5
+1896,3528496461,m0086 -  packaging design project manager,"technology, information and internet",11,0,4
+1897,3743091912,relationship mgr,banking,7,0,2
+1898,3664564851,sales executive,education management,13,0,11
+1899,3734959434,data engineer (power bi),"it services and it consulting, software development, and computer and network security",13,0,4
+1900,3734014341,immigration senior associate,business consulting and services,13,5,0
+1901,3748865525,"area sales manager , medical & healthcare (taiwan or korea)",staffing and recruiting,13,0,2
+1902,3654428081,marketing intern,"technology, information and internet",13,0,13
+1903,3726148314,devops engineer (part-time ok),computer and network security,13,0,4
+1904,3729092415,researcher_lab-large molecular,biotechnology research,13,5,6
+1905,3641766928,global business development,"technology, information and internet",13,5,14
+1906,3612003669,apac service operation head,renewable energy semiconductor manufacturing,6,0,7
+1907,3745638956,marketing intern,retail luxury goods and jewelry,11,0,11
+1908,3745656636,"training manager, nea",manufacturing,13,5,12
+1909,3723995931,talent scientist,"technology, information and internet",11,0,4
+1910,3680596164,[外商新創ic design house] package engineering- 熟悉wb尤佳,staffing and recruiting,11,0,17
+1911,3722456278,vice president of engineering,software development and financial services,13,0,15
+1912,3668510614,field service engineer,"technology, information and internet",13,0,4
+1913,3709898752,business development director (it/electronic products),staffing and recruiting,13,0,2
+1914,3717688644,test specialist,computer hardware manufacturing,8,0,1
+1915,3741937931,product developer (資料保護與雲端系統開發),it services and it consulting,11,0,2
+1916,3690192506,brand manager - homecare category,"personal care product manufacturing, retail groceries, and food and beverage manufacturing",13,0,12
+1917,3714320478,"business development officer, priority clients",banking,7,0,2
+1918,3705381428,athlete i,retail,11,0,6
+1919,3742660715,business development specialist (web3 & blockchain)(sa10237),computer hardware manufacturing,11,0,11
+1920,3733075340,multilingual translator,translation and localization,13,0,12
+1921,3723598416,silicon custom circuit design (digital or analog) - full time,computer hardware manufacturing,13,0,7
+1922,3739422262,銷售 - 美商上市半導體元件商,"appliances, electrical, and electronics manufacturing, industrial machinery manufacturing, and manufacturing",13,0,11
+1923,3707592690,sales development representative,"technology, information and internet",11,0,14
+1924,3666672537,clinical data analyst i,pharmaceutical manufacturing,11,0,1
+1925,3686843498,medical science liaison - pharmaceutical company,"medical equipment manufacturing, hospitals and health care, and pharmaceutical manufacturing",13,0,10
+1926,3748928225,【知名美商食品公司】專案管理 artwork project planner *年薪13個月*,staffing and recruiting,11,0,8
+1927,3585733023,scm head,staffing and recruiting,4,0,18
+1928,3748579693,operations lead,"technology, information and internet",13,0,17
