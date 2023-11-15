@@ -6,6 +6,7 @@
 
 import pandas as pd
 import re
+import string
 
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
@@ -52,18 +53,23 @@ def text_preprocessing(text):
   """
 
   text = split_combined_words(text)
+  text = text.lower()
+
+  # Remove punctuation
+  text = re.sub(f'[{string.punctuation}]', '', text)
+  # Remove numbers
+  text = re.sub(r'\d+', '', text)
 
   tokens = word_tokenize(text)
 
   stop_words = set(stopwords.words('english'))
-  tokens = [w for w in tokens if not w in stop_words]
 
   lemmatizer = WordNetLemmatizer()
-  tokens = [lemmatizer.lemmatize(w) for w in tokens]
+  tokens = [lemmatizer.lemmatize(w) for w in tokens if w not in stop_words]
 
-  punctuation = {'!', ',', '.', ';', ':', '?', '(', ')', '[', ']', '-','+','"','*', '—','•', '’', '‘', '“', '”', '``'}
-
-  tokens = [w.lower() for w in tokens if w not in punctuation]
+  punctuation = {'!', ',', '.', ';', ':', '?',
+                 '(', ')', '[', ']', '-', '+', '"', '*', '—', '•', '’', '‘', '“', '”', '``'}
+  tokens = [w for w in tokens if w not in punctuation]
 
   # Remove last 3 words since they are always the same (scraped buttons from the website)
   tokens = tokens[:-3]
@@ -120,6 +126,6 @@ def main():
 if __name__ == "__main__":
   main()
   df = load_data(kind="processed")
-  #print(df.iloc[970]['description'])
-  #print(df[df["id"]==3733315884])
+  print(df.iloc[970]['description'])
+  # print(df[df["id"]==3733315884])
   print(df)
