@@ -26,7 +26,7 @@ class LinkedinScraper:
 
     self.job_url = "https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/{}"
 
-  def save_to_csv(self, filename="jobs.csv"):
+  def save_to_csv(self, filename="data/raw/jobs.csv"):
     print("📝 Saving jobs to CSV file...")
     if os.path.isfile(filename):
       existing_ids = set(pd.read_csv(filename, sep=";")["id"])
@@ -139,5 +139,5 @@ class LinkedinScraper:
 
 
 if __name__ == "__main__":
-  scraper = LinkedinScraper(location="Denmark", amount=1000)
+  scraper = LinkedinScraper(location="Taiwan", amount=1000)
   scraper.scrape()
