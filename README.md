@@ -15,6 +15,7 @@
 - [ ] **Association Rule Mining**: Using A-Priori Algorithm, identify patterns like: "If a job requires skill A, it's also likely to require skill B."
 - [ ] **Implement Word2Vec** or other word embedding techniques (not directly taught in the lectures) to capture the context and semantic meaning of words in job descriptions.
 - [ ] How do skills differ based on location, industry or employment type
+- [ ] Measure job popularities, by looking at DATE_SCRAPED, DATE_POSTED and number of applications it received
 
 #### Motivation
 With the rapidly evolving job market, there's a constant need for job seekers, companies, and educational institutions to understand which skills are in demand. By analyzing job descriptions from LinkedIn, we can gain insights into which skills are trending and how job requirements differ by location, company, and employment type. 

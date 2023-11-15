@@ -93,7 +93,7 @@ def main():
 
   # Remove duplicates
   df.drop_duplicates(subset=['id'], inplace=True)
-
+  df.drop_duplicates(subset=['description'], inplace=True)
   # Filter out jobs with missing descriptions
   df = df[df['description'].notna()]
 
