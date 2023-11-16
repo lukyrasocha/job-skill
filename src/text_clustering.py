@@ -83,7 +83,7 @@ def words_to_sentence(word_list):
 def main():
 
     data = load_data(kind="processed")
-
+    
     # Apply the function to the 'words' column of the DataFrame
     data["description"] = data["description"].apply(
         lambda x: remove_words_with_numbers(x)
