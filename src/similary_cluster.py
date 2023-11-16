@@ -6,7 +6,8 @@ import re
 from similarity import (
     find_sim, 
     louvain_cluster, 
-    kmean_cluster)
+    kmean_cluster,
+    clusterings_eval)
 from utils import load_data
 
 def remove_words_with_numbers(word_list_str):
@@ -54,13 +55,14 @@ def main():
     # score is zero, with lower values indicating better clustering)
     # and measure rand index between feature label ground truth and prediction 
     # (similarity score between 0.0 and 1.0, inclusive, 1.0 stands for perfect match)
-    cluster_graph, dbi_graph, rand_graph  = louvain_cluster(N, scores, df['ground'])
+    cluster_graph, dbi_graph = louvain_cluster(N, scores)
     df['cluster_graph'] = cluster_graph
-    print("The DBindex value using graph:", dbi_graph, " Rand index comparing ground truth:", rand_graph)
-    cluster_kmean, dbi_kmean, rand_kmean  = kmean_cluster(N, scores, df['ground'], 30)
+    cluster_kmean, dbi_kmean  = kmean_cluster(N, scores, 30)
     df['cluster_kmean'] = cluster_kmean
-    print("The DBindex value using kmean:", dbi_kmean, " Rand index comparing ground truth:", rand_kmean)
-    df[["id", "cluster_graph", "cluster_kmean", 'ground']].to_csv("../csv_files/similarity.csv")
+
+    print("The DBindex value using graph:", dbi_graph , " Rand index comparing ground truth:", clusterings_eval(df['cluster_graph'], df['ground'], "RAND_INDEX"))
+    print("The DBindex value using kmean:", dbi_kmean, " Rand index comparing ground truth:", clusterings_eval(df['cluster_kmean'], df['ground'], "RAND_INDEX"))
+    df[["id", "cluster_graph", "cluster_kmean", 'ground']].to_csv("../csv_files/similarity.csv", index=False)
     
 if __name__ == "__main__":
     main()
