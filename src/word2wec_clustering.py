@@ -39,55 +39,6 @@ df = load_data(kind="processed")
 #     lambda x: remove_words_with_numbers(x)
 # )
 
-##### GLOVE #######
-
-
-def load_glove_model(glove_file_path, expected_size=100):
-    """
-    Load the GloVe model from the specified file path.
-    Only includes vectors that match the expected dimensionality.
-    """
-    glove_model = {}
-    with open(glove_file_path, 'r', encoding='utf-8') as file:
-        for line in file:
-            split_line = line.split()
-            if len(split_line) != expected_size + 1:  # +1 for the word itself
-                continue  # Skip lines that don't have the expected number of dimensions
-            word = split_line[0]
-            embedding = np.array([float(val) for val in split_line[1:]])
-            glove_model[word] = embedding
-    return glove_model
-
-# Path to the GloVe file
-glove_file = "models/glove.twitter.27B/glove.twitter.27B.100d.txt" # Update the path to your GloVe file
-
-glove_model = load_glove_model(glove_file)
-
-# Convert GloVe model to KeyedVectors format for compatibility with Gensim functions
-word_vectors = KeyedVectors(vector_size=glove_model[next(iter(glove_model))].shape[0])
-
-# Add vectors to KeyedVectors
-for word, vector in glove_model.items():
-    try:
-        word_vectors.add_vector(word, vector)
-    except Exception as e:
-        print(f"Error adding vector for {word}: {e}")
-
-# Function to convert description to vector
-def description_to_vector(description, model):
-    words = description.split()  # Adjust if your descriptions are formatted differently
-    valid_vectors = [model[word] for word in words if word in model]
-    
-    if valid_vectors:
-        return np.mean(valid_vectors, axis=0)
-    else:
-        return np.zeros(model.vector_size)
-
-# Apply the function to each description
-df['vector'] = df['description'].apply(lambda desc: description_to_vector(desc, word_vectors))
-
-
-
 ##########################################
 
 ##### PRETRAINED MODEL WORD2VEC ######
