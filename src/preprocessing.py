@@ -13,8 +13,8 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from tqdm import tqdm
 
-from src.utils import load_data, is_english
-from src.logger import working_on
+from utils import load_data, is_english
+from logger import working_on
 
 
 def convert_date_posted(date_str, date_scraped):
@@ -124,6 +124,6 @@ def main():
 
 
 if __name__ == "__main__":
-  main()
-  df = load_data(kind="processed")
-  print(df)
+    # main()
+    df = load_data(kind="processed")
+    print(df)
