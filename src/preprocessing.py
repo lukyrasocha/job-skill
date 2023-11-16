@@ -112,6 +112,20 @@ def main():
   df['industries'] = df['industries'].str.lower()
   df['industries'] = df['industries'].str.replace('\n', ' ')
 
+  # Removing outliers (where industries is whole description of offer)
+  df["industries_length"] = df["industries"].str.split()
+  df["industries_length"] = df["industries_length"].str.len()
+  df = df[df["industries_length"] < 15]
+  df.drop(columns=["industries_length"], inplace=True)
+
+  df["industries"] = df["industries"].str.replace(" and ", ",")
+  df["function"] = df["function"].str.replace(" and ", ",")
+  df["industries"] = df["industries"].str.replace("/", ",")
+  df["function"] = df["function"].str.replace("/", ",")
+
+  df["industries"] = df["industries"].str.replace(r",,|, ,", ",")
+  df["function"] = df["function"].str.replace(r",,|, ,", ",")
+
   tqdm.pandas(desc="🐼 Preprocessing description", ascii=True, colour="#0077B5")
 
   df['description'] = df['description'].progress_apply(text_preprocessing)
@@ -119,11 +133,17 @@ def main():
   # Remove rows with empty descriptions or descriptions containing less than 3 words
   df = df[df['description'].map(len) > 3]
 
+  df = df.reset_index(drop=True)
+
   working_on("Saving preprocessed data ...")
   df.to_csv('data/processed/cleaned_jobs.csv', index=False, sep=';')
 
 
 if __name__ == "__main__":
-    # main()
-    df = load_data(kind="processed")
-    print(df)
+  main()
+  df = load_data(kind="processed")
+  print(df.iloc[970]['description'])
+  print(df.iloc[970]['industries'])
+  # print(df.iloc[970]['function'])
+  print(df.head())
+  print(df)
