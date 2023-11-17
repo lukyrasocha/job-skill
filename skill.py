@@ -1,10 +1,8 @@
-# Load model directly
-from transformers import AutoTokenizer, AutoModelForTokenClassification
-from transformers import TextClassificationPipeline, pipeline
-import transformers
 import pandas as pd
 import ast
 import re
+from transformers import  pipeline
+from tqdm import tqdm
 
 def words_to_sentence(word_list):
     return " ".join(word_list)
@@ -31,12 +29,24 @@ def remove_words_with_numbers(word_list_str):
 
 # Load the data
 df  = pd.read_csv('./data/processed/cleaned_jobs.csv', sep=';')
+cluster = pd.read_csv('./csv_files/similarity.csv', sep=',')
+pipe = pipeline("token-classification", model="lm-ner-linkedin-skills-recognition")
+
 df["description"] = df["description"].apply(
             lambda x: remove_words_with_numbers(x)
         )
 df["description"] = df["description"].apply(words_to_sentence)
 
-pipe = pipeline("token-classification", model="lm-ner-linkedin-skills-recognition")
 
-answer = pipe(list(df['description']))
-print(answer)
+
+cluster_skill = {}
+for label in tqdm(sorted(cluster['cluster_graph'].unique())):
+    skills = []
+    for id in cluster.loc[cluster['cluster_graph'] == label]['id']:
+        skills.extend(pipe(df.loc[df['id'] == id]['description'].values[0]))
+        
+    skill_extract = [{'entity': entry['entity'], 'word': entry['word']} for entry in skills]
+    cluster_skill[label] = skill_extract
+
+
+pd.DataFrame.from_dict(cluster_skill.items()).to_csv("./csv_files/skills.csv", index=False)
