@@ -74,21 +74,7 @@ def map_to_general_category(industry, mapping):
 def main():
 
     df = load_data(kind="processed")
-    breakpoint()
     data = df[["id", "title", "function", "industries"]].fillna("")
-
-    # Removing outliers (where industries is whole description of offer)
-    data["industries_length"] = data["industries"].str.split().apply(len)
-    condition = data["industries_length"] > 15
-    data = data[~condition]
-
-    data["industries"] = data["industries"].str.replace(" and ", ",")
-    data["function"] = data["function"].str.replace(" and ", ",")
-    data["industries"] = data["industries"].str.replace("/", ",")
-    data["function"] = data["function"].str.replace("/", ",")
-
-    data["industries"] = data["industries"].str.replace(r",,|, ,", ",")
-    data["function"] = data["function"].str.replace(r",,|, ,", ",")
 
     # data["industries"] = data["industries"].str.replace(r'\s*,\s*', ',', regex=True)
     # data["function"] = data["function"].str.replace(r'\s*,\s*', ',', regex=True)

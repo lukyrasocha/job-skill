@@ -26,6 +26,7 @@ def compare_clusters(datasets):
 def main():
     # File paths for the datasets
     paths = {
+        'ground_truth': 'csv_files/ground_truth.csv',
         'text_word2vec': 'csv_files/word2wev_clustering_id.csv',
         'text_tfidf': 'csv_files/text_clustering_id.csv',
         'features': 'csv_files/feature_clustering_id.csv'

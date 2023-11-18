@@ -53,18 +53,18 @@ df = load_data(kind="processed")
 ###################################
 
 ######### Word2Vec #########
-# model = Word2Vec(sentences=df['description'], vector_size=100, window=5, min_count=1, workers=4)
-# def description_to_vector(description):
-#     # Filter out words not in the model's vocabulary
-#     valid_words = [word for word in description if word in model.wv.key_to_index]
-#     if valid_words:
-#         # Average the vectors of the words in the description
-#         return np.mean(model.wv[valid_words], axis=0)
-#     else:
-#         # If no valid words, return a zero vector
-#         return np.zeros(model.vector_size)
+model = Word2Vec(sentences=df['description'], vector_size=100, window=5, min_count=1, workers=4)
+def description_to_vector(description):
+    # Filter out words not in the model's vocabulary
+    valid_words = [word for word in description if word in model.wv.key_to_index]
+    if valid_words:
+        # Average the vectors of the words in the description
+        return np.mean(model.wv[valid_words], axis=0)
+    else:
+        # If no valid words, return a zero vector
+        return np.zeros(model.vector_size)
 
-# df['vector'] = df['description'].apply(description_to_vector)
+df['vector'] = df['description'].apply(description_to_vector)
 ##################################
 # Convert list of vectors to a 2D array for clustering
 vectors = np.array(df['vector'].tolist())
