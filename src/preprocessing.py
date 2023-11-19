@@ -17,6 +17,27 @@ from src.utils import load_data, is_english
 from src.logger import working_on
 
 
+def remove_words_with_numbers(word_list):
+  """
+  Takes a string representation of a list of words as input,
+  removes any special characters from the words, and then removes any words that contain numbers.
+
+  Args:
+    word_list_str: A string representation of a list of words.
+
+  Returns:
+    The function `remove_words_with_numbers` returns a list of words without any special characters or
+  numbers.
+  """
+  word_list_without_special = [
+      re.sub(r"[^a-zA-Z0-9\s]", "", word) for word in word_list
+  ]
+  word_list_without_numbers = [
+      word for word in word_list_without_special if not re.search(r"\d", word)
+  ]
+  return word_list_without_numbers
+
+
 def convert_date_posted(date_str, date_scraped):
   try:
     days_ago = int(date_str.split(' ')[0])
@@ -132,6 +153,11 @@ def main():
 
   # Remove rows with empty descriptions or descriptions containing less than 3 words
   df = df[df['description'].map(len) > 3]
+
+  # Remove special characters and numbers from the tokenized list
+  df['description'] = df['description'].apply(
+      lambda x: remove_words_with_numbers(x)
+  )
 
   df = df.reset_index(drop=True)
 

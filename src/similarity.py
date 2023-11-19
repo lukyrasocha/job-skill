@@ -14,229 +14,240 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import davies_bouldin_score, rand_score, normalized_mutual_info_score
 
 # find the minimum value between hashes
+
+
 def minhashes(shingles, seeds):
-    hashs =[]
-    for seed in range(seeds):
-        mini = float('inf')
-        for shi in shingles:
-            # hashes a list of strings
-            hash = 0
-            for e in shi:
-                hash = hash ^ mmh3.hash(e, seed)
-            # find the minimum value
-            if mini > hash:
-                mini = hash
-        hashs.append(mini)
-    return list(hashs)
+  hashs = []
+  for seed in range(seeds):
+    mini = float('inf')
+    for shi in shingles:
+      # hashes a list of strings
+      hash = 0
+      for e in shi:
+        hash = hash ^ mmh3.hash(e, seed)
+      # find the minimum value
+      if mini > hash:
+        mini = hash
+    hashs.append(mini)
+  return list(hashs)
 
 # get every signature in data
+
+
 def signatures(df, k, seeds):
-    hash_dic = {}
-    for i in range(len(df)):
-        # make a description into k-shingles
-        shi = []
-        for ch in range(len(df[i])-k+1):
-            shi.append(df[i][ch:ch+k])
-        
-        hash_dic[i] = minhashes(list(shi), seeds)
-    return hash_dic
+  hash_dic = {}
+  for i in range(len(df)):
+    # make a description into k-shingles
+    shi = []
+    for ch in range(len(df[i])-k+1):
+      shi.append(df[i][ch:ch+k])
+
+    hash_dic[i] = minhashes(list(shi), seeds)
+  return hash_dic
+
 
 def convert_matrix(N, scores):
-    similarity_matrix = np.zeros((N,N))
-    for i in range(N):
-        for j in range(N):
-            if i == j:
-                similarity_matrix[i][j] = 1.0
-            elif i > j:
-                similarity_matrix[i][j] = scores[(j, i)]
-            else:
-                similarity_matrix[i][j] = scores[(i, j)]
-    return similarity_matrix
+  similarity_matrix = np.zeros((N, N))
+  for i in range(N):
+    for j in range(N):
+      if i == j:
+        similarity_matrix[i][j] = 1.0
+      elif i > j:
+        similarity_matrix[i][j] = scores[(j, i)]
+      else:
+        similarity_matrix[i][j] = scores[(i, j)]
+  return similarity_matrix
+
 
 def find_sim(data, q, seed):
-    """
-    Finds the similarity between any two job's description for a given dataset using the shingle, minihash 
-    and jaccord similarity.
+  """
+  Finds the similarity between any two job's description for a given dataset using the shingle, minihash 
+  and jaccord similarity.
 
-    Args:
-      data: The "data" parameter is the dataset that you want to cluster. It should be a 2D array-like
-    object, such as a numpy array or a pandas DataFrame, where each row represents a data point and each
-    column represents a feature of that data point.
-      q: The q parameter represents the number of shingles ( k = 2 or 3 for small documents such as emails)
-      seed: The seed parameter represents how mand seeds to use for doing the minihashes
+  Args:
+    data: The "data" parameter is the dataset that you want to cluster. It should be a 2D array-like
+  object, such as a numpy array or a pandas DataFrame, where each row represents a data point and each
+  column represents a feature of that data point.
+    q: The q parameter represents the number of shingles ( k = 2 or 3 for small documents such as emails)
+    seed: The seed parameter represents how mand seeds to use for doing the minihashes
 
-    Returns:
-      A dictionary where the keys are pairs of indices, and the values are scores representing the similarity 
-      between job descriptions at those indices
-    """
-    sign = signatures(data, q, seed)
+  Returns:
+    A dictionary where the keys are pairs of indices, and the values are scores representing the similarity 
+    between job descriptions at those indices
+  """
+  sign = signatures(data, q, seed)
 
-    score_list = {}
-    keys =list(sign.keys())
-    for k in tqdm(range(len(keys)-1), desc = 'Calculating jaccard similarity', delay=0.1):
-        for j in range(k+1,len(keys)):
-            # calculate jaccard simiarity and store the score
-            score = len(np.intersect1d(sign[keys[k]],sign[keys[j]]))/len(np.union1d(sign[keys[k]],sign[keys[j]]))
-            score_list[(keys[k],keys[j])] = score
-    return score_list
+  score_list = {}
+  keys = list(sign.keys())
+  for k in tqdm(range(len(keys)-1), desc='Calculating jaccard similarity', delay=0.1):
+    for j in range(k+1, len(keys)):
+      # calculate jaccard simiarity and store the score
+      score = len(np.intersect1d(
+          sign[keys[k]], sign[keys[j]]))/len(np.union1d(sign[keys[k]], sign[keys[j]]))
+      score_list[(keys[k], keys[j])] = score
+  return score_list
+
 
 def louvain_cluster(N, scores):
-    """
-    Determines the best partition of a graph for a given similarity score value
-    using the Louvain Community Detection Algorithm, (Not using Girvan Newman
-    because it's too time comsuming) and find its Davies-Bouldin index value.
-    
-    Args:
-      N: length of data
-      scores: A dictionary where the keys are pairs of indices, and the values are scores representing the similarity 
-      between job descriptions at those indices
+  """
+  Determines the best partition of a graph for a given similarity score value
+  using the Louvain Community Detection Algorithm, (Not using Girvan Newman
+  because it's too time comsuming) and find its Davies-Bouldin index value.
 
-    Returns:
-      the cluster label for each data points and the corresponding Davies-Bouldin index.
-    """
-    # Create a graph
-    G = nx.Graph()
+  Args:
+    N: length of data
+    scores: A dictionary where the keys are pairs of indices, and the values are scores representing the similarity 
+    between job descriptions at those indices
 
-    # Add nodes (text points)
-    G.add_nodes_from(range(N))
+  Returns:
+    the cluster label for each data points and the corresponding Davies-Bouldin index.
+  """
+  # Create a graph
+  G = nx.Graph()
 
-    # Add edges based on similarity scores (you can adjust the threshold)
-    for idx, idy in scores:
-        G.add_edge(idx, idy, weight = scores[(idx,idy)])
+  # Add nodes (text points)
+  G.add_nodes_from(range(N))
 
-    # Use Louvain community detection algorithm to detect communities
-    communities = community.louvain_communities(G)
-    
-    # Retrieve the cluster assignments
-    clusters = {}
-    for label, nodes in enumerate(communities):
-        for idx in nodes:
-            clusters[idx] = label
-    
-    # Sort the cluster based on id order and calculate the dbi
-    sorted_dict = dict(sorted(clusters.items()))
-    dbi = davies_bouldin_score(convert_matrix(N,scores), list(sorted_dict.values()))
-    return sorted_dict, dbi
+  # Add edges based on similarity scores (you can adjust the threshold)
+  for idx, idy in scores:
+    G.add_edge(idx, idy, weight=scores[(idx, idy)])
+
+  # Use Louvain community detection algorithm to detect communities
+  communities = community.louvain_communities(G)
+
+  # Retrieve the cluster assignments
+  clusters = {}
+  for label, nodes in enumerate(communities):
+    for idx in nodes:
+      clusters[idx] = label
+
+  # Sort the cluster based on id order and calculate the dbi
+  sorted_dict = dict(sorted(clusters.items()))
+  dbi = davies_bouldin_score(convert_matrix(
+      N, scores), list(sorted_dict.values()))
+  return sorted_dict, dbi
+
 
 def kmean_cluster(N, scores, k_max=30):
-    """
-    Determines the optimal number of
-    clusters for a given similarity matrix using the Davies-Bouldin index.
-    The minimum score is zero, with lower values indicating better clustering
-    
-    Args:
-      N: length of data
-      scores: A dictionary where the keys are pairs of indices, and the values are scores representing the similarity 
-      between job descriptions at those indices
-      k_max: The parameter `k_max` represents the maximum number of clusters to consider. In the given
-      code, it is set to 30, which means the function will iterate over values of `k` from 2 to 30
-      (inclusive) to find the best value of `k` based on the. Defaults to 30
-      ground_truth: An array of cluster label generated by feature clustering 
+  """
+  Determines the optimal number of
+  clusters for a given similarity matrix using the Davies-Bouldin index.
+  The minimum score is zero, with lower values indicating better clustering
 
-    Returns:
-      the cluster label for each data points and the corresponding Davies-Bouldin index .
-    """
-    best_dbi = float("inf")  # Initialize with a high value
-    best_labels = None
-    warnings.filterwarnings("ignore")
-    similarity_matrix = convert_matrix(N,scores)
-    for k in tqdm(range(10, k_max), desc = 'Finding optimal number of cluster in Kmeans', delay=0.1):
-        # Kmeans clustering
-        kmeans = KMeans(n_clusters=k)
-        labels = kmeans.fit_predict(1-similarity_matrix)  # Convert similarity to distance
+  Args:
+    N: length of data
+    scores: A dictionary where the keys are pairs of indices, and the values are scores representing the similarity 
+    between job descriptions at those indices
+    k_max: The parameter `k_max` represents the maximum number of clusters to consider. In the given
+    code, it is set to 30, which means the function will iterate over values of `k` from 2 to 30
+    (inclusive) to find the best value of `k` based on the. Defaults to 30
+    ground_truth: An array of cluster label generated by feature clustering 
 
-        dbi = davies_bouldin_score(1-similarity_matrix, labels)
-        
-        if dbi < best_dbi:
-            best_labels = labels
-            best_dbi = dbi
-    # Retrieve the cluster assignments
-    clusters = {}
-    for label, idx in zip(best_labels, range(N)):
-        clusters[idx] = label
+  Returns:
+    the cluster label for each data points and the corresponding Davies-Bouldin index .
+  """
+  best_dbi = float("inf")  # Initialize with a high value
+  best_labels = None
+  warnings.filterwarnings("ignore")
+  similarity_matrix = convert_matrix(N, scores)
+  for k in tqdm(range(10, k_max), desc='Finding optimal number of cluster in Kmeans', delay=0.1):
+    # Kmeans clustering
+    kmeans = KMeans(n_clusters=k)
+    # Convert similarity to distance
+    labels = kmeans.fit_predict(1-similarity_matrix)
 
-    return clusters,best_dbi
+    dbi = davies_bouldin_score(1-similarity_matrix, labels)
+
+    if dbi < best_dbi:
+      best_labels = labels
+      best_dbi = dbi
+  # Retrieve the cluster assignments
+  clusters = {}
+  for label, idx in zip(best_labels, range(N)):
+    clusters[idx] = label
+
+  return clusters, best_dbi
+
 
 def clusterings_eval(cluster, ground_truth, matrix, method="RAND_INDEX"):
-    """
-    Show the evaluation value comparing the ground truth using differnet method
-    
-    Args:
-      clustering: A dictionary with index and corresponding cluster label
-      ground_truth: An array of cluster label generated by feature clustering 
-      between job descriptions at those indices
-      method: ["NMI", "RAND_INDEX", ... ] 
+  """
+  Show the evaluation value comparing the ground truth using differnet method
 
-    Returns:
-      the cluster label for each data points and the corresponding Davies-Bouldin index .
-    """
-    if method == "RAND_INDEX":
-        return rand_score(ground_truth, cluster)
-    elif method == "NMI":
-        return normalized_mutual_info_score(ground_truth,cluster)
-    # elif method == "DBI":
-    #     return davies_bouldin_score(matrix, list(cluster.values()))
-    else:
-        return "Wrong method choosing"
-    
+  Args:
+    clustering: A dictionary with index and corresponding cluster label
+    ground_truth: An array of cluster label generated by feature clustering 
+    between job descriptions at those indices
+    method: ["NMI", "RAND_INDEX", ... ] 
+
+  Returns:
+    the cluster label for each data points and the corresponding Davies-Bouldin index .
+  """
+  if method == "RAND_INDEX":
+    return rand_score(ground_truth, cluster)
+  elif method == "NMI":
+    return normalized_mutual_info_score(ground_truth, cluster)
+  # elif method == "DBI":
+  #     return davies_bouldin_score(matrix, list(cluster.values()))
+  else:
+    return "Wrong method choosing"
+
+
 def remove_words_with_numbers(word_list_str):
-    """
-    Takes a string representation of a list of words as input,
-    removes any special characters from the words, and then removes any words that contain numbers.
+  """
+  Takes a string representation of a list of words as input,
+  removes any special characters from the words, and then removes any words that contain numbers.
 
-    Args:
-      word_list_str: A string representation of a list of words.
+  Args:
+    word_list_str: A string representation of a list of words.
 
-    Returns:
-      The function `remove_words_with_numbers` returns a list of words without any special characters or
-    numbers.
-    """
-    word_list = ast.literal_eval(word_list_str)
-    word_list_without_special = [
-        re.sub(r"[^a-zA-Z0-9\s]", "", word) for word in word_list
-    ]
-    word_list_without_numbers = [
-        word for word in word_list_without_special if not re.search(r"\d", word)
-    ]
-    return word_list_without_numbers
+  Returns:
+    The function `remove_words_with_numbers` returns a list of words without any special characters or
+  numbers.
+  """
+  word_list = ast.literal_eval(word_list_str)
+  word_list_without_special = [
+      re.sub(r"[^a-zA-Z0-9\s]", "", word) for word in word_list
+  ]
+  word_list_without_numbers = [
+      word for word in word_list_without_special if not re.search(r"\d", word)
+  ]
+  return word_list_without_numbers
+
 
 def main():
 
-    
-    # Load the data
-    df  = load_data(kind="processed")
-    df["description"] = df["description"].apply(
-            lambda x: remove_words_with_numbers(x)
-        )
-    
-    # if has ground truth
-    # ground = pd.read_csv('../csv_files/feature_clustering_id.csv', sep=',', header=0, names=['id', 'ground'])
-    #df = pd.merge(df, ground, on='id')
-    
-    # Number of jobs
-    N = len(df)
-    # Give q & seeds for hash to find similarity for each job's descriptions
-    # q = number of singles ( k = 2 or 3 for small documents such as emails)
-    q = 2
-    seeds = 100
-    scores = find_sim(df['description'],q,seeds)
+  # Load the data
+  df = load_data(kind="processed")
 
-    # Plot the network based on similarity and find community based on graph
-    # To evaluate the functionaly of cluster, calculate the dbi(The minimum 
-    # score is zero, with lower values indicating better clustering)
-    # and measure rand index between feature label ground truth and prediction 
-    # (similarity score between 0.0 and 1.0, inclusive, 1.0 stands for perfect match)
-    cluster_graph, dbi_graph = louvain_cluster(N, scores)
-    df['cluster_graph'] = cluster_graph
-    cluster_kmean, dbi_kmean  = kmean_cluster(N, scores, 30)
-    df['cluster_kmean'] = cluster_kmean
+  # if has ground truth
+  # ground = pd.read_csv('../csv_files/feature_clustering_id.csv', sep=',', header=0, names=['id', 'ground'])
+  # df = pd.merge(df, ground, on='id')
 
-    print("The DBindex value using graph:", dbi_graph)
-    # print(" Rand index comparing ground truth:"), clusterings_eval(df['cluster_graph'], df['ground'], "RAND_INDEX")
-    print("The DBindex value using kmean:", dbi_kmean)
-    # print( " Rand index comparing ground truth:", clusterings_eval(df['cluster_kmean'], df['ground'], "RAND_INDEX"))
-    # Saving resutl
-    # df[["id", "cluster_graph", "cluster_kmean"]].to_csv("csv_files/similarity.csv", index=False)
-    
+  # Number of jobs
+  N = len(df)
+  # Give q & seeds for hash to find similarity for each job's descriptions
+  # q = number of singles ( k = 2 or 3 for small documents such as emails)
+  q = 2
+  seeds = 100
+  scores = find_sim(df['description'], q, seeds)
+
+  # Plot the network based on similarity and find community based on graph
+  # To evaluate the functionaly of cluster, calculate the dbi(The minimum
+  # score is zero, with lower values indicating better clustering)
+  # and measure rand index between feature label ground truth and prediction
+  # (similarity score between 0.0 and 1.0, inclusive, 1.0 stands for perfect match)
+  cluster_graph, dbi_graph = louvain_cluster(N, scores)
+  df['cluster_graph'] = cluster_graph
+  cluster_kmean, dbi_kmean = kmean_cluster(N, scores, 30)
+  df['cluster_kmean'] = cluster_kmean
+
+  print("The DBindex value using graph:", dbi_graph)
+  # print(" Rand index comparing ground truth:"), clusterings_eval(df['cluster_graph'], df['ground'], "RAND_INDEX")
+  print("The DBindex value using kmean:", dbi_kmean)
+  # print( " Rand index comparing ground truth:", clusterings_eval(df['cluster_kmean'], df['ground'], "RAND_INDEX"))
+  # Saving resutl
+  # df[["id", "cluster_graph", "cluster_kmean"]].to_csv("csv_files/similarity.csv", index=False)
+
+
 if __name__ == "__main__":
-    main()
+  main()
