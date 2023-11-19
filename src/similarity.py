@@ -192,28 +192,6 @@ def clusterings_eval(cluster, ground_truth, matrix, method="RAND_INDEX"):
     return "Wrong method choosing"
 
 
-def remove_words_with_numbers(word_list_str):
-  """
-  Takes a string representation of a list of words as input,
-  removes any special characters from the words, and then removes any words that contain numbers.
-
-  Args:
-    word_list_str: A string representation of a list of words.
-
-  Returns:
-    The function `remove_words_with_numbers` returns a list of words without any special characters or
-  numbers.
-  """
-  word_list = ast.literal_eval(word_list_str)
-  word_list_without_special = [
-      re.sub(r"[^a-zA-Z0-9\s]", "", word) for word in word_list
-  ]
-  word_list_without_numbers = [
-      word for word in word_list_without_special if not re.search(r"\d", word)
-  ]
-  return word_list_without_numbers
-
-
 def main():
 
   # Load the data
