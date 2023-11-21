@@ -5,6 +5,8 @@ tqdm
 langdetect
 nltk
 rich-logging
+scikit-learn
+matplotlib
 gensim
 
 mmh3
