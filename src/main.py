@@ -9,18 +9,29 @@ def main():
 
   """PREPROCESSING"""
 
+  """LOAD CLEAN DATA"""
+
   """TF IDF CLUSTERING"""
-  # Load data
+  # Cluster
+  # Save clusters
+
+  """WORD2VEC CLUSTERING"""
+  # Cluster
+  # Save clusters
+
+  """FEATURE CLUSTERING (ONE HOT ENCODED FUNCTIONS AND INDUSTRIES)"""
   # Cluster
   # Save clusters
 
   """DOC2VEC CLUSTERING"""
-  # Load data
   # Cluster
   # Save clusters
 
-  """SIMILARITY CLUSTERING"""
-  # Load data
+  """SIMILARITY CLUSTERING COMMUNITY DISCOVERY"""
+  # Cluster
+  # Save clusters
+
+  """SIMILARITY CLUSTERING KMEANS"""
   # Cluster
   # Save clusters
 
