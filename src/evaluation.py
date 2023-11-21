@@ -9,7 +9,6 @@ import matplotlib.pyplot as plt
 
 from sklearn.metrics import normalized_mutual_info_score
 from sklearn.metrics import rand_score
-from sklearn.metrics import davies_bouldin_score
 from logger import success, working_on, winner
 
 
