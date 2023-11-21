@@ -6,3 +6,6 @@ langdetect
 nltk
 rich-logging
 gensim
+
+mmh3
+networkx
