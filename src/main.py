@@ -17,10 +17,7 @@ args = parser.parse_args()
 
 def main():
   """SCRAPING"""
-  # x = input("Do you wish to scrape new data? (y/n)")
   if args.scrape:
-    # Scrape data
-    # Save data
     print("true")
     pass
 
