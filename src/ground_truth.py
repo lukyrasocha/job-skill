@@ -1,67 +1,90 @@
 import pandas as pd
-
-def transform_string(s):
-    return s[1:-1].replace("'", "").replace(", ", " ")
-
+import os
+import yaml
 
 df_jobs = pd.read_csv("data/processed/cleaned_jobs.csv", delimiter=';')
-df_jobs['description'] = df_jobs['description'].apply(transform_string)
 
-keywords = {
-    'Software & IT': ['software', 'it support', 'network administration', 'cybersecurity', 'system analysis'],
-    'Healthcare & Medicine': ['medical', 'healthcare', 'nursing', 'doctor', 'clinical'],
-    'Education & Training': ['teaching', 'academic', 'education administration', 'training', 'curriculum development'],
-    'Engineering & Manufacturing': ['mechanical engineering', 'civil engineering', 'electrical engineering', 'manufacturing', 'quality control'],
-    'Finance & Accounting': ['accounting', 'financial', 'auditing', 'banking', 'investment'],
-    'Sales & Marketing': ['sales', 'social media', 'digital marketing', 'public relations', 'brand strategy'],
-    'Creative Arts & Design': ['graphic design', 'fashion', 'photography', 'graphics', 'creative'],
-    'Hospitality & Tourism': ['hotel', 'travel consulting', 'event', 'culinary arts', 'tourism'],
-    'Construction & Real Estate': ['construction', 'architecture', 'urban planning', 'real estate', 'building design'],
-    'Legal & Compliance': ['legal', 'compliance', 'law', 'regulatory affairs', 'legal advisory'],
-    'Science & Research': ['research', 'laboratory', 'scientific', 'study', 'experimental'],
-    'Human Resources & Recruitment': ['employee management', 'recruitment', 'training development', 'organizational', 'workforce planning'],
-    'Transportation & Logistics': ['transportation', 'supply chain', 'logistics', 'fleet', 'shipping coordination'],
-    'Agriculture & Environmental': ['farming', 'environmental', 'resource management', 'agricultural', 'sustainable'],
-    'Retail & Consumer Goods': ['retail', 'goods', 'consumer', 'product marketing', 'merchandising'],
-    'Media & Communications': ['journalism', 'broadcasting', 'content', 'communication', 'media production'],
-    'Government & Public Sector': ['public administration', 'policy', 'service', 'government', 'civil'],
-    'Non-Profit & Social Services': ['non-profit', 'social', 'community', 'charity', 'volunteer'],
-    'Energy & Utilities': ['energy', 'renewable', 'utility management', 'energy conservation', 'sustainability'],
-    'Arts & Entertainment': ['acting', 'music performance', 'event coordination', 'entertainment', 'art']
+yaml_file = 'ground_truth.yaml'
+if os.path.exists(yaml_file):
+    with open(yaml_file, 'r') as file:
+        yaml_content = yaml.safe_load(file) or {}
+
+
+ground_truth_df = pd.DataFrame.from_dict(yaml_content, orient='index', columns=['category'])
+ground_truth_df.index.name = 'id'
+ground_truth_df.reset_index(inplace=True)
+
+mapping_rules = {
+    'Software & IT': 'Software & IT',
+    'Creative Arts & Design': 'Creative Arts & Design',
+    'Engineering & Manufacturing': 'Engineering & Manufacturing',
+    'Manufacturing': 'Engineering & Manufacturing',
+    'Human Resources & Recruitment': 'Human Resources & Recruitment',
+    'Energy & Utilities': 'Energy & Utilities',
+    'Sales & Marketing': 'Sales & Marketing',
+    'Consumer Goods': 'Retail & Consumer Goods',
+    'Transportation & Logistics': 'Transportation & Logistics',
+    'Finance & Accounting': 'Finance & Accounting',
+    'Information Technology & Services': 'Software & IT',
+    'IT & Software': 'Software & IT',
+    'Non-Profit & Social Services': 'Non-Profit & Social Services',
+    'Media & Communications': 'Media & Communications',
+    'Technology': 'Software & IT',
+    'Hospitality & Tourism': 'Hospitality & Tourism',
+    'Retail & Consumer Goods': 'Retail & Consumer Goods',
+    'Technology & Information': 'Software & IT',
+    'Legal & Compliance': 'Legal & Compliance',
+    'Healthcare & Medicine': 'Healthcare & Medicine',
+    'Science & Research': 'Science & Research',
+    'Information Technology': 'Software & IT',
+    'Education & Training': 'Education & Training',
+    'Business & Entrepreneurship': 'Finance & Accounting',
+    'Logistics & Supply Chain': 'Transportation & Logistics',
+    'Construction & Real Estate': 'Construction & Real Estate',
+    'Arts & Entertainment': 'Arts & Entertainment',
+    'Agriculture & Environmental': 'Agriculture & Environmental',
+    'Staffing & Recruiting': 'Human Resources & Recruitment',
+    'Maritime & Transportation': 'Transportation & Logistics',
+    'Technology & IT': 'Software & IT',
+    'Public Relations & Communications': 'Media & Communications',
+    'Customer Service': 'Human Resources & Recruitment',
+    'Information Technology (IT)': 'Software & IT',
+    'Manufacturing & Engineering': 'Engineering & Manufacturing',
+    'Renewable energy': 'Energy & Utilities',
+    'Government & Public Sector': 'Government & Public Sector',
+    'Customer Success': 'Sales & Marketing',
+    'Insurance & Risk Management': 'Finance & Accounting',
+    'Human Resources': 'Human Resources & Recruitment',
+    'Marketing & Advertising': 'Sales & Marketing',
+    'Pharmaceutical & Healthcare': 'Healthcare & Medicine',
+    'Retail': 'Retail & Consumer Goods',
+    'Environmental & Sustainability': 'Agriculture & Environmental',
+    'Real Estate & Construction': 'Construction & Real Estate',
+    'Aerospace & Defense': 'Engineering & Manufacturing',
+    'Public Relations': 'Media & Communications',
+    'Event Planning & Management': 'Hospitality & Tourism',
+    'Sports & Recreation': 'Arts & Entertainment',
+    'Medical equipment manufacturing': 'Healthcare & Medicine',
+    'Renewable Energy': 'Energy & Utilities',
+    'Technology & Internet': 'Software & IT',
+    'Technology & Information Technology': 'Software & IT',
+    'Administration & Office Support': 'Human Resources & Recruitment',
+    'Information & Technology': 'Software & IT',
+    'Administration': 'Human Resources & Recruitment',
+    'Technology & Telecommunications': 'Software & IT',
+    'Insurance': 'Finance & Accounting',
+    'Insurance & Financial Services': 'Finance & Accounting',
+    'Logistics & Supply Chain Management': 'Transportation & Logistics',
+    'Market Research': 'Sales & Marketing'
 }
 
-def refined_keyword_based_categorize_job(row):
-    # Combine the function, industries, and description into a single string for analysis
-    combined_info = f"{row['function']} {row['industries']} {row['description']}".lower()
+ground_truth_df['category'] = ground_truth_df['category'].map(mapping_rules)
 
-    # Count matching keywords for each category
-    keyword_counts = {category: sum(keyword in combined_info for keyword in keywords) 
-                      for category, keywords in keywords.items()}
-
-    # Determine the category with the most matching keywords
-    best_category = max(keyword_counts, key=keyword_counts.get)
-
-    # If the best category has 0 matches and there's an 'Other' category, assign 'Other'
-    if keyword_counts[best_category] == 0 and 'Other' in keywords:
-        return 'Other'
-    return best_category
-
-# Apply the refined keyword-based categorization function to each row
-df_jobs['category'] = df_jobs.apply(refined_keyword_based_categorize_job, axis=1)
-
-# Display the updated dataframe with the new 'refined_keyword_based_general_cluster' column
-df_jobs[['title', 'function', 'industries', 'description', 'category']].head()
-
-
-for key in keywords.keys():
-    print(key, sum(df_jobs.category == key))
-
-
-
-#Turn to categories
-df_jobs['category'] = pd.Categorical(df_jobs['category'])
-df_jobs['cluster'] = df_jobs['category'].cat.codes
-df_id_and_cluster = df_jobs[["id", "category", "cluster"]].sort_values(
+ground_truth_df['category'] = pd.Categorical(ground_truth_df['category'])
+ground_truth_df['cluster'] = ground_truth_df['category'].cat.codes
+df_id_and_cluster = ground_truth_df[["id", "category", "cluster"]].sort_values(
     by="cluster", ascending=True
 )
-df_id_and_cluster.to_csv("./csv_files/ground_truth.csv", index=False)
+
+df_id_and_cluster.to_csv("./csv_files/ground_truth_gpt.csv", index=False)
+
