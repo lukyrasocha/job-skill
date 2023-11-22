@@ -1,0 +1,65 @@
+Cluster 1
+ data
+ design
+ team
+ experience
+ work
+ software
+ solution
+ development
+ product
+ technology
+
+
+Cluster 2
+ marketing
+ medium
+ campaign
+ brand
+ content
+ team
+ work
+ strategy
+ channel
+ design
+
+
+Cluster 3
+ sale
+ customer
+ product
+ business
+ team
+ market
+ experience
+ company
+ client
+ service
+
+
+Cluster 4
+ work
+ team
+ business
+ experience
+ opportunity
+ company
+ finance
+ people
+ hr
+ management
+
+
+Cluster 5
+ project
+ management
+ team
+ process
+ energy
+ experience
+ quality
+ development
+ vesta
+ solution
+
+

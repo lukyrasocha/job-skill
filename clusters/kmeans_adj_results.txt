@@ -1,0 +1,65 @@
+Cluster 1
+ financial
+ clinical
+ medical
+ regulatory
+ strong
+ global
+ key
+ internal
+ strategic
+ responsible
+
+
+Cluster 2
+ global
+ new
+ strong
+ international
+ technical
+ good
+ internal
+ professional
+ english
+ responsible
+
+
+Cluster 3
+ digital
+ social
+ creative
+ strong
+ new
+ intern
+ best
+ great
+ english
+ user
+
+
+Cluster 4
+ vesta
+ global
+ sustainable
+ new
+ high
+ curious
+ future
+ retail
+ social
+ unparalleled
+
+
+Cluster 5
+ nordisk
+ novo
+ patient
+ inclusive
+ best
+ possible
+ dynamic
+ clinical
+ applicant
+ fair
+
+
