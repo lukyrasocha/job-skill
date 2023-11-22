@@ -18,6 +18,8 @@ def load_data(kind="processed"):
     df = pd.read_csv('data/raw/jobs.csv', sep=';')
   elif kind == "processed":
     df = pd.read_csv('data/processed/cleaned_jobs.csv', sep=';')
+  elif kind == "ground_truth":
+    df = pd.read_csv('clusters/ground_truth_gpt.csv')
   return df
 
 
@@ -65,6 +67,22 @@ def visualize_cluster(data,
   plt.title(name, fontsize=16, fontweight='bold')
   plt.xlabel("PCA 1", fontsize=14)
   plt.ylabel("PCA 2", fontsize=14)
+  plt.grid(True, linestyle='--', alpha=0.5)
+  plt.tight_layout()
+  if savefig:
+    plt.savefig(f"figures/{filename}")
+  plt.show()
+
+
+def visualize_ground_truth(gt, savefig=False, filename="ground_truth.png"):
+  plt.figure(figsize=(10, 6))
+  plt.bar(gt["category"].value_counts().index,
+          gt["category"].value_counts().values, color='dodgerblue')
+
+  plt.xticks(rotation=75)
+  plt.title("Ground truth distribution", fontsize=16, fontweight='bold')
+  plt.xlabel("Category", fontsize=14)
+  plt.ylabel("Count", fontsize=14)
   plt.grid(True, linestyle='--', alpha=0.5)
   plt.tight_layout()
   if savefig:

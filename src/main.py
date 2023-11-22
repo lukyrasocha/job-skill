@@ -4,8 +4,7 @@ MAIN ENTRYPOINT OF THE ENTIRE PROJECT
 
 import argparse
 import ast
-
-from utils import load_data, visualize_cluster
+from utils import load_data, visualize_cluster, visualize_ground_truth
 from tfidf_cluster import TFIDF_cluster
 from logger import working_on, success, info
 
@@ -30,14 +29,16 @@ def main():
   success("Data loaded")
 
   """TF IDF CLUSTERING"""
-  working_on("TFIDF Clustering")
-  tfidf_clusters, tfidf_matrix = TFIDF_cluster(data, save_clusters=False)
-  visualize_cluster(tfidf_matrix,
-                    tfidf_clusters["cluster"].to_numpy(),
-                    savefig=True,
-                    filename="tfidf_clusters.png",
-                    name="TFIDF Clustering")
-  tfidf_matrix = 0
+  q = input("🧪 Do you want to perform TFIDF clustering? (y/n) ")
+  if q == "y":
+    working_on("TFIDF Clustering")
+    tfidf_clusters, tfidf_matrix = TFIDF_cluster(data, save_clusters=False)
+    visualize_cluster(tfidf_matrix,
+                      tfidf_clusters["cluster"].to_numpy(),
+                      savefig=True,
+                      filename="tfidf_clusters.png",
+                      name="TFIDF Clustering")
+    tfidf_matrix = 0
 
   """WORD2VEC CLUSTERING"""
   # Cluster
@@ -70,6 +71,9 @@ def main():
   """GROUND TRUTH INFERENCE"""
   # SET ENV VARIABLE OPEN_AI_KEY TO YOUR OPEN AI KEY
   # SAVE GROUND TRUTH
+
+  gt = load_data(kind="ground_truth")
+  visualize_ground_truth(gt, savefig=True, filename="ground_truth.png")
 
   """SKILL EXTRACTION"""
   # SET ENV VARIABLE OPEN_AI_KEY TO YOUR OPEN AI KEY

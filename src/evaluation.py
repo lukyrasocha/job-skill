@@ -53,7 +53,8 @@ def compare_clusters_rand_index(clusters):
 
 def evaluation():
   paths = {
-      'ground_truth': 'clusters/ground_truth.csv',
+      # 'ground_truth': 'clusters/ground_truth.csv',
+      'ground_truth_gpt': 'clusters/ground_truth_gpt.csv',
       'word2vec': 'clusters/word2vec_clusters.csv',
       'tfidf': 'clusters/tf_idf_clusters.csv',
       'industries_functions': 'clusters/ind_fun_onehot_clusters.csv',
@@ -78,8 +79,9 @@ def evaluation():
   success("Rand Index matrix:")
   print(rand_index_matrix.to_string(index=False))
 
-  ground_truth_nmi = nmi_matrix['ground_truth'].drop('ground_truth')
-  ground_truth_rand = rand_index_matrix['ground_truth'].drop('ground_truth')
+  ground_truth_nmi = nmi_matrix['ground_truth_gpt'].drop('ground_truth_gpt')
+  ground_truth_rand = rand_index_matrix['ground_truth_gpt'].drop(
+      'ground_truth_gpt')
 
   # Select the best clustering method based on NMI and Rand Index
   best_nmi = ground_truth_nmi.idxmax()
