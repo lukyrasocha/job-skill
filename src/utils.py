@@ -20,6 +20,8 @@ def load_data(kind="processed"):
     df = pd.read_csv('data/processed/cleaned_jobs.csv', sep=';')
   elif kind == "ground_truth":
     df = pd.read_csv('clusters/ground_truth_gpt.csv')
+  elif kind == "skills":
+    df = pd.read_csv('extracted_skills/skills_extracted_gpt3.csv')
   return df
 
 
@@ -88,3 +90,13 @@ def visualize_ground_truth(gt, savefig=False, filename="ground_truth.png"):
   if savefig:
     plt.savefig(f"figures/{filename}")
   plt.show()
+
+
+def skill_cleanup(data):
+
+  # skills is a list of strings, connect them into one string
+
+  data["skills_string"] = data["skills"].apply(lambda x: ' '.join(x))
+
+  print(data.head())
+  return data

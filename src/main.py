@@ -4,7 +4,7 @@ MAIN ENTRYPOINT OF THE ENTIRE PROJECT
 
 import argparse
 import ast
-from utils import load_data, visualize_cluster, visualize_ground_truth
+from utils import load_data, visualize_cluster, visualize_ground_truth, skill_cleanup
 from tfidf_cluster import TFIDF_cluster
 from logger import working_on, success, info
 
@@ -73,11 +73,18 @@ def main():
   # SAVE GROUND TRUTH
 
   gt = load_data(kind="ground_truth")
-  visualize_ground_truth(gt, savefig=True, filename="ground_truth.png")
+  # visualize_ground_truth(gt, savefig=True, filename="ground_truth.png")
 
   """SKILL EXTRACTION"""
   # SET ENV VARIABLE OPEN_AI_KEY TO YOUR OPEN AI KEY
   # SAVE SKILLS FOR EACH CLUSTERK
+
+  skills = load_data(kind="skills")
+  skills["skills"] = skills["skills"].apply(ast.literal_eval)
+  cleaned = skill_cleanup(skills)
+
+  for i in range(len(skills)):
+    print(cleaned.iloc[i]["skills_string"])
 
 
 if __name__ == "__main__":
