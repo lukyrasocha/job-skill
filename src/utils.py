@@ -21,7 +21,7 @@ def load_data(kind="processed"):
   elif kind == "ground_truth":
     df = pd.read_csv('clusters/ground_truth_gpt.csv')
   elif kind == "skills":
-    df = pd.read_csv('extracted_skills/skills_extracted_gpt3.csv')
+    df = pd.read_csv('extracted_skills/skills_extracted_gpt3_v2.csv')
   return df
 
 
