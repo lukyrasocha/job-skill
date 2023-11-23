@@ -2,8 +2,7 @@ import pandas as pd
 from similarity import (
     find_sim,
     louvain_cluster,
-    kmean_cluster,
-    clusterings_eval)
+    kmean_cluster)
 from utils import load_data
 from logger import working_on
 
@@ -33,7 +32,7 @@ def main():
   df['cluster_graph'] = cluster_graph
 
   working_on("Clustering based on kmean...")
-  cluster_kmean, dbi_kmean = kmean_cluster(N, scores, 30)
+  cluster_kmean, dbi_kmean = kmean_cluster(N, scores)
   df['cluster_kmean'] = cluster_kmean
 
   working_on("Saving clusters ...")
