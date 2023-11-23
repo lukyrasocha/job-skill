@@ -9,9 +9,9 @@ def load_data(kind="processed"):
     kind: "raw" or "processed"
   """
   if kind == "raw":
-    df = pd.read_csv('../data/raw/jobs.csv', sep=';')
+    df = pd.read_csv('data/raw/jobs.csv', sep=';')
   elif kind == "processed":
-    df = pd.read_csv('../data/processed/cleaned_jobs.csv', sep=';')
+    df = pd.read_csv('data/processed/cleaned_jobs.csv', sep=';')
   return df
 
 
