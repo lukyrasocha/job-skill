@@ -33,9 +33,11 @@ def minhashes(shingles, seeds):
 
 def signatures(df, k, seeds):
   hash_dic = {}
-  df = df.apply(
+  # If the data in the dataframe is not a list, convert it to a list
+  if type(df[0]) != list:
+    df = df.apply(
         lambda x: ast.literal_eval(x)
-        )
+    )
   for i in range(len(df)):
     # make a description into k-shingles
     shi = []
@@ -79,7 +81,7 @@ def find_sim(data, q, seed):
 
   score_list = {}
   keys = list(sign.keys())
-  for k in tqdm(range(len(keys)-1), desc='Calculating jaccard similarity'):
+  for k in tqdm(range(len(keys)-1), desc='Calculating jaccard similarity', ascii=True, colour="#0077B5"):
     for j in range(k+1, len(keys)):
       # calculate jaccard simiarity and store the score
       score = len(np.intersect1d(
@@ -124,11 +126,11 @@ def louvain_cluster(N, scores):
   # Sort the cluster based on id order and calculate the dbi
   sorted_dict = dict(sorted(clusters.items()))
   dbi = davies_bouldin_score(convert_matrix(
-    N, scores), list(sorted_dict.values()))
-  return sorted_dict, dbi 
+      N, scores), list(sorted_dict.values()))
+  return sorted_dict, dbi
 
 
-def kmean_cluster(N, scores):
+def kmean_cluster(N, scores, n_clusters=20):
   """
   Determines the clusters for a given similarity matrix.
 
@@ -147,9 +149,9 @@ def kmean_cluster(N, scores):
 
   warnings.filterwarnings("ignore")
   similarity_matrix = convert_matrix(N, scores)
-  
+
   # Kmeans clustering
-  kmeans = KMeans(n_clusters=19)
+  kmeans = KMeans(n_clusters=n_clusters, random_state=0)
   # Convert similarity to distance
   labels = kmeans.fit_predict(similarity_matrix)
 
