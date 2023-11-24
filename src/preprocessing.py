@@ -1,13 +1,11 @@
-
+import pandas as pd
+import re
+import string
+import nltk
 # Note: you might need to download the nltk packages
 # nltk.download('punkt')
 # nltk.download('stopwords')
 # nltk.download('wordnet')
-
-import pandas as pd
-import re
-import string
-
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
@@ -98,7 +96,7 @@ def text_preprocessing(text):
   return tokens
 
 
-def main():
+def preprocess():
   """
   Main function of the preprocessing module.
   Loads the raw data and does the following:
@@ -166,7 +164,7 @@ def main():
 
 
 if __name__ == "__main__":
-  main()
+  preprocess()
   df = load_data(kind="processed")
   print(df.iloc[970]['description'])
   print(df.iloc[970]['industries'])
