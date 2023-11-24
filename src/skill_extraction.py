@@ -101,4 +101,4 @@ def skill_extraction(save_skills=False):
 
 
 if __name__ == "__main__":
-  skill_extraction(save_skills=True)
+  skill_extraction(save_skills=False)
