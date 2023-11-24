@@ -11,6 +11,11 @@ def warning(message):
   console.print(":tomato: [bold red]WARNING[/bold red]: " + message)
 
 
+def error(message):
+  console = Console()
+  console.print(":tomato: [bold red]ERROR[/bold red]: " + message)
+
+
 def info(message):
   console = Console()
   console.print(

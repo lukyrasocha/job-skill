@@ -69,6 +69,7 @@ def visualize_cluster(data,
   plt.title(name, fontsize=16, fontweight='bold')
   plt.xlabel("PCA 1", fontsize=14)
   plt.ylabel("PCA 2", fontsize=14)
+  plt.colorbar()
   plt.grid(True, linestyle='--', alpha=0.5)
   plt.tight_layout()
   if savefig:
