@@ -6,13 +6,14 @@ import matplotlib.pyplot as plt
 from src.logger import working_on
 from src.utils import load_data
 from nltk.stem import WordNetLemmatizer
-
+import re
 def count_words(words):
     
     # Use spacy to reduce words
-    #nlp = spacy.load("en_core_web_sm")
-    #word = [token.lemma_ for token in nlp(" ".join(words))]
-    #words_without_special_chars = [w.replace('-', '').replace('#', '') for w in word]
+    # nlp = spacy.load("en_core_web_sm")
+    # word = [ re.sub(r"[^a-zA-Z0-9\s]", "", w) for w in words]
+    # word = [token.lemma_ for token in nlp(" ".join(word))]
+    
     # Use WordNet lemmatizer to reduce words
     lemmatizer = WordNetLemmatizer()
     # Apply lemmatization to the words
