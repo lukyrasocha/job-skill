@@ -10,14 +10,14 @@ from nltk.stem import WordNetLemmatizer
 def count_words(words):
     
     # Use spacy to reduce words
-    # nlp = spacy.load("en_core_web_sm")
-    # words = [token.lemma_ for token in nlp(" ".join(words))]
-
+    #nlp = spacy.load("en_core_web_sm")
+    #word = [token.lemma_ for token in nlp(" ".join(words))]
+    #words_without_special_chars = [w.replace('-', '').replace('#', '') for w in word]
     # Use WordNet lemmatizer to reduce words
     lemmatizer = WordNetLemmatizer()
-
     # Apply lemmatization to the words
     word = [lemmatizer.lemmatize(word.lower()) for word in words]
+
     word_counts = Counter(word)
     return dict(word_counts.most_common())
 
@@ -103,7 +103,7 @@ def plot_compared(gt, compare, top_n=5):
     num_rows = N  # Ceiling division to determine the number of rows
 
     # Create subplots
-    fig, axs = plt.subplots(nrows=num_rows, ncols=num_cols, figsize=(24,3.5*N))
+    fig, axs = plt.subplots(nrows=num_rows, ncols=num_cols, figsize=(24,5*N))
     fig.suptitle('Word Frequency in each cluster', fontsize=25)
 
     # Flatten the axs array for easier indexing
@@ -127,7 +127,7 @@ def plot_compared(gt, compare, top_n=5):
 
 
     # Create subplots
-    fig, axs = plt.subplots(nrows=num_rows, ncols=num_cols, figsize=(24,3.5*N))
+    fig, axs = plt.subplots(nrows=num_rows, ncols=num_cols, figsize=(24,5*N))
     fig.suptitle('Word Cloud Subplots', fontsize=25)
 
     # Flatten the axs array for easier indexing
