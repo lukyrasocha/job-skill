@@ -1,6 +1,6 @@
 from src.doc2vec import Doc2VecWrapper
 from src.utils import load_data
-from src.logger import working_on
+from src.logger import working_on, success
 from sklearn.mixture import GaussianMixture
 from sklearn.cluster import KMeans
 
@@ -57,6 +57,8 @@ def doc2vec_cluster(data,
   if save_clusters:
     data[["id", "cluster"]].to_csv(
         f"clusters/doc2vec_{method}_clusters.csv", index=False)
+    success(
+        f"Clusters saved to clusters/doc2vec_{method}_clusters.csv")
 
   return data[["id", "cluster"]], np.array(data['embeddings'].tolist())
 
