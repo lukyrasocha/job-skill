@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 from sklearn.metrics import normalized_mutual_info_score
 from sklearn.metrics import rand_score
-from logger import success, working_on, winner
+from logger import success, working_on, winner, error
 
 
 def load_clustering_methods(paths):
@@ -53,20 +53,29 @@ def compare_clusters_rand_index(clusters):
 
 def evaluation():
   paths = {
-      # 'ground_truth': 'clusters/ground_truth.csv',
+      # 'ground_truth': 'clusters/ground_truth_onehot.csv',
+      # 'ground_truth': 'clusters/ground_truth_keywords.csv',
       'ground_truth_gpt': 'clusters/ground_truth_gpt.csv',
       'word2vec': 'clusters/word2vec_clusters.csv',
-      'tfidf_text': 'clusters/tf_idf_clusters.csv',
+      'tfidf_text': 'clusters/tf_idf_clusters_job_desc.csv',
       'tfidf_industries': "clusters/tfidf_industries_and_functions_clusters.csv",
       'tfidf_nouns': 'clusters/tfidf_noun_clusters.csv',
       'tfidf_adj': 'clusters/tfidf_adj_clusters.csv',
       'tfidf_verbs': 'clusters/tfidf_verb_clusters.csv',
-      'industries_functions': 'clusters/ind_fun_onehot_clusters.csv',
       'similarity_community_disc': 'clusters/sim_community_discovery_clusters.csv',
       'similarity_kmeans': 'clusters/sim_kmeans_clusters.csv',
       'doc2vec_gmm': 'clusters/doc2vec_gmm_clusters.csv',
       'doc2vec_kmeans': 'clusters/doc2vec_kmeans_clusters.csv',
   }
+
+  # If path does not exist throw error
+  for name, path in paths.items():
+    try:
+      with open(path, 'r'):
+        pass
+    except FileNotFoundError:
+      error(f"File {path} not found!")
+      FileNotFoundError(f"File {path} not found!")
 
   # Load the datasets
   working_on("Comparing clusters ...")
