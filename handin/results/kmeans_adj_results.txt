@@ -1,0 +1,260 @@
+Cluster 1
+ cowi
+ green
+ sustainable
+ liveable
+ structural
+ unanswered
+ scandinavia
+ india
+ fun
+ achieve
+
+
+Cluster 2
+ technical
+ strong
+ excellent
+ renewable
+ key
+ crossfunctional
+ new
+ analytical
+ responsible
+ best
+
+
+Cluster 3
+ mechanical
+ electrical
+ automotive
+ technical
+ professional
+ german
+ good
+ english
+ industrial
+ new
+
+
+Cluster 4
+ uzbekistan
+ lesson
+ international
+ pastoral
+ cheap
+ expat
+ conceptual
+ wonderful
+ extracurricular
+ video
+
+
+Cluster 5
+ digital
+ social
+ open
+ strong
+ global
+ new
+ content
+ great
+ best
+ international
+
+
+Cluster 6
+ lean
+ industrial
+ strong
+ sigma
+ fundamental
+ continuous
+ good
+ real
+ efficient
+ best
+
+
+Cluster 7
+ good
+ english
+ flexible
+ medical
+ internal
+ least
+ international
+ professional
+ user
+ strong
+
+
+Cluster 8
+ commercial
+ legal
+ strong
+ new
+ global
+ responsible
+ international
+ analytical
+ good
+ individual
+
+
+Cluster 9
+ clinical
+ medical
+ scientific
+ therapeutic
+ regulatory
+ pharmaceutical
+ patient
+ local
+ disease
+ key
+
+
+Cluster 10
+ vesta
+ sustainable
+ global
+ future
+ social
+ offshore
+ new
+ technical
+ workforce
+ aim
+
+
+Cluster 11
+ creative
+ social
+ graphic
+ visual
+ content
+ digital
+ intern
+ strong
+ innovative
+ dynamic
+
+
+Cluster 12
+ financial
+ strong
+ global
+ annual
+ strategic
+ key
+ analytical
+ monthly
+ great
+ internal
+
+
+Cluster 13
+ nordisk
+ novo
+ patient
+ inclusive
+ best
+ dynamic
+ possible
+ applicant
+ fair
+ good
+
+
+Cluster 14
+ curious
+ retail
+ unparalleled
+ tremendous
+ tangible
+ driven
+ ethic
+ private
+ exceptional
+ friday
+
+
+Cluster 15
+ clinical
+ competitive
+ salary
+ sexual
+ national
+ international
+ medical
+ reasonable
+ applicant
+ receive
+
+
+Cluster 16
+ nordic
+ oral
+ danish
+ strong
+ new
+ local
+ international
+ global
+ digital
+ responsible
+
+
+Cluster 17
+ pln
+ polish
+ net
+ decent
+ southeastern
+ unqualified
+ viber
+ southern
+ ukrainian
+ russian
+
+
+Cluster 18
+ og
+ af
+ du
+ til
+ blive
+ vil
+ som
+ en
+ inden
+ sociale
+
+
+Cluster 19
+ new
+ great
+ strong
+ good
+ open
+ high
+ best
+ english
+ international
+ right
+
+
+Cluster 20
+ global
+ intern
+ strong
+ international
+ new
+ internal
+ professional
+ key
+ strategic
+ best
+
+

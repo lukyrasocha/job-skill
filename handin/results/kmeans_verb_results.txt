@@ -1,0 +1,260 @@
+Cluster 1
+ sourcing
+ purchasing
+ working
+ including
+ develop
+ leasing
+ managing
+ recruiting
+ ensuring
+ ensure
+
+
+Cluster 2
+ get
+ looking
+ working
+ enrolled
+ following
+ take
+ like
+ modeling
+ develop
+ processing
+
+
+Cluster 3
+ belonging
+ courage
+ fossilbased
+ enable
+ move
+ say
+ come
+ got
+ want
+ please
+
+
+Cluster 4
+ ensuring
+ including
+ managing
+ driving
+ working
+ leading
+ ensure
+ develop
+ developing
+ written
+
+
+Cluster 5
+ installed
+ installing
+ acknowledges
+ servicing
+ specialised
+ diverse
+ manufacturing
+ united
+ consider
+ designing
+
+
+Cluster 6
+ building
+ ending
+ expect
+ getting
+ remote
+ leading
+ promoting
+ united
+ connecting
+ acquired
+
+
+Cluster 7
+ learning
+ ai
+ working
+ make
+ including
+ based
+ looking
+ believe
+ hiring
+ using
+
+
+Cluster 8
+ ensure
+ working
+ including
+ develop
+ leading
+ provide
+ reporting
+ make
+ looking
+ based
+
+
+Cluster 9
+ wellbeing
+ leave
+ valued
+ committed
+ take
+ working
+ covered
+ rewarded
+ enhanced
+ based
+
+
+Cluster 10
+ following
+ looking
+ welding
+ app
+ obtaining
+ using
+ submit
+ eastern
+ present
+ specializing
+
+
+Cluster 11
+ working
+ know
+ aspire
+ changing
+ celebrates
+ operate
+ refrain
+ attach
+ ensure
+ adding
+
+
+Cluster 12
+ required
+ including
+ ensure
+ related
+ working
+ provide
+ include
+ assigned
+ need
+ training
+
+
+Cluster 13
+ testing
+ working
+ eurofins
+ using
+ including
+ ensure
+ based
+ looking
+ understanding
+ automated
+
+
+Cluster 14
+ working
+ looking
+ want
+ make
+ take
+ need
+ know
+ develop
+ based
+ apply
+
+
+Cluster 15
+ med
+ ved
+ og
+ udvikling
+ erfaring
+ ansgning
+ mulighed
+ kontor
+ vores
+ hus
+
+
+Cluster 16
+ teamteaching
+ inquirybased
+ oxbridge
+ differentiated
+ save
+ teaching
+ assessing
+ organizing
+ powered
+ degree
+
+
+Cluster 17
+ siemens
+ gamesa
+ hiring
+ make
+ related
+ come
+ believe
+ committed
+ working
+ celebrate
+
+
+Cluster 18
+ working
+ programming
+ using
+ developing
+ looking
+ implementing
+ designing
+ creating
+ testing
+ including
+
+
+Cluster 19
+ crew
+ unaided
+ becoming
+ cm
+ speaking
+ outgoing
+ travelling
+ hardworking
+ meeting
+ discounted
+
+
+Cluster 20
+ kamstrup
+ metering
+ stilling
+ become
+ reduce
+ securing
+ denmark
+ take
+ relating
+ inhouse
+
+

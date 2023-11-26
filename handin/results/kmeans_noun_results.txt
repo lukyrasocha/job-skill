@@ -1,0 +1,260 @@
+Cluster 1
+ bb
+ jysk
+ business
+ company
+ ro
+ venture
+ customer
+ experience
+ country
+ organisation
+
+
+Cluster 2
+ customer
+ client
+ business
+ team
+ service
+ support
+ experience
+ work
+ product
+ role
+
+
+Cluster 3
+ design
+ internship
+ kamstrup
+ team
+ designer
+ work
+ product
+ project
+ experience
+ part
+
+
+Cluster 4
+ production
+ quality
+ process
+ product
+ manufacturing
+ team
+ engineering
+ company
+ development
+ food
+
+
+Cluster 5
+ script
+ java
+ developer
+ code
+ react
+ development
+ web
+ experience
+ application
+ team
+
+
+Cluster 6
+ business
+ team
+ management
+ supply
+ process
+ finance
+ hr
+ support
+ experience
+ work
+
+
+Cluster 7
+ conference
+ medium
+ work
+ executive
+ ownership
+ youll
+ growth
+ people
+ responsibility
+ business
+
+
+Cluster 8
+ product
+ team
+ experience
+ software
+ solution
+ technology
+ development
+ trading
+ work
+ energy
+
+
+Cluster 9
+ marketing
+ campaign
+ brand
+ content
+ team
+ medium
+ strategy
+ product
+ event
+ work
+
+
+Cluster 10
+ data
+ analytics
+ business
+ machine
+ team
+ science
+ experience
+ solution
+ bi
+ work
+
+
+Cluster 11
+ work
+ team
+ experience
+ company
+ skill
+ service
+ support
+ opportunity
+ student
+ position
+
+
+Cluster 12
+ school
+ tashkent
+ student
+ differentiate
+ engaging
+ baccalaureate
+ youtube
+ expat
+ brilliant
+ boast
+
+
+Cluster 13
+ game
+ studio
+ engine
+ team
+ experience
+ project
+ work
+ design
+ development
+ designer
+
+
+Cluster 14
+ vesta
+ wind
+ energy
+ power
+ turbine
+ solution
+ team
+ project
+ industry
+ procurement
+
+
+Cluster 15
+ sustainability
+ project
+ cowi
+ customer
+ transition
+ team
+ work
+ whistleblower
+ people
+ strategy
+
+
+Cluster 16
+ metal
+ europe
+ desktel
+ caucasus
+ employment
+ hourfor
+ furniture
+ pln
+ residence
+ poland
+
+
+Cluster 17
+ og
+ du
+ til
+ er
+ vores
+ vi
+ af
+ har
+ som
+ dig
+
+
+Cluster 18
+ project
+ management
+ team
+ manager
+ experience
+ work
+ client
+ stakeholder
+ development
+ process
+
+
+Cluster 19
+ sale
+ customer
+ market
+ business
+ product
+ team
+ company
+ account
+ growth
+ experience
+
+
+Cluster 20
+ medium
+ internship
+ agency
+ marketing
+ kompass
+ deutschland
+ relation
+ client
+ brand
+ experience
+
+
