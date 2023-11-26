@@ -33,11 +33,7 @@ def minhashes(shingles, seeds):
 
 def signatures(df, k, seeds):
   hash_dic = {}
-  # If the data in the dataframe is not a list, convert it to a list
-  if type(df[0]) != list:
-    df = df.apply(
-        lambda x: ast.literal_eval(x)
-    )
+  df = df.apply(lambda x: ast.literal_eval(x))
   for i in range(len(df)):
     # make a description into k-shingles
     shi = []
