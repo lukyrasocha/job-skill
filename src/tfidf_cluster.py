@@ -10,7 +10,6 @@ from sklearn.cluster import KMeans
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics import davies_bouldin_score
 from nltk.corpus import wordnet
-import ast
 import nltk
 
 # WARNING: Uncomment the following lines if you get an error when running the script
@@ -31,7 +30,9 @@ def TFIDF_cluster(data, save_clusters=True, n_clusters=20):
   data["cluster"] = apply_kmeans(tfidf_matrix, k=n_clusters)
 
   if save_clusters:
-    data[["id", "cluster"]].to_csv("clusters/tfidf_clusters.csv", index=False)
+    data[["id", "cluster"]].to_csv(
+        "clusters/tfidf_clusters_job_desc.csv", index=False)
+    success("Clusters saved to clusters/tfidf_clusters_job_desc.csv")
 
   dbs = round(davies_bouldin_score(tfidf_matrix.toarray(), data["cluster"]), 3)
 
@@ -57,6 +58,7 @@ def TFIDF_industries_and_functions_cluster(data, save_clusters=False, n_clusters
   if save_clusters:
     data[["id", "cluster"]].to_csv(
         "clusters/tfidf_industries_and_functions_clusters.csv", index=False)
+    success("Clusters saved to clusters/tfidf_industries_and_functions_clusters.csv")
 
   dbs = round(davies_bouldin_score(tfidf_matrix.toarray(), data["cluster"]), 3)
 
@@ -178,7 +180,8 @@ def TFIDF_verbs_cluster(data, save_clusters=True, n_clusters=20):
   # Save the results to a CSV file with 'id' and 'cluster' columns
   if save_clusters:
     result_df = data[['id', 'cluster']]
-    result_df.to_csv('clusters/tfidf_verb__clusters.csv', index=False)
+    result_df.to_csv('clusters/tfidf_verb_clusters.csv', index=False)
+    success("Clusters saved to clusters/tfidf_verb_clusters.csv")
 
   dbs = round(davies_bouldin_score(vectors.toarray(), kmean_indicates), 3)
 
@@ -257,6 +260,7 @@ def TFIDF_nouns_cluster(data,  save_clusters=True, n_clusters=20):
   if save_clusters:
     result_df = data[['id', 'cluster']]
     result_df.to_csv('clusters/tfidf_noun_clusters.csv', index=False)
+    success("Clusters saved to clusters/tfidf_noun_clusters.csv")
 
   dbs = round(davies_bouldin_score(vectors.toarray(), kmean_indicates), 3)
 
@@ -325,6 +329,7 @@ def TFIDF_adjectives_cluster(data, save_clusters=True, n_clusters=20):
   if save_clusters:
     result_df = data[['id', 'cluster']]
     result_df.to_csv('clusters/tfidf_adj_clusters.csv', index=False)
+    success("Clusters saved to clusters/tfidf_adj_clusters.csv")
 
   dbs = round(davies_bouldin_score(vectors.toarray(), kmean_indicates), 3)
 
