@@ -4,17 +4,23 @@ MAIN ENTRYPOINT OF THE ENTIRE PROJECT
 
 import ast
 import os
-from utils import load_data, visualize_cluster, visualize_ground_truth, skill_cleanup
-from scraper import LinkedinScraper
-from preprocessing import preprocess
-from tfidf_cluster import TFIDF_cluster, TFIDF_industries_and_functions_cluster, TFIDF_verbs_cluster, TFIDF_nouns_cluster, TFIDF_adjectives_cluster
-from word2vec_cluster import word2vec_cluster
-from onehot_cluster import onehot_cluster
-from doc2vec_cluster import doc2vec_cluster
-from similarity_cluster import similarity_cluster
-from evaluation import evaluation
-from skill_extraction import skill_extraction
-from logger import working_on, success, info, warning, error
+import pandas as pd
+
+# Custom scripts
+from src.utils import load_data, visualize_cluster, visualize_ground_truth
+from src.scraper import LinkedinScraper
+from src.preprocessing import preprocess
+from src.tfidf_cluster import TFIDF_cluster, TFIDF_industries_and_functions_cluster, TFIDF_verbs_cluster, TFIDF_nouns_cluster, TFIDF_adjectives_cluster
+from src.word2vec_cluster import word2vec_cluster
+from src.ground_truth_onehot import ground_truth_onehot
+from src.ground_truth_keywords import ground_truth_keywords
+from src.doc2vec_cluster import doc2vec_cluster
+from src.similarity_cluster import similarity_cluster
+from src.evaluation import evaluation
+from src.skill_extraction_gpt import skill_extraction as skill_extraction_gpt
+from src.skill_extraction_hugging_face import skill_extraction as skill_extraction_hugging_face
+from src.skill_cluster_plot import skill_analysis
+from src.logger import working_on, success, info, warning, error
 
 
 def main():
@@ -111,7 +117,7 @@ def main():
       "🧪 Do you want to perform TFIDF clustering (based on nouns from the job descriptions)? (y/n) ")
   if q == "y":
     working_on("TFIDF Clustering (nouns)")
-    data = load_data(kind="processed")
+    data_string_desc = load_data(kind="processed")
     tfidf_clusters, tfidf_matrix = TFIDF_nouns_cluster(data_string_desc,
                                                        save_clusters=save_clusters,
                                                        n_clusters=20)
@@ -127,7 +133,7 @@ def main():
       "🧪 Do you want to perform TFIDF clustering (based on adjectives from the job descriptions)? (y/n) ")
   if q == "y":
     working_on("TFIDF Clustering (adjectives)")
-    data = load_data(kind="processed")
+    data_string_desc = load_data(kind="processed")
     tfidf_clusters, tfidf_matrix = TFIDF_adjectives_cluster(data_string_desc,
                                                             save_clusters=save_clusters,
                                                             n_clusters=20)
@@ -154,20 +160,6 @@ def main():
                       savefig=True,
                       filename="word2vec_clusters.png",
                       name="Word2Vec Clustering")
-
-  """FEATURE CLUSTERING (ONE HOT ENCODED FUNCTIONS AND INDUSTRIES)"""
-  q = input(
-      "🧪 Do you want to perform one hot clustering (based on industries and functions)? (y/n) ")
-  if q == "y":
-    working_on("One hot clustering (industries and functions)")
-    onehot_clusters, onehot_features = onehot_cluster(data,
-                                                      save_clusters=save_clusters,
-                                                      n_clusters=20)
-    visualize_cluster(onehot_features,
-                      onehot_clusters["cluster"].to_numpy(),
-                      savefig=True,
-                      filename="onehot_clusters.png",
-                      name="One hot clustering")
 
   """DOC2VEC CLUSTERING"""
   q = input("🧪 Do you want to perform Doc2Vec clustering? (y/n) ")
@@ -212,27 +204,70 @@ def main():
   success("All clustering methods performed")
 
   """GROUND TRUTH INFERENCE"""
+  print(150*"-")
+  info("To infer the ground truth, we used two different methods. The first one is a keyword based method, where we used a list of keywords for each category. The second one is a one hot method, where we used the industries and functions of the job posts. The third one is a GPT based method, where we used GPT to infer the ground truth.")
+  warning("If you want to reproduce the ground truth based on GPT, you need to set the environment variable OPEN_AI_KEY to your OpenAI key. Then you can run the following command in the terminal: python src/ground_truth_gpt.py. The ground truth will be saved to clusters/ground_truth_gpt.csv")
+  print(150*"-")
+  q = input(
+      "🧠 Do you want to infer the ground truth based on one hot encoded Industries and Functions? (y/n) ")
+  if q == "y":
+    working_on("One hot clustering (industries and functions)")
+    onehot_clusters, onehot_features = ground_truth_onehot(data,
+                                                           save_clusters=save_clusters,
+                                                           n_clusters=20)
+    visualize_cluster(onehot_features,
+                      onehot_clusters["cluster"].to_numpy(),
+                      savefig=True,
+                      filename="onehot_clusters.png",
+                      name="One hot clustering")
+
+  q = input(
+      "🧠 Do you want to infer the ground truth based on keywords? (y/n) ")
+  if q == "y":
+    working_on("Keyword based clustering")
+    data_string_desc = load_data(kind="processed")
+    keywords_clusters = ground_truth_keywords(data_string_desc,
+                                              save_clusters=save_clusters)
+
   if not os.path.exists("clusters/ground_truth_gpt.csv"):
     error("Ground truth not found: missing clusters/ground_truth_gpt.csv")
     print("First you need to infer the ground truth. For this we used GPT. You can reproduce the ground truth by first setting the environment variable OPEN_AI_KEY to your OpenAI key. Then you can run the following command in the terminal: python src/ground_truth_gpt.py")
     return
 
-  gt = load_data(kind="ground_truth")
+  working_on("Loading GPT-3.5 ground truth")
+  gt = load_data(kind="ground_truth_gpt")
   visualize_ground_truth(gt, savefig=True, filename="ground_truth.png")
+  success("Ground truth loaded")
 
   """EVALUATION OF CLUSTERS COMPARED TO GROUND TRUTH"""
   evaluation()
 
   """SKILL EXTRACTION"""
-  q = input("🧠 Do you want to extract skills from the job descriptions (you need to set an env variable OPENAI_API_KEY) ? (y/n) ")
+  print(150*"-")
+  info("To extract skills from job descriptions, we used two different Machine Learning models. The first one is a model from Hugging Face, which is a pre-trained model which was trained to identify hard and soft skills from text. The second one is a model from OpenAI (GPT-3.5-turbo) which is a general purpose language model.")
+  print(150*"-")
+  q = input("🧠 Do you want to extract skills from the job descriptions using GPT-3.5-turbo (you need to set an env variable OPENAI_API_KEY) ? (y/n) ")
   if q == "y":
-    working_on("Skill extraction")
-    skill_extraction(save_skills=True)
+    working_on("Skill extraction using GPT-3.5-turbo")
+    skill_extraction_gpt(save_skills=True)
     success(
         "Skills saved to 'extracted_skills/skills_extracted_gpt3.csv'")
 
+  q = input(
+      "🧠 Do you want to extract skills from the job descriptions using Hugging Face? (y/n) ")
+  if q == "y":
+    working_on("Skill extraction using Hugging Face")
+    skill_extraction_hugging_face(save_skills=True)
+    success(
+        "Skills saved to 'extracted_skills/huggleface_skills.csv'")
+
   """SKILL ANALYSIS"""
-  # TINGHUI's CODE
+  q = input(
+      "🧠 Do you want to analyze the skills for the winning clustering method (TFIDF Nouns)? (y/n) ")
+  if q == "y":
+    compare = pd.read_csv('clusters/tfidf_noun_clusters.csv')
+    skill_analysis(compare, gt)
+    success("Saved to figures/.")
 
 
 if __name__ == "__main__":
