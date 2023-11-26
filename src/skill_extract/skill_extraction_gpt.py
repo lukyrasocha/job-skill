@@ -91,7 +91,7 @@ def skill_extraction(save_skills=False):
   extracted_skills_df = pd.DataFrame(extracted_skills)
   success("Skills extracted")
   if save_skills:
-    name = "skills_extracted_gpt3_v2.csv"
+    name = "skills_extracted_gpt3.csv"
     extracted_skills_df.to_csv(
         f"extracted_skills/{name}", index=False)
     success(f"Skills saved to extracted_skills/{name}")
