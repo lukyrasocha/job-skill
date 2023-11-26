@@ -2,8 +2,8 @@ from collections import Counter
 import pandas as pd
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
-from src.logger import working_on
-from src.utils import load_data
+from src.helper.logger import working_on
+from src.helper.utils import load_data
 from nltk.stem import WordNetLemmatizer
 
 
@@ -43,7 +43,7 @@ def plot_top(words, key, ax, top_n):
   words = list(top_words.keys())
   frequencies = list(top_words.values())
 
-  ax.bar(words, frequencies)
+  ax.bar(words, frequencies, color='dodgerblue')
   ax.set_title(f'Top {top_n} Word Frequency')
   ax.set_title(f'Cluster{key}')
   return ax

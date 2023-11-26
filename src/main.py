@@ -7,20 +7,20 @@ import os
 import pandas as pd
 
 # Custom scripts
-from src.utils import load_data, visualize_cluster, visualize_ground_truth
-from src.scraper import LinkedinScraper
-from src.preprocessing import preprocess
-from src.tfidf_cluster import TFIDF_cluster, TFIDF_industries_and_functions_cluster, TFIDF_verbs_cluster, TFIDF_nouns_cluster, TFIDF_adjectives_cluster
-from src.word2vec_cluster import word2vec_cluster
-from src.ground_truth_onehot import ground_truth_onehot
-from src.ground_truth_keywords import ground_truth_keywords
-from src.doc2vec_cluster import doc2vec_cluster
-from src.similarity_cluster import similarity_cluster
+from src.helper.utils import load_data, visualize_cluster, visualize_ground_truth
+from src.helper.scraper import LinkedinScraper
+from src.helper.preprocessing import preprocess
+from src.clustering.tfidf_cluster import TFIDF_cluster, TFIDF_industries_and_functions_cluster, TFIDF_verbs_cluster, TFIDF_nouns_cluster, TFIDF_adjectives_cluster
+from src.clustering.word2vec_cluster import word2vec_cluster
+from src.ground_truth.ground_truth_onehot import ground_truth_onehot
+from src.ground_truth.ground_truth_keywords import ground_truth_keywords
+from src.clustering.doc2vec_cluster import doc2vec_cluster
+from src.clustering.similarity_cluster import similarity_cluster
 from src.evaluation import evaluation
-from src.skill_extraction_gpt import skill_extraction as skill_extraction_gpt
-from src.skill_extraction_hugging_face import skill_extraction as skill_extraction_hugging_face
-from src.skill_cluster_plot import skill_analysis
-from src.logger import working_on, success, info, warning, error
+from src.skill_extract.skill_extraction_gpt import skill_extraction as skill_extraction_gpt
+from src.skill_extract.skill_extraction_hugging_face import skill_extraction as skill_extraction_hugging_face
+from src.skill_extract.skill_cluster_plot import skill_analysis
+from src.helper.logger import working_on, success, info, warning, error
 
 
 def main():
@@ -78,22 +78,6 @@ def main():
                       tfidf_clusters["cluster"].to_numpy(),
                       savefig=True,
                       filename="tfidf_clusters.png",
-                      name="TFIDF Clustering")
-    tfidf_matrix = 0
-
-  """TF IDF CLUSTERING BASED ON INDUSTRIES AND FUNCTIONS"""
-  q = input(
-      "🧪 Do you want to perform TFIDF clustering (based on industries and functions)? (y/n) ")
-
-  if q == "y":
-    working_on("TFIDF Clustering (industries and functions)")
-    tfidf_clusters, tfidf_matrix = TFIDF_industries_and_functions_cluster(data,
-                                                                          save_clusters=save_clusters,
-                                                                          n_clusters=20)
-    visualize_cluster(tfidf_matrix,
-                      tfidf_clusters["cluster"].to_numpy(),
-                      savefig=True,
-                      filename="tfidf_industries_and_functions_clusters.png",
                       name="TFIDF Clustering")
     tfidf_matrix = 0
 
@@ -201,12 +185,12 @@ def main():
                       filename="sim_kmeans_clusters.png",
                       name="Similarity Clustering (KMeans)")
 
-  success("All clustering methods performed")
+  success("Clustering completed")
 
   """GROUND TRUTH INFERENCE"""
   print(150*"-")
-  info("To infer the ground truth, we used two different methods. The first one is a keyword based method, where we used a list of keywords for each category. The second one is a one hot method, where we used the industries and functions of the job posts. The third one is a GPT based method, where we used GPT to infer the ground truth.")
-  warning("If you want to reproduce the ground truth based on GPT, you need to set the environment variable OPEN_AI_KEY to your OpenAI key. Then you can run the following command in the terminal: python src/ground_truth_gpt.py. The ground truth will be saved to clusters/ground_truth_gpt.csv")
+  info("To infer the ground truth, we used three different methods. The first one is a keyword based method, where we used a list of keywords for each category. The second one is a one hot method, where we used the industries and functions of the job posts. The third one is a GPT based method, where the ground truth was infered by a general purpose language model.")
+  warning("If you want to reproduce the ground truth based on GPT, you need to set the environment variable OPENAI_API_KEY to your OpenAI key. Then you can run the following command in the terminal: python src/ground_truth/ground_truth_gpt.py. The ground truth will be saved to clusters/ground_truth_gpt.csv")
   print(150*"-")
   q = input(
       "🧠 Do you want to infer the ground truth based on one hot encoded Industries and Functions? (y/n) ")
@@ -231,7 +215,7 @@ def main():
 
   if not os.path.exists("clusters/ground_truth_gpt.csv"):
     error("Ground truth not found: missing clusters/ground_truth_gpt.csv")
-    print("First you need to infer the ground truth. For this we used GPT. You can reproduce the ground truth by first setting the environment variable OPEN_AI_KEY to your OpenAI key. Then you can run the following command in the terminal: python src/ground_truth_gpt.py")
+    print("First you need to infer the ground truth. For this we used GPT. You can reproduce the ground truth by first setting the environment variable OPEN_AI_KEY to your OpenAI key. Then you can run the following command in the terminal: python src/ground_truth/ground_truth_gpt.py")
     return
 
   working_on("Loading GPT-3.5 ground truth")
@@ -263,11 +247,13 @@ def main():
 
   """SKILL ANALYSIS"""
   q = input(
-      "🧠 Do you want to analyze the skills for the winning clustering method (TFIDF Nouns)? (y/n) ")
+      "🧠 Do you want to analyze the skills for the clustering based on TFIDF whole job descriptions? (y/n) ")
   if q == "y":
-    compare = pd.read_csv('clusters/tfidf_noun_clusters.csv')
+    compare = pd.read_csv('clusters/tfidf_clusters_job_desc.csv')
     skill_analysis(compare, gt)
     success("Saved to figures/.")
+
+  success("Done")
 
 
 if __name__ == "__main__":

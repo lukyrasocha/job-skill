@@ -1,0 +1,260 @@
+Cluster 1
+ clinical
+ medical
+ scientific
+ regulatory
+ therapeutic
+ pharmaceutical
+ patient
+ key
+ local
+ competitive
+
+
+Cluster 2
+ vesta
+ sustainable
+ global
+ future
+ social
+ offshore
+ new
+ technical
+ workforce
+ aim
+
+
+Cluster 3
+ cowi
+ green
+ sustainable
+ liveable
+ structural
+ unanswered
+ scandinavia
+ india
+ fun
+ achieve
+
+
+Cluster 4
+ uzbekistan
+ lesson
+ international
+ pastoral
+ cheap
+ expat
+ conceptual
+ wonderful
+ extracurricular
+ video
+
+
+Cluster 5
+ new
+ great
+ global
+ english
+ good
+ international
+ personal
+ strong
+ professional
+ high
+
+
+Cluster 6
+ canonical
+ ubuntu
+ annual
+ open
+ additional
+ io
+ global
+ haul
+ geographical
+ behavioural
+
+
+Cluster 7
+ intern
+ internship
+ strong
+ smart
+ future
+ social
+ international
+ danish
+ professional
+ insight
+
+
+Cluster 8
+ legal
+ global
+ regulatory
+ relevant
+ good
+ international
+ unhcr
+ strong
+ internal
+ terminal
+
+
+Cluster 9
+ strong
+ global
+ key
+ internal
+ new
+ commercial
+ responsible
+ strategic
+ excellent
+ analytical
+
+
+Cluster 10
+ digital
+ global
+ oral
+ new
+ strong
+ nordic
+ social
+ user
+ great
+ open
+
+
+Cluster 11
+ financial
+ strong
+ global
+ strategic
+ annual
+ key
+ analytical
+ monthly
+ internal
+ responsible
+
+
+Cluster 12
+ creative
+ social
+ graphic
+ digital
+ content
+ visual
+ intern
+ strong
+ global
+ various
+
+
+Cluster 13
+ technical
+ electrical
+ mechanical
+ new
+ good
+ renewable
+ strong
+ english
+ responsible
+ professional
+
+
+Cluster 14
+ curious
+ retail
+ unparalleled
+ tremendous
+ tangible
+ driven
+ ethic
+ private
+ exceptional
+ friday
+
+
+Cluster 15
+ industrial
+ electronic
+ angular
+ numerous
+ maritime
+ english
+ ambitious
+ individual
+ daily
+ digital
+
+
+Cluster 16
+ og
+ af
+ du
+ til
+ blive
+ vil
+ som
+ en
+ inden
+ sociale
+
+
+Cluster 17
+ nordisk
+ novo
+ patient
+ inclusive
+ best
+ dynamic
+ possible
+ applicant
+ fair
+ good
+
+
+Cluster 18
+ ai
+ open
+ prime
+ wish
+ environmental
+ nlp
+ startup
+ social
+ launch
+ talent
+
+
+Cluster 19
+ user
+ react
+ web
+ ux
+ nodejs
+ net
+ java
+ ui
+ strong
+ understanding
+
+
+Cluster 20
+ pln
+ polish
+ net
+ decent
+ southeastern
+ unqualified
+ viber
+ southern
+ ukrainian
+ russian
+
+

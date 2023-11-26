@@ -1,6 +1,6 @@
-from src.doc2vec import Doc2VecWrapper
-from src.utils import load_data
-from src.logger import working_on, success
+from src.helper.doc2vec import Doc2VecWrapper
+from src.helper.utils import load_data
+from src.helper.logger import working_on, success
 from sklearn.mixture import GaussianMixture
 from sklearn.cluster import KMeans
 

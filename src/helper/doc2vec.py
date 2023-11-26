@@ -1,4 +1,4 @@
-from src.utils import load_data
+from src.helper.utils import load_data
 from tqdm import tqdm
 from gensim.models.doc2vec import TaggedDocument
 from gensim.models import Doc2Vec

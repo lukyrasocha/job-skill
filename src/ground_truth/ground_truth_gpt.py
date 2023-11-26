@@ -5,7 +5,7 @@ import pandas as pd
 import yaml
 import threading
 
-from utils import load_data
+from src.helper.utils import load_data
 
 
 def transform_string(s):

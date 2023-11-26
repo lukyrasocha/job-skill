@@ -1,10 +1,10 @@
-from similarity import (
+from src.helper.similarity import (
     find_sim,
     louvain_cluster,
     kmean_cluster,
     convert_matrix)
-from utils import load_data
-from logger import working_on
+from src.helper.utils import load_data
+from src.helper.logger import working_on, success
 
 
 def similarity_cluster(data, save_clusters=True, q=2, seeds=100, n_clusters=20):
@@ -52,6 +52,8 @@ def similarity_cluster(data, save_clusters=True, q=2, seeds=100, n_clusters=20):
     graph_clusters.to_csv(
         "clusters/sim_community_discovery_clusters.csv", index=False)
     kmean_clusters.to_csv("clusters/sim_kmeans_clusters.csv", index=False)
+    success("Clusters saved to clusters/sim_community_discovery_clusters.csv")
+    success("Clusters saved to clusters/sim_kmeans_clusters.csv")
 
   sim_matrix = convert_matrix(N, scores)
 

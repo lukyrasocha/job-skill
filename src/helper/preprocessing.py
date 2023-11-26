@@ -11,8 +11,8 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from tqdm import tqdm
 
-from utils import load_data, is_english
-from logger import working_on
+from src.helper.utils import load_data, is_english
+from src.helper.logger import working_on
 
 
 def remove_words_with_numbers(word_list):

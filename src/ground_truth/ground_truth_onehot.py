@@ -1,5 +1,5 @@
-from utils import load_data
-from logger import success
+from src.helper.utils import load_data
+from src.helper.logger import success
 from sklearn.metrics import davies_bouldin_score
 import yaml
 from sklearn.cluster import KMeans
@@ -37,9 +37,9 @@ def ground_truth_onehot(data, save_clusters=True, n_clusters=20):
 
   data = data[["id", "title", "function", "industries"]].fillna("")
 
-  with open("industries.yaml", "r") as yaml_file:
+  with open("src/ground_truth/industries.yaml", "r") as yaml_file:
     industry_mapping = yaml.safe_load(yaml_file)
-  with open("functions.yaml", "r") as yaml_file:
+  with open("src/ground_truth/functions.yaml", "r") as yaml_file:
     function_mapping = yaml.safe_load(yaml_file)
 
   industry_categories = list(industry_mapping.keys())

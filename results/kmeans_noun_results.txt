@@ -1,0 +1,260 @@
+Cluster 1
+ og
+ du
+ til
+ er
+ vores
+ vi
+ af
+ har
+ som
+ dig
+
+
+Cluster 2
+ vesta
+ wind
+ energy
+ power
+ turbine
+ solution
+ team
+ project
+ industry
+ procurement
+
+
+Cluster 3
+ design
+ team
+ lego
+ designer
+ game
+ child
+ work
+ experience
+ project
+ brand
+
+
+Cluster 4
+ novo
+ trial
+ process
+ project
+ nordisk
+ recruitment
+ life
+ please
+ employee
+ development
+
+
+Cluster 5
+ project
+ management
+ team
+ manager
+ experience
+ client
+ work
+ business
+ stakeholder
+ development
+
+
+Cluster 6
+ sale
+ customer
+ business
+ market
+ team
+ product
+ client
+ company
+ growth
+ account
+
+
+Cluster 7
+ accounting
+ finance
+ bank
+ reconciliation
+ tax
+ payroll
+ payment
+ account
+ company
+ skill
+
+
+Cluster 8
+ conference
+ medium
+ work
+ executive
+ ownership
+ youll
+ growth
+ people
+ responsibility
+ business
+
+
+Cluster 9
+ marketing
+ medium
+ campaign
+ brand
+ team
+ content
+ strategy
+ event
+ work
+ communication
+
+
+Cluster 10
+ biologics
+ control
+ quality
+ manufacturing
+ equipment
+ audit
+ gmp
+ agc
+ knowledge
+ professor
+
+
+Cluster 11
+ product
+ team
+ development
+ software
+ experience
+ work
+ solution
+ technology
+ developer
+ code
+
+
+Cluster 12
+ data
+ analytics
+ business
+ machine
+ team
+ science
+ experience
+ solution
+ bi
+ analysis
+
+
+Cluster 13
+ customer
+ service
+ team
+ business
+ work
+ support
+ product
+ experience
+ sale
+ success
+
+
+Cluster 14
+ team
+ business
+ work
+ company
+ people
+ client
+ experience
+ management
+ support
+ process
+
+
+Cluster 15
+ school
+ tashkent
+ student
+ differentiate
+ engaging
+ baccalaureate
+ youtube
+ expat
+ brilliant
+ boast
+
+
+Cluster 16
+ sustainability
+ project
+ cowi
+ transition
+ customer
+ team
+ strategy
+ work
+ leadership
+ denmark
+
+
+Cluster 17
+ security
+ staff
+ cabin
+ ryanair
+ crew
+ pin
+ service
+ country
+ management
+ duty
+
+
+Cluster 18
+ kamstrup
+ water
+ internship
+ energy
+ headquarters
+ utility
+ meter
+ focus
+ development
+ solution
+
+
+Cluster 19
+ experience
+ work
+ system
+ test
+ game
+ team
+ project
+ engineer
+ engineering
+ equipment
+
+
+Cluster 20
+ quality
+ supply
+ production
+ process
+ chain
+ supplier
+ logistics
+ product
+ procurement
+ management
+
+

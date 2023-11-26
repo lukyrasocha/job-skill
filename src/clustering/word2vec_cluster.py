@@ -3,8 +3,8 @@ import numpy as np
 from sklearn.cluster import KMeans
 from sklearn.metrics import davies_bouldin_score
 
-from utils import load_data
-from logger import success, working_on
+from src.helper.utils import load_data
+from src.helper.logger import success, working_on
 
 
 def description_to_vector(model, description):

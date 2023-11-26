@@ -1,5 +1,5 @@
 import networkx as nx
-from src.utils import load_data
+from src.helper.utils import load_data
 import numpy as np
 import mmh3
 import ast

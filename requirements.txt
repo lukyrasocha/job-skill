@@ -13,6 +13,5 @@ mmh3
 networkx
 PyYAML
 wordcloud
-spacy
 transformers
-
+torch

@@ -1,0 +1,260 @@
+Cluster 1
+ kamstrup
+ metering
+ stilling
+ become
+ reduce
+ securing
+ denmark
+ take
+ relating
+ inhouse
+
+
+Cluster 2
+ looking
+ want
+ working
+ growing
+ learn
+ like
+ get
+ linked
+ develop
+ make
+
+
+Cluster 3
+ installed
+ installing
+ acknowledges
+ servicing
+ specialised
+ diverse
+ manufacturing
+ united
+ consider
+ designing
+
+
+Cluster 4
+ expect
+ looking
+ working
+ take
+ want
+ go
+ get
+ know
+ following
+ need
+
+
+Cluster 5
+ know
+ working
+ aspire
+ celebrates
+ changing
+ operate
+ refrain
+ ensure
+ attach
+ adding
+
+
+Cluster 6
+ including
+ develop
+ ensuring
+ ensure
+ marketing
+ identify
+ managing
+ working
+ seeking
+ leading
+
+
+Cluster 7
+ building
+ expect
+ acquired
+ want
+ executing
+ vary
+ launched
+ ending
+ remote
+ getting
+
+
+Cluster 8
+ belonging
+ courage
+ fossilbased
+ enable
+ move
+ say
+ come
+ got
+ want
+ please
+
+
+Cluster 9
+ using
+ troubleshooting
+ testing
+ working
+ designing
+ maintaining
+ developing
+ implementing
+ creating
+ including
+
+
+Cluster 10
+ working
+ make
+ looking
+ take
+ develop
+ based
+ creating
+ provide
+ including
+ ensure
+
+
+Cluster 11
+ spanning
+ collaborating
+ designed
+ relaxed
+ wellbeing
+ offering
+ situated
+ allowing
+ teambuilding
+ prioritize
+
+
+Cluster 12
+ learning
+ working
+ ai
+ believe
+ advanced
+ offer
+ develop
+ make
+ talented
+ training
+
+
+Cluster 13
+ med
+ ved
+ og
+ udvikling
+ erfaring
+ ansgning
+ mulighed
+ kontor
+ vores
+ hus
+
+
+Cluster 14
+ sourcing
+ purchasing
+ working
+ including
+ develop
+ ensuring
+ leasing
+ managing
+ looking
+ recruiting
+
+
+Cluster 15
+ leading
+ pushed
+ wellorganised
+ boost
+ centred
+ ceo
+ ending
+ unlimited
+ performing
+ getting
+
+
+Cluster 16
+ obtaining
+ eastern
+ welding
+ present
+ app
+ submit
+ referring
+ specializing
+ living
+ offering
+
+
+Cluster 17
+ ensure
+ including
+ required
+ working
+ provide
+ ensuring
+ based
+ planning
+ related
+ leading
+
+
+Cluster 18
+ wellbeing
+ leave
+ hiring
+ valued
+ committed
+ enhanced
+ based
+ love
+ rewarded
+ reached
+
+
+Cluster 19
+ testing
+ working
+ eurofins
+ ensure
+ including
+ based
+ automated
+ following
+ using
+ looking
+
+
+Cluster 20
+ teamteaching
+ inquirybased
+ oxbridge
+ differentiated
+ save
+ teaching
+ assessing
+ organizing
+ powered
+ degree
+
+

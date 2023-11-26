@@ -1,6 +1,6 @@
 
-from logger import success, working_on
-from utils import (
+from src.helper.logger import success, working_on
+from src.helper.utils import (
     load_data,
     apply_tftidf,
     apply_kmeans,

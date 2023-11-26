@@ -1,6 +1,6 @@
 import pandas as pd
-from src.logger import success, working_on
-from src.utils import load_data
+from src.helper.logger import success, working_on
+from src.helper.utils import load_data
 
 keywords = {
     'Software & IT': ['software', 'it support', 'network administration', 'cybersecurity', 'system analysis'],
@@ -48,7 +48,7 @@ def refined_keyword_based_categorize_job(row):
   return best_category
 
 
-def keywords_ground_truth(data, save_clusters=False):
+def ground_truth_keywords(data, save_clusters=False):
 
   df_jobs = data
   df_jobs['description'] = df_jobs['description'].apply(transform_string)
@@ -79,4 +79,4 @@ def keywords_ground_truth(data, save_clusters=False):
 
 if __name__ == "__main__":
   data = load_data(kind="processed")
-  keywords_ground_truth(data, save_clusters=False)
+  ground_truth_keywords(data, save_clusters=False)

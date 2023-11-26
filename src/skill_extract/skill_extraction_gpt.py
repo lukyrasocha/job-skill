@@ -1,5 +1,5 @@
-from utils import load_data
-from logger import success
+from src.helper.utils import load_data
+from src.helper.logger import success
 from openai import OpenAI
 
 import os
