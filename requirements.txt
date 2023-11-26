@@ -5,3 +5,10 @@ tqdm
 langdetect
 nltk
 rich-logging
+scikit-learn
+matplotlib
+gensim
+openai
+mmh3
+networkx
+PyYAML
