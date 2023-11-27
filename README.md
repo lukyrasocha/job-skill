@@ -42,7 +42,7 @@ nltk.download('averaged_perceptron_tagger')
 ```
 
 ## 📝 Introduction and Project Overview
-In this project we aim to identity key skills in job markets through clustering analysis. The main motivation is to help job seekers understand the ever evolving job market by allowing them to view and compare the most prominent skills for each cluster of job descriptions. This approach in a long run would enable people to input a job post and get back a set of relevant skills based on other jobs in the same cluster. 
+In this project we aim to identity key skills in job markets through clustering analysis. The main motivation is to help job seekers understand the ever evolving job market by allowing them to view and compare the most prominent skills for each cluster of job descriptions. Using our approach, a job seeker is able to analyse and compare trending skills for different clusters, or could cluster a new job description and get back a set of relevant skills based on other similar jobs in the same cluster.
 
 Project Breakdown:
 
