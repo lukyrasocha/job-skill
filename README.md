@@ -1,93 +1,81 @@
-### Project Title: Skillset Clustering in Job Markets
+# 02807 Computational Tools for Data Science
+## Identifying key skills in job markets through Clustering Analysis 💼
 
-#### Purpose of our method (inference in production)
+### Authors
+- Ting-Hui Cheng (s232855)
+- Tomasz Truszkowski (s223219)
+- Lukas Rasocha (s233498)
+- Henrietta Domokos (s233107)
 
-- We have evaluated various different clustering approaches and compared them to their ground truth (based on different ways one can view what the ground truth is - e.g. is it based on countries, job function, industries?). From these clusters we then extract the most important skills that charactarize each cluster. One could argue, that when you already know what the ground truth is (when looking at linkedin job posts, that information is available) why don't you just extract the skills from there? The use case becomes aparent when not being presented with ground truth - there is a lot of different job portals, where you have only the actual job descriptions, using our method one can easily place the job with respect to all the other similar jobs (similarity can mean different things - determined by the selected clustering approach). One could further argue, if I have the job description, can I not just extract the skills directly from there? Definitely. Our method, however, allows you to also extract skills from very poorly,vague job descriptions that do not explicitly mention what skills you should have, or what type of person you should be. For instance the job description: "Sales Assistant, looking for a sales assistant to our little cozy team in the middle of Copenhagen, relevant education required". To a person with no idea what is expected from a "sales assistant" role, one could use our system to input the job description, which will then be put in a relevant cluster and the skills required will be given based on other most similar job descriptions.
+### 🔁 Reproducibility
 
-- Our system could then look like a web app which shows all the clums of clusters and an input field, after entering the job description, the relevant cluster will be highlihted and the skills shown in some format.
+#### Steps to Reproduce the Results
 
-#### TODO:
+```bash
+# Clone the repository
+git clone https://github.com/lukyrasocha/02807-comp-tools.git
 
+# Navigate to the directory
+cd 02807-comp-tools
 
-- [x] **Web Scraping**: Scrape the job posting data from **LinkedIn**
-- [x] **Text Preprocessing**: Clean and preprocess the text data (tokenization, stemming, and removing stop words)
-- [x] **Feature Extraction**: Use Tf.idf measure to convert the text data into numerical format.
-- [ ] **Clustering**: Apply clustering algorithms like K-means or DBSCAN to group similar job postings together.
+# Create a Python environment (Version 3.10.4; other versions not tested)
+conda create -n "comp-ds" python="3.10.4"
 
-      a) Based on TFIDF (Thomasz, Henrietta)
-      b) Based on doc2vec (Lukas)
-      c) Based on similarity values (Tinghui)
-- [ ] **Skill Extraction**: Use Named Entity Recognition (NER) or keyword extraction to identify the skills mentioned in each cluster.
-- [ ] **Visualization**: Use visualization tools to represent the clusters and the top skills.
-- [ ] **Association Rule Mining**: Using A-Priori Algorithm, identify patterns like: "If a job requires skill A, it's also likely to require skill B."
-- [ ] **Implement Word2Vec** or other word embedding techniques (not directly taught in the lectures) to capture the context and semantic meaning of words in job descriptions.
-- [ ] How do skills differ based on location, industry or employment type
-- [ ] Measure job popularities, by looking at DATE_SCRAPED, DATE_POSTED and number of applications it received
+# Install dependencies
+pip install -r requirements.txt
 
-#### Motivation
-With the rapidly evolving job market, there's a constant need for job seekers, companies, and educational institutions to understand which skills are in demand. By analyzing job descriptions from LinkedIn, we can gain insights into which skills are trending and how job requirements differ by location, company, and employment type. 
+# Set the PYTHONPATH to include our project directory
+export PYTHONPATH="$PWD"
 
-#### Objective 1:
+# Run the project pipeline
+python src/main.py
+```
 
-To scrape job postings from LinkedIn, cluster them into distinct categories based on the job descriptions, and identify the top 5 skills required for each cluster. This can help job seekers understand the current market trends and prepare accordingly.
+```python
+## If you don't have them already (you get errors), you might need to instal NLTK packages
 
-#### Objective 2:
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
+nltk.download('averaged_perceptron_tagger')
+```
 
-Determine which skills and attributes are trending in the job market based on the job descriptions and understand how these trends vary either by location, company, or employment type.
+## 📝 Introduction and Project Overview
+In this project we aim to identity key skills in job markets through clustering analysis. The main motivation is to help job seekers understand the ever evolving job market by allowing them to view and compare the most prominent skills for each cluster of job descriptions. This approach in a long run would enable people to input a job post and get back a set of relevant skills based on other jobs in the same cluster. 
 
-#### Objective 3:
-Integrate machine learning models to predict the popularity or demand for certain skills in the future, based on historical and current data trends. Utilize time-series forecasting models or trends analysis to achieve this.
+Project Breakdown:
 
-#### Tools and Techniques:
+🔎 **1. Data Scraping:**
 
-- **Web Scraping**: Scrape the job posting data from **LinkedIn**
-- **Text Preprocessing**: Clean and preprocess the text data (tokenization, stemming, and removing stop words)
-- **Feature Extraction**: Use Tf.idf measure to convert the text data into numerical format.
-- **Clustering**: Apply clustering algorithms like K-means or DBSCAN to group similar job postings together.
-- **Skill Extraction**: Use Named Entity Recognition (NER) or keyword extraction to identify the skills mentioned in each cluster.
-- **Visualization**: Use visualization tools to represent the clusters and the top skills.
-- **Association Rule Mining**: Using A-Priori Algorithm, identify patterns like: "If a job requires skill A, it's also likely to require skill B."
-- **Implement Word2Vec** or other word embedding techniques (not directly taught in the lectures) to capture the context and semantic meaning of words in job descriptions.
+Developed a LinkedIn Scraper to gather job postings, fetching details like job title, industry, number of applicants, posting date, and company.
 
-#### Steps:
+🧹 **2. Data Preprocessing:**
 
-1. **Data Collection**:
+Applied text preprocessing methods such as lemmatization, tokenization, and stop word removal to clean the job descriptions.
 
-   - Use web scraping tools to extract job postings (title, description, location, etc.) from LinkedIn.
-   - Store the collected data in a structured format for analysis.
+📐 **3. Clustering Analysis:**
 
-2. **Data Preprocessing**:
+Employed various techniques to convert textual job descriptions into numerical formats for clustering, including:
+- TFIDF (Total Frequency-Inverse Document Frequency) 
+  - Using different parts of speech (nouns, verbs, adjectives).
+  - Using the whole job description.
+- Word2Vec and Doc2Vec for embedding generation.
+- Similarity-based vector representation.
+- Explored clustering algorithms like K-Means, DBSCAN, and Gaussian Mixture Model.
 
-   - Clean the text data by removing special characters, numbers, and stop words.
-   - Apply stemming or lemmatization to reduce words to their base form.
+📋 **4. Establishing Ground Truth:**
 
-3. **Feature Extraction**:
+Investigated methods to determine a baseline 'ground truth' for comparison, utilizing techniques like one-hot encoding, keyword inference, and categorization through OpenAI's GPT-3.5-turbo model.
 
-   - Apply the **Tf.idf** measure to convert text data into numerical format, capturing the importance of different terms.
+📈 **5. Evaluation:**
 
-4. **Clustering**:
+Selected the optimal clustering approach based on its closeness to the ground truth, quantified using the Normalized Mutual Information (NMI) score.
 
-   - Use **K-means, DBSCAN**, or other clustering algorithms to group similar job postings.
-   - Optimize the number of clusters using techniques like the Elbow Method
-   - Calculate the quality of the cluster using **Davies-Bouldin index**
+🔬 **6. Skill Extraction:**
 
-5. **Skill Extraction**:
+Extracted top skills from each cluster using machine learning models. We used an opensource Hugging Face model trained for extracting hard and soft skills from text and general purpose Large Language Model (LLM) GPT-3.5-turbo prompted to extract skills from text.
 
-   - Apply NER or keyword extraction to identify the skills in each cluster.
-   - Rank the skills based on their frequency or importance.
+📊 **7. Skill Analysis:**
 
-6. **Visualization**:
-
-   - Visualize the clusters and the top 5 skills for each cluster using bar graphs, word clouds, or other visualization methods.
-
-7. **Evaluation**:
-   - Evaluate the quality of clusters and the relevance of extracted skills.
-   - Provide insights and recommendations based on the analysis.
-
-#### Report Outline:
-
-- **Introduction**: Introduce the problem and its relevance in the current job market.
-- **Methodology**: Explain the tools and techniques used, including web scraping, text preprocessing, clustering, and skill extraction.
-- **Results**: Present the clusters and the top 5 skills for each cluster, along with visualizations.
-- **Evaluation**: Discuss the quality of clusters, the relevance of skills extracted, and the insights gained from the analysis.
-- **Conclusion**: Conclude with the project’s findings, potential applications, and suggestions for future work.
+Visualized prominent skills per cluster through word clouds and bar charts, focusing on the frequency of skills within each cluster.
