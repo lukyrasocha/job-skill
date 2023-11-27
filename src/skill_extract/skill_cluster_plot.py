@@ -1,5 +1,6 @@
 from collections import Counter
 import pandas as pd
+import numpy as np
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 from src.helper.logger import working_on
@@ -186,4 +187,4 @@ def skill_analysis(compare, gt=pd.DataFrame()):
 if __name__ == "__main__":
   gt = load_data(kind="ground_truth_gpt")
   compare = pd.read_csv('clusters/tfidf_noun_clusters.csv')
-  skill_analysis(gt, compare)
+  skill_analysis(compare, gt)
