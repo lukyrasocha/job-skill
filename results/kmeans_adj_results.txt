@@ -1,17 +1,134 @@
 Cluster 1
- clinical
- medical
- scientific
- regulatory
- therapeutic
- pharmaceutical
- patient
- key
- local
- competitive
+ user
+ ux
+ ui
+ visual
+ technical
+ mobile
+ strong
+ web
+ new
+ digital
 
 
 Cluster 2
+ legal
+ global
+ stronger
+ good
+ new
+ international
+ strong
+ sustainable
+ regulatory
+ arla
+
+
+Cluster 3
+ retail
+ new
+ strong
+ inc
+ athlete
+ great
+ key
+ relevant
+ able
+ many
+
+
+Cluster 4
+ curious
+ retail
+ transferable
+ invaluable
+ content
+ unparalleled
+ tangible
+ speak
+ driven
+ tremendous
+
+
+Cluster 5
+ exceptional
+ humble
+ push
+ outstanding
+ tremendous
+ unparalleled
+ operational
+ ethic
+ driven
+ young
+
+
+Cluster 6
+ new
+ strong
+ technical
+ good
+ english
+ flexible
+ professional
+ excellent
+ international
+ great
+
+
+Cluster 7
+ financial
+ strong
+ global
+ annual
+ strategic
+ responsible
+ analytical
+ key
+ monthly
+ senior
+
+
+Cluster 8
+ pln
+ polish
+ net
+ decent
+ southeastern
+ unqualified
+ viber
+ southern
+ ukrainian
+ russian
+
+
+Cluster 9
+ electrical
+ mechanical
+ technical
+ automotive
+ good
+ industrial
+ new
+ english
+ responsible
+ professional
+
+
+Cluster 10
+ digital
+ creative
+ social
+ intern
+ content
+ graphic
+ strong
+ global
+ new
+ visual
+
+
+Cluster 11
  vesta
  sustainable
  global
@@ -24,7 +141,7 @@ Cluster 2
  aim
 
 
-Cluster 3
+Cluster 12
  cowi
  green
  sustainable
@@ -37,163 +154,7 @@ Cluster 3
  achieve
 
 
-Cluster 4
- uzbekistan
- lesson
- international
- pastoral
- cheap
- expat
- conceptual
- wonderful
- extracurricular
- video
-
-
-Cluster 5
- new
- great
- global
- english
- good
- international
- personal
- strong
- professional
- high
-
-
-Cluster 6
- canonical
- ubuntu
- annual
- open
- additional
- io
- global
- haul
- geographical
- behavioural
-
-
-Cluster 7
- intern
- internship
- strong
- smart
- future
- social
- international
- danish
- professional
- insight
-
-
-Cluster 8
- legal
- global
- regulatory
- relevant
- good
- international
- unhcr
- strong
- internal
- terminal
-
-
-Cluster 9
- strong
- global
- key
- internal
- new
- commercial
- responsible
- strategic
- excellent
- analytical
-
-
-Cluster 10
- digital
- global
- oral
- new
- strong
- nordic
- social
- user
- great
- open
-
-
-Cluster 11
- financial
- strong
- global
- strategic
- annual
- key
- analytical
- monthly
- internal
- responsible
-
-
-Cluster 12
- creative
- social
- graphic
- digital
- content
- visual
- intern
- strong
- global
- various
-
-
 Cluster 13
- technical
- electrical
- mechanical
- new
- good
- renewable
- strong
- english
- responsible
- professional
-
-
-Cluster 14
- curious
- retail
- unparalleled
- tremendous
- tangible
- driven
- ethic
- private
- exceptional
- friday
-
-
-Cluster 15
- industrial
- electronic
- angular
- numerous
- maritime
- english
- ambitious
- individual
- daily
- digital
-
-
-Cluster 16
  og
  af
  du
@@ -206,7 +167,20 @@ Cluster 16
  sociale
 
 
-Cluster 17
+Cluster 14
+ nordic
+ danish
+ intern
+ strong
+ international
+ new
+ digital
+ clean
+ oral
+ global
+
+
+Cluster 15
  nordisk
  novo
  patient
@@ -219,42 +193,68 @@ Cluster 17
  good
 
 
+Cluster 16
+ uzbekistan
+ lesson
+ international
+ pastoral
+ cheap
+ expat
+ conceptual
+ wonderful
+ extracurricular
+ video
+
+
+Cluster 17
+ clinical
+ medical
+ scientific
+ regulatory
+ therapeutic
+ pharmaceutical
+ patient
+ local
+ key
+ competitive
+
+
 Cluster 18
- ai
- open
- prime
- wish
- environmental
- nlp
- startup
- social
- launch
- talent
+ spanish
+ internal
+ external
+ microbiological
+ salary
+ english
+ naleznete
+ technical
+ applicable
+ basic
 
 
 Cluster 19
- user
- react
- web
- ux
- nodejs
- net
- java
- ui
+ microsoft
+ dynamic
  strong
- understanding
+ european
+ competitive
+ good
+ new
+ great
+ excellent
+ effective
 
 
 Cluster 20
- pln
- polish
- net
- decent
- southeastern
- unqualified
- viber
- southern
- ukrainian
- russian
+ global
+ strong
+ new
+ key
+ commercial
+ strategic
+ internal
+ local
+ international
+ responsible
 
 

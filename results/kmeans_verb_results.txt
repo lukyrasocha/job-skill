@@ -1,27 +1,27 @@
 Cluster 1
- kamstrup
- metering
- stilling
- become
- reduce
- securing
- denmark
- take
- relating
- inhouse
+ turn
+ staffing
+ awaits
+ reinventing
+ completed
+ planning
+ stated
+ right
+ attached
+ consider
 
 
 Cluster 2
- looking
- want
- working
- growing
- learn
- like
- get
- linked
+ ensure
  develop
+ identify
+ working
+ including
+ provide
+ ensuring
  make
+ planning
+ maintain
 
 
 Cluster 3
@@ -38,123 +38,6 @@ Cluster 3
 
 
 Cluster 4
- expect
- looking
- working
- take
- want
- go
- get
- know
- following
- need
-
-
-Cluster 5
- know
- working
- aspire
- celebrates
- changing
- operate
- refrain
- ensure
- attach
- adding
-
-
-Cluster 6
- including
- develop
- ensuring
- ensure
- marketing
- identify
- managing
- working
- seeking
- leading
-
-
-Cluster 7
- building
- expect
- acquired
- want
- executing
- vary
- launched
- ending
- remote
- getting
-
-
-Cluster 8
- belonging
- courage
- fossilbased
- enable
- move
- say
- come
- got
- want
- please
-
-
-Cluster 9
- using
- troubleshooting
- testing
- working
- designing
- maintaining
- developing
- implementing
- creating
- including
-
-
-Cluster 10
- working
- make
- looking
- take
- develop
- based
- creating
- provide
- including
- ensure
-
-
-Cluster 11
- spanning
- collaborating
- designed
- relaxed
- wellbeing
- offering
- situated
- allowing
- teambuilding
- prioritize
-
-
-Cluster 12
- learning
- working
- ai
- believe
- advanced
- offer
- develop
- make
- talented
- training
-
-
-Cluster 13
  med
  ved
  og
@@ -167,85 +50,72 @@ Cluster 13
  hus
 
 
-Cluster 14
- sourcing
- purchasing
+Cluster 5
  working
- including
- develop
- ensuring
- leasing
- managing
  looking
- recruiting
-
-
-Cluster 15
- leading
- pushed
- wellorganised
- boost
- centred
- ceo
- ending
- unlimited
- performing
- getting
-
-
-Cluster 16
- obtaining
- eastern
- welding
- present
- app
- submit
- referring
- specializing
- living
- offering
-
-
-Cluster 17
- ensure
- including
- required
- working
  provide
- ensuring
+ following
+ paid
  based
- planning
- related
- leading
+ offer
+ using
+ develop
+ take
 
 
-Cluster 18
- wellbeing
- leave
- hiring
- valued
- committed
- enhanced
- based
- love
- rewarded
- reached
+Cluster 6
+ working
+ know
+ aspire
+ celebrates
+ changing
+ operate
+ refrain
+ ensure
+ attach
+ adding
 
 
-Cluster 19
+Cluster 7
  testing
  working
- eurofins
- ensure
- including
- based
- automated
- following
  using
  looking
+ including
+ ensure
+ eurofins
+ based
+ frontend
+ make
 
 
-Cluster 20
+Cluster 8
+ including
+ required
+ ensure
+ related
+ working
+ need
+ based
+ provide
+ develop
+ provides
+
+
+Cluster 9
+ working
+ required
+ leading
+ written
+ reporting
+ including
+ needed
+ based
+ seeking
+ understanding
+
+
+Cluster 10
  teamteaching
  inquirybased
  oxbridge
@@ -256,5 +126,135 @@ Cluster 20
  organizing
  powered
  degree
+
+
+Cluster 11
+ ensuring
+ working
+ marketing
+ editing
+ including
+ branding
+ looking
+ charging
+ managing
+ make
+
+
+Cluster 12
+ working
+ make
+ want
+ looking
+ take
+ get
+ believe
+ need
+ develop
+ know
+
+
+Cluster 13
+ building
+ ending
+ expect
+ getting
+ remote
+ leading
+ promoting
+ united
+ connecting
+ acquired
+
+
+Cluster 14
+ sourcing
+ purchasing
+ working
+ including
+ recruiting
+ buying
+ develop
+ make
+ linked
+ looking
+
+
+Cluster 15
+ learning
+ hiring
+ siemens
+ ai
+ working
+ make
+ gamesa
+ believe
+ think
+ committed
+
+
+Cluster 16
+ wellbeing
+ working
+ leave
+ expect
+ take
+ building
+ valued
+ driving
+ including
+ want
+
+
+Cluster 17
+ kamstrup
+ metering
+ stilling
+ become
+ reduce
+ securing
+ denmark
+ take
+ relating
+ inhouse
+
+
+Cluster 18
+ belonging
+ courage
+ fossilbased
+ enable
+ move
+ say
+ come
+ got
+ want
+ please
+
+
+Cluster 19
+ dying
+ dedicated
+ know
+ talented
+ creating
+ working
+ related
+ develop
+ awardwinning
+ brings
+
+
+Cluster 20
+ managing
+ working
+ developing
+ programming
+ implementing
+ maintaining
+ looking
+ creating
+ including
+ using
 
 

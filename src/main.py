@@ -168,7 +168,8 @@ def main():
   q = input("🧪 Do you want to perform similarity clustering (based on community discovery and kmeans)? (y/n) ")
   if q == "y":
     working_on("Similarity Clustering")
-    sim_community_discovery_clusters, sim_kmeans_clusters, sim_matrix = similarity_cluster(data,
+    data_string_desc = load_data(kind="processed")
+    sim_community_discovery_clusters, sim_kmeans_clusters, sim_matrix = similarity_cluster(data_string_desc,
                                                                                            save_clusters=save_clusters,
                                                                                            q=2,
                                                                                            seeds=100,

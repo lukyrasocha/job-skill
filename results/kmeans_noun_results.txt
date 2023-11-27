@@ -1,14 +1,14 @@
 Cluster 1
- og
- du
- til
- er
- vores
- vi
- af
- har
- som
- dig
+ work
+ team
+ experience
+ company
+ opportunity
+ student
+ skill
+ position
+ project
+ application
 
 
 Cluster 2
@@ -25,162 +25,149 @@ Cluster 2
 
 
 Cluster 3
- design
+ client
+ business
  team
- lego
- designer
- game
- child
- work
  experience
- project
- brand
+ work
+ video
+ solution
+ skill
+ strategy
+ growth
 
 
 Cluster 4
- novo
- trial
+ production
  process
- project
- nordisk
- recruitment
- life
- please
+ novo
  employee
+ please
  development
+ team
+ project
+ culture
+ manufacturing
 
 
 Cluster 5
- project
- management
- team
- manager
- experience
- client
- work
+ sale
+ customer
+ market
  business
- stakeholder
- development
+ team
+ product
+ company
+ account
+ growth
+ experience
 
 
 Cluster 6
- sale
- customer
+ management
  business
- market
+ supply
  team
- product
- client
- company
- growth
- account
+ process
+ support
+ experience
+ service
+ work
+ logistics
 
 
 Cluster 7
- accounting
- finance
- bank
- reconciliation
- tax
- payroll
- payment
- account
- company
- skill
+ kamstrup
+ water
+ internship
+ energy
+ headquarters
+ utility
+ meter
+ focus
+ solution
+ development
 
 
 Cluster 8
- conference
- medium
- work
- executive
- ownership
- youll
- growth
- people
- responsibility
- business
-
-
-Cluster 9
  marketing
- medium
  campaign
+ medium
  brand
  team
  content
  strategy
- event
  work
+ event
  communication
 
 
+Cluster 9
+ software
+ team
+ test
+ experience
+ trading
+ system
+ work
+ development
+ engineer
+ solution
+
+
 Cluster 10
- biologics
- control
- quality
- manufacturing
- equipment
- audit
- gmp
- agc
- knowledge
- professor
+ finance
+ business
+ work
+ accounting
+ tax
+ opportunity
+ team
+ company
+ responsibility
+ ownership
 
 
 Cluster 11
- product
- team
- development
- software
- experience
- work
- solution
- technology
- developer
- code
+ og
+ du
+ til
+ er
+ vores
+ vi
+ af
+ har
+ som
+ dig
 
 
 Cluster 12
+ script
+ react
+ developer
+ web
+ code
+ frontend
+ development
+ java
+ application
+ design
+
+
+Cluster 13
  data
  analytics
  business
  machine
  team
+ experience
  science
- experience
  solution
- bi
- analysis
-
-
-Cluster 13
- customer
- service
- team
- business
  work
- support
- product
- experience
- sale
- success
+ bi
 
 
 Cluster 14
- team
- business
- work
- company
- people
- client
- experience
- management
- support
- process
-
-
-Cluster 15
  school
  tashkent
  student
@@ -193,68 +180,81 @@ Cluster 15
  boast
 
 
+Cluster 15
+ hr
+ employee
+ business
+ support
+ team
+ company
+ process
+ people
+ manager
+ work
+
+
 Cluster 16
  sustainability
  project
  cowi
- transition
  customer
- team
- strategy
+ transition
  work
+ strategy
+ team
  leadership
- denmark
+ bb
 
 
 Cluster 17
- security
- staff
- cabin
- ryanair
- crew
- pin
- service
- country
+ project
  management
- duty
+ team
+ manager
+ experience
+ client
+ work
+ risk
+ stakeholder
+ business
 
 
 Cluster 18
- kamstrup
- water
- internship
- energy
- headquarters
- utility
- meter
- focus
+ design
+ designer
+ game
+ team
+ project
+ work
+ product
+ experience
+ skill
+ client
+
+
+Cluster 19
+ customer
+ product
+ team
+ service
+ business
+ experience
+ work
+ support
  development
  solution
 
 
-Cluster 19
- experience
- work
- system
- test
- game
- team
- project
- engineer
- engineering
- equipment
-
-
 Cluster 20
- quality
- supply
- production
- process
- chain
- supplier
- logistics
- product
- procurement
- management
+ conference
+ executive
+ work
+ medium
+ people
+ youll
+ growth
+ ownership
+ hr
+ hrtech
 
 
