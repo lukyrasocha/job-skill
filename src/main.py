@@ -247,10 +247,11 @@ def main():
         "Skills saved to 'extracted_skills/huggleface_skills.csv'")
 
   """SKILL ANALYSIS"""
+  clustering_method = "tfidf_noun_clusters.csv"
   q = input(
-      "🧠 Do you want to analyze the skills for the clustering based on TFIDF whole job descriptions? (y/n) ")
+      f"🧠 Do you want to analyze the skills for {clustering_method}? (y/n) ")
   if q == "y":
-    compare = pd.read_csv('clusters/tfidf_clusters_job_desc.csv')
+    compare = pd.read_csv(f"clusters/{clustering_method}")
     skill_analysis(compare, gt)
     success("Saved to figures/.")
 

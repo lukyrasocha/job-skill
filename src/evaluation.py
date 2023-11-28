@@ -53,8 +53,8 @@ def compare_clusters_rand_index(clusters):
 
 def evaluation():
   paths = {
-      # 'ground_truth': 'clusters/ground_truth_onehot.csv',
-      # 'ground_truth': 'clusters/ground_truth_keywords.csv',
+      'ground_truth_onehot': 'clusters/ground_truth_onehot.csv',
+      'ground_truth_keywords': 'clusters/ground_truth_keywords.csv',
       'ground_truth_gpt': 'clusters/ground_truth_gpt.csv',
       'word2vec': 'clusters/word2vec_clusters.csv',
       'tfidf_text': 'clusters/tfidf_clusters_job_desc.csv',
