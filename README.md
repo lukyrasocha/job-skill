@@ -1,6 +1,8 @@
 # 02807 Computational Tools for Data Science
 ## Identifying key skills in job markets through Clustering Analysis 💼
 
+Written paper can be accessed [here](https://github.com/lukyrasocha/job-skill/blob/main/handin/report.pdf)
+
 ### Authors
 - Ting-Hui Cheng (s232855)
 - Tomasz Truszkowski (s223219)
