@@ -1,5 +1,4 @@
-# 02807 Computational Tools for Data Science
-## Identifying key skills in job markets 💼
+# Identifying key skills in job markets 💼
 
 Written paper can be accessed [here](https://github.com/lukyrasocha/job-skill/blob/main/handin/report.pdf)
 
